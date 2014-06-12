@@ -1,0 +1,2069 @@
+I/nofatclips(  450): Preferences file found.
+I/nofatclips(  450): Waiting for 1 sec.
+I/nofatclips(  450): Current activity is ui.Tomdroid
+W/nofatclips(  450): --->ui.Tomdroid
+I/nofatclips(  450): Retrieving widgets
+I/nofatclips(  450): Starting a new session
+I/nofatclips(  450): Saved image on disk: a1.jpg
+I/nofatclips(  450): Planning for new Activity Tomdroid
+I/nofatclips(  450): Created trace to press the menu button
+I/nofatclips(  450): Created trace to change orientation
+I/nofatclips(  450): Dispatching new task. 6 more tasks remaining.
+I/nofatclips(  450): Restarting
+I/nofatclips(  450): Waiting for 1 sec.
+I/nofatclips(  450): Retrieving widgets
+I/nofatclips(  450): Playing Trace 0
+I/nofatclips(  450): Retrieved from return list id=2131296257
+I/nofatclips(  450): Firing event: type= click index=3 widget=android.widget.ImageView
+I/nofatclips(  450): Waiting for 1 sec.
+I/nofatclips(  450): Current activity is ui.Tomdroid
+I/nofatclips(  450): Retrieving widgets
+I/nofatclips(  450): Performing comparation for activity Tomdroid
+I/nofatclips(  450): Saved image on disk: a2.jpg
+I/nofatclips(  450): Waiting for 1 sec.
+I/nofatclips(  450): Session count is 1. Will dump to disk at 1
+I/nofatclips(  450): Saving the session on disk. This is the first batch: the file will be created.
+I/nofatclips(  450): Check for pause: 0 steps left of 1
+I/nofatclips(  450): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 1
+I/nofatclips(  451): Retrieved from return list id=2131296259
+I/nofatclips(  451): Firing event: type= click index=5 widget=android.widget.ImageView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a3.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 2
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Registering activity ViewNote (id: a4) as a new found state
+I/nofatclips(  451): Saved image on disk: a4.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity ViewNote
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 3
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Registering activity Tomdroid (id: a5) as a new found state
+I/nofatclips(  451): Saved image on disk: a5.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity Tomdroid
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 4
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Registering activity Tomdroid (id: a6) as a new found state
+I/nofatclips(  451): Saved image on disk: a6.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity Tomdroid
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 5
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a7.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 6
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=2131296257
+I/nofatclips(  451): Firing event: type= click index=3 widget=android.widget.ImageView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a8.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 7
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=2131296259
+I/nofatclips(  451): Firing event: type= click index=5 widget=android.widget.ImageView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Saved image on disk: a9.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 8
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=2131296268
+I/nofatclips(  451): Firing event: type= click index=10 widget=android.widget.TextView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Saved image on disk: a10.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 9
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a11.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 10
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Registering activity ViewNote (id: a12) as a new found state
+I/nofatclips(  451): Saved image on disk: a12.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity ViewNote
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 11
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Saved image on disk: a13.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 12
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908823
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=com.android.internal.app.AlertController$RecycleListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Saved image on disk: a14.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 13
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908823
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=com.android.internal.app.AlertController$RecycleListView
+I/nofatclips(  451): Swapping to listview item 2
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Exit state. Not performing comparation for activity Tomdroid
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 14
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908823
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=com.android.internal.app.AlertController$RecycleListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Saved image on disk: a16.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 15
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908823
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=com.android.internal.app.AlertController$RecycleListView
+I/nofatclips(  451): Swapping to listview item 2
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Exit state. Not performing comparation for activity Tomdroid
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 16
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a18.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 17
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a19.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 18
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a20.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 19
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=1 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Registering activity Tomdroid (id: a21) as a new found state
+I/nofatclips(  451): Saved image on disk: a21.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity Tomdroid
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 20
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=2 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Registering activity Tomdroid (id: a22) as a new found state
+I/nofatclips(  451): Saved image on disk: a22.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity Tomdroid
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 21
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Registering activity PreferencesActivity (id: a23) as a new found state
+I/nofatclips(  451): Saved image on disk: a23.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity PreferencesActivity
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 22
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a24.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 23
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908726
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a25.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 24
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908726
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a26.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 25
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=1 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Exit state. Not performing comparation for activity ViewNote
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 26
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Saved image on disk: a28.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 27
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908726
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Saved image on disk: a29.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 28
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908726
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.ViewNote
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity ViewNote
+I/nofatclips(  451): Saved image on disk: a30.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 29
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=1 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a31.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 30
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=1 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a32.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 31
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=1 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a33.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 32
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=2 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908313
+I/nofatclips(  451): Firing event: type= click index=15 widget=android.widget.Button
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a34.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 33
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=2 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908314
+I/nofatclips(  451): Firing event: type= click index=17 widget=android.widget.Button
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Exit state. Not performing comparation for activity Tomdroid
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 34
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=2 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a36.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 35
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=2 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a37.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 36
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=2 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a38.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 37
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Registering activity PreferencesActivity (id: a39) as a new found state
+I/nofatclips(  451): Saved image on disk: a39.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity PreferencesActivity
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 38
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 2
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a40.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 39
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 3
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Registering activity PreferencesActivity (id: a41) as a new found state
+I/nofatclips(  451): Saved image on disk: a41.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Planning for new Activity PreferencesActivity
+I/nofatclips(  451): Created trace to press the back button
+I/nofatclips(  451): Created trace to press the menu button
+I/nofatclips(  451): Created trace to change orientation
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 40
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 4
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a42.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 41
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 5
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a43.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 42
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity Tomdroid
+I/nofatclips(  451): Saved image on disk: a44.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 43
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a45.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 44
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a46.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 45
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908823
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=com.android.internal.app.AlertController$RecycleListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a47.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 46
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908823
+I/nofatclips(  451): Firing event: type= selectListItem index=8 widget=com.android.internal.app.AlertController$RecycleListView
+I/nofatclips(  451): Swapping to listview item 2
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a48.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 47
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908823
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=com.android.internal.app.AlertController$RecycleListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a49.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 48
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908823
+I/nofatclips(  451): Firing event: type= longClickListItem index=8 widget=com.android.internal.app.AlertController$RecycleListView
+I/nofatclips(  451): Swapping to listview item 2
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a50.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 49
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908314
+I/nofatclips(  451): Firing event: type= click index=18 widget=android.widget.Button
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a51.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 50
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a52.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 51
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a53.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 52
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 1
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a54.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 53
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 3
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908291
+I/nofatclips(  451): Retrieved from return list id=16908313
+I/nofatclips(  451): Firing event: type= click index=18 widget=android.widget.Button
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a55.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 54
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 3
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908291
+I/nofatclips(  451): Retrieved from return list id=16908314
+I/nofatclips(  451): Firing event: type= click index=20 widget=android.widget.Button
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a56.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 55
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 3
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a57.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 56
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 3
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a58.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  451): Preferences file found.
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+W/nofatclips(  451): --->ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Attempting to resume previous session
+I/nofatclips(  451): Reading task file
+I/nofatclips(  451): Reading state file
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  451): Restarting
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Playing Trace 57
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= openMenu name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.Tomdroid
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908310
+I/nofatclips(  451): Firing event: type= click index=3 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908298
+I/nofatclips(  451): Firing event: type= selectListItem index=1 widget=android.widget.ListView
+I/nofatclips(  451): Swapping to listview item 3
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Retrieved from return list id=16908290
+I/nofatclips(  451): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Current activity is ui.PreferencesActivity
+I/nofatclips(  451): Retrieving widgets
+I/nofatclips(  451): Performing comparation for activity PreferencesActivity
+I/nofatclips(  451): Saved image on disk: a59.jpg
+I/nofatclips(  451): Waiting for 1 sec.
+I/nofatclips(  451): Session count is 1. Will dump to disk at 1
+I/nofatclips(  451): Saving the session on disk.
+I/nofatclips(  451): Check for pause: 0 steps left of 1
+I/nofatclips(  451): Saving the session on disk. This is the last batch. The session will be terminated.

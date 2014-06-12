@@ -1,0 +1,5 @@
+3 cycles have been executed.
+4 traces have been explored in 251.88501 secoonds (0.06996806 hours)
+0 problems in test execution have been found, causing 0 failures and 0 errors.
+0 application crashes have been found.
+

@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SESSION PUBLIC "SESSION" "guitree.dtd">
+<SESSION date_time="Thu Feb 07 16:21:33 GMT+00:00 2013" app="ApplicationInfo{40513910 org.tomdroid}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="org.tomdroid.ui.Tomdroid" package_name="org.tomdroid" comparation_widgets="null" in_and_out_focus="true" end_task_sleep="1000" random_seed="4150812111178855021" max_depth="0" state_file="activities.xml">
+    <TRACE id="5" fail="false" date_time="Thu Feb 07 16:21:37 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="10" date_time="Thu Feb 07 16:21:42 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="16" date_time="Thu Feb 07 16:21:45 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="22" date_time="Thu Feb 07 16:21:49 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" id="e22" value="1" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="28" date_time="Thu Feb 07 16:21:58 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="34" date_time="Thu Feb 07 16:22:03 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="40" date_time="Thu Feb 07 16:22:08 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="46" date_time="Thu Feb 07 16:22:13 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" id="e50" value="1" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w88" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="52" date_time="Thu Feb 07 16:22:22 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e50" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w88" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" id="e56" value="1" desc="View">
+                <WIDGET id="16908823" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w99" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="8" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="58" date_time="Thu Feb 07 16:22:31 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e50" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w88" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e56" desc="View">
+                <WIDGET id="16908823" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w99" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="8" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e64">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="64" date_time="Thu Feb 07 16:22:35 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e50" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w88" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e56" desc="View">
+                <WIDGET id="16908823" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w99" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="8" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e64">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e73">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="70" date_time="Thu Feb 07 16:22:39 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e50" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w88" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e56" desc="View">
+                <WIDGET id="16908823" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w99" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="8" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e64">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e73">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e76" value="1" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w137" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a13" unique_id="a13" screenshot="">
+                <DESCRIPTION id="a13"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="76" date_time="Thu Feb 07 16:22:46 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e50" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w88" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e56" desc="View">
+                <WIDGET id="16908823" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w99" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="8" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e64">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e73">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e76" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w137" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a13" unique_id="a13" screenshot="">
+                <DESCRIPTION id="a13"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a13" unique_id="a13" screenshot="">
+                <DESCRIPTION id="a13"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e83" desc="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid">
+                <WIDGET id="2131296268" name="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid" type="android.widget.TextView" unique_id="w151" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="10" value="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a14" unique_id="a14" screenshot="">
+                <DESCRIPTION id="a14"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="82" date_time="Thu Feb 07 16:22:51 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e50" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w88" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e56" desc="View">
+                <WIDGET id="16908823" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w99" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="8" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e64">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e73">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e76" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w137" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a13" unique_id="a13" screenshot="">
+                <DESCRIPTION id="a13"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a13" unique_id="a13" screenshot="">
+                <DESCRIPTION id="a13"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e83" desc="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid">
+                <WIDGET id="2131296268" name="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid" type="android.widget.TextView" unique_id="w151" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="10" value="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a14" unique_id="a14" screenshot="">
+                <DESCRIPTION id="a14"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a14" unique_id="a14" screenshot="">
+                <DESCRIPTION id="a14"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e89" desc="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid">
+                <WIDGET id="2131296268" name="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid" type="android.widget.TextView" unique_id="w162" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="10" value="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a15" unique_id="a15" screenshot="">
+                <DESCRIPTION id="a15"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="88" date_time="Thu Feb 07 16:22:57 GMT+00:00 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e10">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e18">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e22" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w36" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e32">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e34">
+                <WIDGET id="2131296259" name="" type="android.widget.ImageView" unique_id="w60" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e40">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w72" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e50" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w88" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a9" unique_id="a9" screenshot="">
+                <DESCRIPTION id="a9"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" value="1" id="e56" desc="View">
+                <WIDGET id="16908823" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w99" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="8" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a10" unique_id="a10" screenshot="">
+                <DESCRIPTION id="a10"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e64">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a11" unique_id="a11" screenshot="">
+                <DESCRIPTION id="a11"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e73">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a12" unique_id="a12" screenshot="">
+                <DESCRIPTION id="a12"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e76" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w137" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="8" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a13" unique_id="a13" screenshot="">
+                <DESCRIPTION id="a13"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a13" unique_id="a13" screenshot="">
+                <DESCRIPTION id="a13"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e83" desc="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid">
+                <WIDGET id="2131296268" name="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid" type="android.widget.TextView" unique_id="w151" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="10" value="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a14" unique_id="a14" screenshot="">
+                <DESCRIPTION id="a14"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a14" unique_id="a14" screenshot="">
+                <DESCRIPTION id="a14"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e89" desc="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid">
+                <WIDGET id="2131296268" name="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid" type="android.widget.TextView" unique_id="w162" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="10" value="Tomdroid's first note&#10;&#10;Welcome to Tomdroid!&#10;&#10;You have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.&#10;&#10;Warning: Changing synchronization service will empty your note list.&#10;&#10;Tomboy Web&#10;Tomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.&#10;&#10;To use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:&#10;Tomboy Online - https://edge.tomboy-online.org/&#10;Ubuntu One - https://one.ubuntu.com/notes&#10;&#10;Once set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.&#10;&#10;SD Card&#10;Put your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.&#10;&#10;See http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.&#10;&#10;Back to Tomdroid&#10;&#10;Quick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.&#10;&#10;Also, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.&#10;&#10;Lastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a15" unique_id="a15" screenshot="">
+                <DESCRIPTION id="a15"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a15" unique_id="a15" screenshot="">
+                <DESCRIPTION id="a15"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e98">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a16" unique_id="a16" screenshot="">
+                <DESCRIPTION id="a16"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+</SESSION>
+
