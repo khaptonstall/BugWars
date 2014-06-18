@@ -1,0 +1,471 @@
+I/nofatclips(  766): Preferences file found.
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+W/nofatclips(  766): --->ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Starting a new session
+I/nofatclips(  766): Saved image on disk: a1.jpg
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Dispatching new task. 4 more tasks remaining.
+I/nofatclips(  766): Restarting
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Playing Trace 3
+I/nofatclips(  766): Retrieved from return list id=2131361798
+I/nofatclips(  766): Retrieved from return list id=2131361801
+I/nofatclips(  766): Firing event: type= click index=16 widget=android.widget.Button
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a2) as a new found state
+I/nofatclips(  766): Saved image on disk: a2.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk. This is the first batch: the file will be created.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 24 steps left of 25
+I/nofatclips(  766): Dispatching new task. 6 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 6
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= openMenu name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a3) as a new found state
+I/nofatclips(  766): Saved image on disk: a3.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 23 steps left of 25
+I/nofatclips(  766): Dispatching new task. 8 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 9
+I/nofatclips(  766): Retrieved from return list id=16908315
+I/nofatclips(  766): Firing event: type= click index=17 widget=android.widget.Button
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a4) as a new found state
+I/nofatclips(  766): Saved image on disk: a4.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 22 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 13
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a5) as a new found state
+I/nofatclips(  766): Saved image on disk: a5.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 21 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 17
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a6) as a new found state
+I/nofatclips(  766): Saved image on disk: a6.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 20 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 21
+I/nofatclips(  766): Retrieved from return list id=2131361798
+I/nofatclips(  766): Retrieved from return list id=2131361800
+I/nofatclips(  766): Firing event: type= selectSpinnerItem index=14 widget=android.widget.Spinner
+I/nofatclips(  766): Clicking the spinner view
+I/nofatclips(  766): Swapping to listview item 1
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a7) as a new found state
+I/nofatclips(  766): Saved image on disk: a7.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 19 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 25
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= openMenu name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a8) as a new found state
+I/nofatclips(  766): Saved image on disk: a8.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 18 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 31
+I/nofatclips(  766): Retrieved from return list id=16908939
+I/nofatclips(  766): Firing event: type= openMenu name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a9) as a new found state
+I/nofatclips(  766): Saved image on disk: a9.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 17 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 35
+I/nofatclips(  766): Retrieved from return list id=2131361798
+I/nofatclips(  766): Retrieved from return list id=2131361800
+I/nofatclips(  766): Firing event: type= selectSpinnerItem index=14 widget=android.widget.Spinner
+I/nofatclips(  766): Clicking the spinner view
+I/nofatclips(  766): Swapping to listview item 1
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a10) as a new found state
+I/nofatclips(  766): Saved image on disk: a10.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 16 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 39
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a11) as a new found state
+I/nofatclips(  766): Saved image on disk: a11.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 15 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 43
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a12) as a new found state
+I/nofatclips(  766): Saved image on disk: a12.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 14 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 47
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a13) as a new found state
+I/nofatclips(  766): Saved image on disk: a13.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 13 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 51
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= openMenu name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a14) as a new found state
+I/nofatclips(  766): Saved image on disk: a14.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 12 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 57
+I/nofatclips(  766): Retrieved from return list id=16908939
+I/nofatclips(  766): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a15) as a new found state
+I/nofatclips(  766): Saved image on disk: a15.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 11 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 63
+I/nofatclips(  766): Retrieved from return list id=16908310
+I/nofatclips(  766): Firing event: type= click index=2 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is TeamList
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity TeamList
+I/nofatclips(  766): Registering activity TeamList (id: a16) as a new found state
+I/nofatclips(  766): Saved image on disk: a16.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity TeamList
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 10 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 66
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a17) as a new found state
+I/nofatclips(  766): Saved image on disk: a17.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 9 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 70
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= openMenu name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a18) as a new found state
+I/nofatclips(  766): Saved image on disk: a18.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 8 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 76
+I/nofatclips(  766): Retrieved from return list id=16908310
+I/nofatclips(  766): Firing event: type= click index=2 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is TeamList
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity TeamList
+I/nofatclips(  766): Registering activity TeamList (id: a19) as a new found state
+I/nofatclips(  766): Saved image on disk: a19.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity TeamList
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 7 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 79
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is TeamList
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity TeamList
+I/nofatclips(  766): Registering activity TeamList (id: a20) as a new found state
+I/nofatclips(  766): Saved image on disk: a20.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity TeamList
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 6 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 82
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a21) as a new found state
+I/nofatclips(  766): Saved image on disk: a21.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 5 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 86
+I/nofatclips(  766): Retrieved from return list id=2131361798
+I/nofatclips(  766): Retrieved from return list id=2131361801
+I/nofatclips(  766): Firing event: type= click index=16 widget=android.widget.Button
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a22) as a new found state
+I/nofatclips(  766): Saved image on disk: a22.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 4 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 89
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= openMenu name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a23) as a new found state
+I/nofatclips(  766): Saved image on disk: a23.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 3 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 92
+I/nofatclips(  766): Retrieved from return list id=16908315
+I/nofatclips(  766): Firing event: type= click index=17 widget=android.widget.Button
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a24) as a new found state
+I/nofatclips(  766): Saved image on disk: a24.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 2 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 96
+I/nofatclips(  766): Retrieved from return list id=-1
+I/nofatclips(  766): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a25) as a new found state
+I/nofatclips(  766): Saved image on disk: a25.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 1 steps left of 25
+I/nofatclips(  766): Dispatching new task. 10 more tasks remaining.
+I/nofatclips(  766): Incrementally Playing Trace 100
+I/nofatclips(  766): Retrieved from return list id=2131361798
+I/nofatclips(  766): Retrieved from return list id=2131361800
+I/nofatclips(  766): Firing event: type= selectSpinnerItem index=20 widget=android.widget.Spinner
+I/nofatclips(  766): Clicking the spinner view
+I/nofatclips(  766): Swapping to listview item 1
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Current activity is ConfigureStandupTimer
+I/nofatclips(  766): Retrieving widgets
+I/nofatclips(  766): Performing comparation for activity ConfigureStandupTimer
+I/nofatclips(  766): Registering activity ConfigureStandupTimer (id: a26) as a new found state
+I/nofatclips(  766): Saved image on disk: a26.jpg
+I/nofatclips(  766): Waiting for 100 msec.
+I/nofatclips(  766): Session count is 1. Will dump to disk at 1
+I/nofatclips(  766): Saving the session on disk.
+I/nofatclips(  766): Planning for new Activity ConfigureStandupTimer
+I/nofatclips(  766): Created trace to press the back button
+I/nofatclips(  766): Created trace to press the menu button
+I/nofatclips(  766): Created trace to change orientation
+I/nofatclips(  766): Check for termination: 0 steps left of 25
+I/nofatclips(  766): Saving the session on disk. This is the last batch. The session will be terminated.

@@ -1,0 +1,59 @@
+digraph EFG {
+
+## Edges
+
+	root -> e1;
+	e1 -> e6;
+	e6 -> e8;
+	e8 -> e16;
+	e16 -> e21;
+	e21 -> e22;
+	e22 -> e30;
+	e30 -> e37;
+	e37 -> e39;
+	e39 -> e48;
+	e48 -> e53;
+	e53 -> e58;
+	e58 -> e62;
+	e62 -> e70;
+	e70 -> e72;
+	e72 -> e78;
+	e78 -> e84;
+	e84 -> e87;
+	e87 -> e95;
+	e95 -> e96;
+	e96 -> e100;
+	e100 -> e106;
+	e106 -> e108;
+	e108 -> e116;
+	e116 -> e117;
+
+## Nodes
+
+	e30 [label="openMenu"];
+	e116 [label="changeOrientation"];
+	e62 [label="openMenu"];
+	e16 [label="changeOrientation"];
+	e53 [label="changeOrientation"];
+	e117 [label="selectSpinnerItem\n' [No Team] '"];
+	e106 [label="openMenu"];
+	e22 [label="selectSpinnerItem\n' [No Team] '"];
+	e21 [label="changeOrientation"];
+	e39 [label="selectSpinnerItem\n' [No Team] '"];
+	e48 [label="changeOrientation"];
+	e37 [label="openMenu"];
+	e8 [label="click\n'OK'"];
+	e108 [label="click\n'OK'"];
+	e6 [label="openMenu"];
+	e58 [label="changeOrientation"];
+	e1 [label="click\n'Start'"];
+	e100 [label="click\n'Start'"];
+	e95 [label="changeOrientation"];
+	e96 [label="back"];
+	e87 [label="click\n'Teams'"];
+	e78 [label="back"];
+	e70 [label="changeOrientation"];
+	e72 [label="click\n'Teams'"];
+	e84 [label="openMenu"];
+
+}
