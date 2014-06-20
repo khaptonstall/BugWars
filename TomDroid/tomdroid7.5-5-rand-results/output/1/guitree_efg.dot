@@ -1,0 +1,59 @@
+digraph EFG {
+
+## Edges
+
+	root -> e0;
+	e0 -> e4;
+	e4 -> e13;
+	e13 -> e24;
+	e24 -> e26;
+	e26 -> e29;
+	e29 -> e37;
+	e37 -> e38;
+	e38 -> e45;
+	e45 -> e47;
+	e47 -> e50;
+	e50 -> e55;
+	e55 -> e59;
+	e59 -> e63;
+	e63 -> e70;
+	e70 -> e72;
+	e72 -> e75;
+	e75 -> e80;
+	e80 -> e85;
+	e85 -> e89;
+	e89 -> e95;
+	e95 -> e110;
+	e110 -> e112;
+	e112 -> e119;
+	e119 -> e125;
+
+## Nodes
+
+	e55 [label="click\n'Welcome to Tomdroid!\n\nYou have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.\n\nOnline Synchronization\nOnline Synchronization is what you are looking for if you want to sync to Tomboy-Online, your own Rainy/Snowy server or any server supporting the Tomboy Web REST API.\n\nTo use it, set Sync Service to Online Synchronization in preferences then provide a Server URL. Here are some of the public ones:\nTomboy Online - https://edge.tomboy-online.org/\nrainy.notesync.org - https://notesync.org:8080/[username]/[password]/\n\nOnce set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.\n\nNote: you might want to back up your Tomboy notes before syncing, since this app is still under development and may corrupt your Tomboy notes.\n\nPlease see http://live.gnome.org/Tomboy/Directories for the location of the *.note files on all platforms.\n\nSD Card\nPut your Tomboy notes (*.note) on your SD Card under tomdroid/. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.\n\nAlso, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on Launchpad: http://launchpad.net/~tomdroid-dev.\n\nLastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid'"];
+	e50 [label="selectListItem\n'Tomdroid's First Note'"];
+	e38 [label="click\n'Welcome to Tomdroid!\n\nYou have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.\n\nOnline Synchronization\nOnline Synchronization is what you are looking for if you want to sync to Tomboy-Online, your own Rainy/Snowy server or any server supporting the Tomboy Web REST API.\n\nTo use it, set Sync Service to Online Synchronization in preferences then provide a Server URL. Here are some of the public ones:\nTomboy Online - https://edge.tomboy-online.org/\nrainy.notesync.org - https://notesync.org:8080/[username]/[password]/\n\nOnce set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.\n\nNote: you might want to back up your Tomboy notes before syncing, since this app is still under development and may corrupt your Tomboy notes.\n\nPlease see http://live.gnome.org/Tomboy/Directories for the location of the *.note files on all platforms.\n\nSD Card\nPut your Tomboy notes (*.note) on your SD Card under tomdroid/. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.\n\nAlso, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on Launchpad: http://launchpad.net/~tomdroid-dev.\n\nLastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid'"];
+	e13 [label="longClickListItem\n'View'"];
+	e37 [label="changeOrientation"];
+	e59 [label="click\n'Welcome to Tomdroid!\n\nYou have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.\n\nOnline Synchronization\nOnline Synchronization is what you are looking for if you want to sync to Tomboy-Online, your own Rainy/Snowy server or any server supporting the Tomboy Web REST API.\n\nTo use it, set Sync Service to Online Synchronization in preferences then provide a Server URL. Here are some of the public ones:\nTomboy Online - https://edge.tomboy-online.org/\nrainy.notesync.org - https://notesync.org:8080/[username]/[password]/\n\nOnce set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.\n\nNote: you might want to back up your Tomboy notes before syncing, since this app is still under development and may corrupt your Tomboy notes.\n\nPlease see http://live.gnome.org/Tomboy/Directories for the location of the *.note files on all platforms.\n\nSD Card\nPut your Tomboy notes (*.note) on your SD Card under tomdroid/. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.\n\nAlso, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on Launchpad: http://launchpad.net/~tomdroid-dev.\n\nLastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid'"];
+	e125 [label="selectListItem\n'Settings'"];
+	e89 [label="longClickListItem\n'Tomdroid's First Note'"];
+	e85 [label="back"];
+	e29 [label="selectListItem\n'Tomdroid's First Note'"];
+	e80 [label="click\n'Welcome to Tomdroid!\n\nYou have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.\n\nOnline Synchronization\nOnline Synchronization is what you are looking for if you want to sync to Tomboy-Online, your own Rainy/Snowy server or any server supporting the Tomboy Web REST API.\n\nTo use it, set Sync Service to Online Synchronization in preferences then provide a Server URL. Here are some of the public ones:\nTomboy Online - https://edge.tomboy-online.org/\nrainy.notesync.org - https://notesync.org:8080/[username]/[password]/\n\nOnce set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.\n\nNote: you might want to back up your Tomboy notes before syncing, since this app is still under development and may corrupt your Tomboy notes.\n\nPlease see http://live.gnome.org/Tomboy/Directories for the location of the *.note files on all platforms.\n\nSD Card\nPut your Tomboy notes (*.note) on your SD Card under tomdroid/. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.\n\nAlso, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on Launchpad: http://launchpad.net/~tomdroid-dev.\n\nLastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid'"];
+	e119 [label="openMenu"];
+	e26 [label="back"];
+	e45 [label="changeOrientation"];
+	e63 [label="click\n'Welcome to Tomdroid!\n\nYou have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.\n\nOnline Synchronization\nOnline Synchronization is what you are looking for if you want to sync to Tomboy-Online, your own Rainy/Snowy server or any server supporting the Tomboy Web REST API.\n\nTo use it, set Sync Service to Online Synchronization in preferences then provide a Server URL. Here are some of the public ones:\nTomboy Online - https://edge.tomboy-online.org/\nrainy.notesync.org - https://notesync.org:8080/[username]/[password]/\n\nOnce set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.\n\nNote: you might want to back up your Tomboy notes before syncing, since this app is still under development and may corrupt your Tomboy notes.\n\nPlease see http://live.gnome.org/Tomboy/Directories for the location of the *.note files on all platforms.\n\nSD Card\nPut your Tomboy notes (*.note) on your SD Card under tomdroid/. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.\n\nAlso, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on Launchpad: http://launchpad.net/~tomdroid-dev.\n\nLastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid'"];
+	e47 [label="back"];
+	e24 [label="changeOrientation"];
+	e4 [label="longClickListItem\n'Tomdroid's First Note'"];
+	e0 [label="click\n'OK'"];
+	e95 [label="selectListItem\n'Delete'"];
+	e112 [label="click\n'Yes'"];
+	e70 [label="changeOrientation"];
+	e72 [label="back"];
+	e75 [label="selectListItem\n'Tomdroid's First Note'"];
+	e110 [label="changeOrientation"];
+
+}

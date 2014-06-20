@@ -1,0 +1,59 @@
+digraph EFG {
+
+## Edges
+
+	root -> e2;
+	e2 -> e13;
+	e13 -> e20;
+	e20 -> e25;
+	e25 -> e33;
+	e33 -> e42;
+	e42 -> e48;
+	e48 -> e51;
+	e51 -> e53;
+	e53 -> e68;
+	e68 -> e72;
+	e72 -> e74;
+	e74 -> e85;
+	e85 -> e110;
+	e110 -> e115;
+	e115 -> e142;
+	e142 -> e144;
+	e144 -> e155;
+	e155 -> e177;
+	e177 -> e186;
+	e186 -> e212;
+	e212 -> e218;
+	e218 -> e253;
+	e253 -> e273;
+	e273 -> e292;
+
+## Nodes
+
+	e253 [label="selectListItem\n'Link Telephone Numbers'"];
+	e42 [label="click\n'android.widget.LinearLayout #16908327'"];
+	e68 [label="openMenu"];
+	e115 [label="selectListItem\n'Base Font Size'"];
+	e25 [label="openMenu"];
+	e53 [label="openMenu"];
+	e33 [label="longClickListItem\n'Search'"];
+	e51 [label="changeOrientation"];
+	e13 [label="longClickListItem\n'Revert All'"];
+	e48 [label="changeOrientation"];
+	e20 [label="click\n'Yes'"];
+	e212 [label="back"];
+	e273 [label="selectListItem\n'Location on SD Card'"];
+	e2 [label="openMenu"];
+	e218 [label="selectListItem\n'Show Deleted Notes'"];
+	e142 [label="openMenu"];
+	e292 [label="back"];
+	e177 [label="longClickListItem\n'SD Card'"];
+	e85 [label="longClickListItem\n'Settings'"];
+	e72 [label="changeOrientation"];
+	e144 [label="click\n'Cancel'"];
+	e186 [label="selectListItem\n'Default Sort Method'"];
+	e155 [label="selectListItem\n'Service'"];
+	e110 [label="selectListItem\n'Clear search history'"];
+	e74 [label="openMenu"];
+
+}

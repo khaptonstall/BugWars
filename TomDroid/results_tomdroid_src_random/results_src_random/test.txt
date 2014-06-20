@@ -1,0 +1,56 @@
+Playing Session 1_0 
+RandomSeed 5781813763305627829
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 83.872
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.tomdroid/files/coverage.ec
+Actual Coverage is 	43%  (608,4/1426)
+End of Session 1_0 
+RipperTest_1 is DONE 
+Playing Session 2_1 
+RandomSeed 6728621246111085458
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 25.28
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.tomdroid/files/coverage.ec
+Actual Coverage is 	15%  (211,8/1426)
+End of Session 2_1 
+Playing Session 2_2 
+RandomSeed -8072677428309135546
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 54.758
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.tomdroid/files/coverage.ec
+Actual Coverage is 	31%  (438/1426)
+End of Session 2_2 
+RipperTest_2 is DONE 
+Playing Session 3_3 
+RandomSeed 4150812111178855021
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 87.975
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.tomdroid/files/coverage.ec
+Actual Coverage is 	35%  (499,2/1426)
+End of Session 3_3 
+RipperTest_3 is DONE 
+Random Ripper is DONE 

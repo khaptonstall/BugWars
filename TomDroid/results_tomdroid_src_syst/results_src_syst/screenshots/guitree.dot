@@ -1,0 +1,243 @@
+digraph GuiTree {
+
+	graph [nodesep=1, fontsize=36];
+	node [fontsize=36];
+	edge [fontsize=36, headport=ne];
+
+## Edges
+
+	a1 -> a2 [label="e0: click\n'android.widget.ImageView #2131296257'"];
+	a1 -> a3 [label="e1: click\n'android.widget.ImageView #2131296259'"];
+	a1 -> a4 [label="e2: selectListItem\n'Tomdroid's first note'"];
+	a1 -> a5 [label="e3: longClickListItem\n'Tomdroid's first note'"];
+	a1 -> a6 [label="e4: openMenu"];
+	a1 -> a7 [label="e5: changeOrientation"];
+	a4 -> a8 [label="e6: click\n'android.widget.ImageView #2131296257'"];
+	a4 -> a9 [label="e7: click\n'android.widget.ImageView #2131296259'"];
+	a4 -> a10 [label="e8: click\n'Tomdroid's first note\n\nWelcome to Tomdroid!\n\nYou have no notes here yet. To get started, set your Synchronization preferences under Settings. There are two synchronization options described below.\n\nWarning: Changing synchronization service will empty your note list.\n\nTomboy Web\nTomboy Web is what you are looking for if you want to sync to Tomboy-Online, Ubuntu One, your own Snowy server or any server supporting the Tomboy Web REST API.\n\nTo use it, set Sync Service to Tomboy Web in preferences then  provide a Server URL. Here are some of the public ones:\nTomboy Online - https://edge.tomboy-online.org/\nUbuntu One - https://one.ubuntu.com/notes\n\nOnce set, hit the Sync logo on Tomdroid's top bar to synchronize your notes.\n\nSD Card\nPut your Tomboy notes (*.note) on your SD Card under tomdroid/. The notes can be found in ~/.local/share/tomboy/ on Linux. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.\n\nSee http://live.gnome.org/Tomboy/Directories for the notes' location on other platforms.\n\nBack to Tomdroid\n\nQuick mentions to tell you that unfortunately Tomdroid can't edit notes for now but this will come. Thanks for your patience.\n\nAlso, Tomdroid is always looking for new contributors. If you are interested join the tomdroid-dev team on launchpad: http://launchpad.net/~tomdroid-dev.\n\nLastly, if you encounter any issue, please report it at: https://bugs.launchpad.net/tomdroid'"];
+	a4 -> a11 [label="e9: back"];
+	a4 -> a12 [label="e10: openMenu"];
+	a4 -> a13 [label="e11: changeOrientation"];
+	a5 -> a14 [label="e12: selectListItem\n'View'"];
+	a5 -> a15 [label="e13: selectListItem\n'Send'"];
+	a5 -> a16 [label="e14: longClickListItem\n'View'"];
+	a5 -> a17 [label="e15: longClickListItem\n'Send'"];
+	a5 -> a18 [label="e16: back"];
+	a5 -> a19 [label="e17: openMenu"];
+	a5 -> a20 [label="e18: changeOrientation"];
+	a6 -> a21 [label="e19: click\n'Search'"];
+	a6 -> a22 [label="e20: click\n'About'"];
+	a6 -> a23 [label="e21: click\n'Settings'"];
+	a6 -> a24 [label="e22: back"];
+	a6 -> a25 [label="e23: openMenu"];
+	a6 -> a26 [label="e24: changeOrientation"];
+	a12 -> a27 [label="e25: click\n'Send'"];
+	a12 -> a28 [label="e26: back"];
+	a12 -> a29 [label="e27: openMenu"];
+	a12 -> a30 [label="e28: changeOrientation"];
+	a21 -> a31 [label="e29: back"];
+	a21 -> a32 [label="e30: openMenu"];
+	a21 -> a33 [label="e31: changeOrientation"];
+	a22 -> a34 [label="e32: click\n'OK'"];
+	a22 -> a35 [label="e33: click\n'Project page'"];
+	a22 -> a36 [label="e34: back"];
+	a22 -> a37 [label="e35: openMenu"];
+	a22 -> a38 [label="e36: changeOrientation"];
+	a23 -> a39 [label="e37: selectListItem\n'Service'"];
+	a23 -> a40 [label="e38: selectListItem\n'Service'"];
+	a23 -> a41 [label="e39: selectListItem\n'Server'"];
+	a23 -> a42 [label="e40: selectListItem\n'Clear search history'"];
+	a23 -> a43 [label="e41: selectListItem\n'Clear search history'"];
+	a23 -> a44 [label="e42: back"];
+	a23 -> a45 [label="e43: openMenu"];
+	a23 -> a46 [label="e44: changeOrientation"];
+	a39 -> a47 [label="e45: selectListItem\n'Tomboy Web'"];
+	a39 -> a48 [label="e46: selectListItem\n'SD Card'"];
+	a39 -> a49 [label="e47: longClickListItem\n'Tomboy Web'"];
+	a39 -> a50 [label="e48: longClickListItem\n'SD Card'"];
+	a39 -> a51 [label="e49: click\n'Cancel'"];
+	a39 -> a52 [label="e50: back"];
+	a39 -> a53 [label="e51: openMenu"];
+	a39 -> a54 [label="e52: changeOrientation"];
+	a41 -> a55 [label="e53: click\n'Authenticate'"];
+	a41 -> a56 [label="e54: click\n'Cancel'"];
+	a41 -> a57 [label="e55: back"];
+	a41 -> a58 [label="e56: openMenu"];
+	a41 -> a59 [label="e57: changeOrientation"];
+
+## Nodes
+
+	subgraph cluster_a1{label="a1"; a1};
+	a1 [label="", shapefile="a1.jpg"];
+
+	subgraph cluster_a2{label="a2 = a1"; a2};
+	a2 [label="", shapefile="a2.jpg"];
+
+	subgraph cluster_a3{label="a3 = a1"; a3};
+	a3 [label="", shapefile="a3.jpg"];
+
+	subgraph cluster_a4{label="a4"; a4};
+	a4 [label="", shapefile="a4.jpg"];
+
+	subgraph cluster_a5{label="a5"; a5};
+	a5 [label="", shapefile="a5.jpg"];
+
+	subgraph cluster_a6{label="a6"; a6};
+	a6 [label="", shapefile="a6.jpg"];
+
+	subgraph cluster_a7{label="a7 = a1"; a7};
+	a7 [label="", shapefile="a7.jpg"];
+
+	subgraph cluster_a8{label="a8 = a1"; a8};
+	a8 [label="", shapefile="a8.jpg"];
+
+	subgraph cluster_a9{label="a9 = a4"; a9};
+	a9 [label="", shapefile="a9.jpg"];
+
+	subgraph cluster_a10{label="a10 = a4"; a10};
+	a10 [label="", shapefile="a10.jpg"];
+
+	subgraph cluster_a11{label="a11 = a1"; a11};
+	a11 [label="", shapefile="a11.jpg"];
+
+	subgraph cluster_a12{label="a12"; a12};
+	a12 [label="", shapefile="a12.jpg"];
+
+	subgraph cluster_a13{label="a13 = a4"; a13};
+	a13 [label="", shapefile="a13.jpg"];
+
+	subgraph cluster_a14{label="a14 = a4"; a14};
+	a14 [label="", shapefile="a14.jpg"];
+
+	a15 [label="exit"];
+
+	subgraph cluster_a16{label="a16 = a4"; a16};
+	a16 [label="", shapefile="a16.jpg"];
+
+	a17 [label="exit"];
+
+	subgraph cluster_a18{label="a18 = a1"; a18};
+	a18 [label="", shapefile="a18.jpg"];
+
+	subgraph cluster_a19{label="a19 = a1"; a19};
+	a19 [label="", shapefile="a19.jpg"];
+
+	subgraph cluster_a20{label="a20 = a1"; a20};
+	a20 [label="", shapefile="a20.jpg"];
+
+	subgraph cluster_a21{label="a21"; a21};
+	a21 [label="", shapefile="a21.jpg"];
+
+	subgraph cluster_a22{label="a22"; a22};
+	a22 [label="", shapefile="a22.jpg"];
+
+	subgraph cluster_a23{label="a23"; a23};
+	a23 [label="", shapefile="a23.jpg"];
+
+	subgraph cluster_a24{label="a24 = a1"; a24};
+	a24 [label="", shapefile="a24.jpg"];
+
+	subgraph cluster_a25{label="a25 = a1"; a25};
+	a25 [label="", shapefile="a25.jpg"];
+
+	subgraph cluster_a26{label="a26 = a6"; a26};
+	a26 [label="", shapefile="a26.jpg"];
+
+	a27 [label="exit"];
+
+	subgraph cluster_a28{label="a28 = a4"; a28};
+	a28 [label="", shapefile="a28.jpg"];
+
+	subgraph cluster_a29{label="a29 = a4"; a29};
+	a29 [label="", shapefile="a29.jpg"];
+
+	subgraph cluster_a30{label="a30 = a12"; a30};
+	a30 [label="", shapefile="a30.jpg"];
+
+	subgraph cluster_a31{label="a31 = a1"; a31};
+	a31 [label="", shapefile="a31.jpg"];
+
+	subgraph cluster_a32{label="a32 = a21"; a32};
+	a32 [label="", shapefile="a32.jpg"];
+
+	subgraph cluster_a33{label="a33 = a1"; a33};
+	a33 [label="", shapefile="a33.jpg"];
+
+	subgraph cluster_a34{label="a34 = a1"; a34};
+	a34 [label="", shapefile="a34.jpg"];
+
+	a35 [label="exit"];
+
+	subgraph cluster_a36{label="a36 = a1"; a36};
+	a36 [label="", shapefile="a36.jpg"];
+
+	subgraph cluster_a37{label="a37 = a22"; a37};
+	a37 [label="", shapefile="a37.jpg"];
+
+	subgraph cluster_a38{label="a38 = a1"; a38};
+	a38 [label="", shapefile="a38.jpg"];
+
+	subgraph cluster_a39{label="a39"; a39};
+	a39 [label="", shapefile="a39.jpg"];
+
+	subgraph cluster_a40{label="a40 = a39"; a40};
+	a40 [label="", shapefile="a40.jpg"];
+
+	subgraph cluster_a41{label="a41"; a41};
+	a41 [label="", shapefile="a41.jpg"];
+
+	subgraph cluster_a42{label="a42 = a23"; a42};
+	a42 [label="", shapefile="a42.jpg"];
+
+	subgraph cluster_a43{label="a43 = a23"; a43};
+	a43 [label="", shapefile="a43.jpg"];
+
+	subgraph cluster_a44{label="a44 = a1"; a44};
+	a44 [label="", shapefile="a44.jpg"];
+
+	subgraph cluster_a45{label="a45 = a23"; a45};
+	a45 [label="", shapefile="a45.jpg"];
+
+	subgraph cluster_a46{label="a46 = a23"; a46};
+	a46 [label="", shapefile="a46.jpg"];
+
+	subgraph cluster_a47{label="a47 = a23"; a47};
+	a47 [label="", shapefile="a47.jpg"];
+
+	subgraph cluster_a48{label="a48 = a23"; a48};
+	a48 [label="", shapefile="a48.jpg"];
+
+	subgraph cluster_a49{label="a49 = a23"; a49};
+	a49 [label="", shapefile="a49.jpg"];
+
+	subgraph cluster_a50{label="a50 = a23"; a50};
+	a50 [label="", shapefile="a50.jpg"];
+
+	subgraph cluster_a51{label="a51 = a23"; a51};
+	a51 [label="", shapefile="a51.jpg"];
+
+	subgraph cluster_a52{label="a52 = a23"; a52};
+	a52 [label="", shapefile="a52.jpg"];
+
+	subgraph cluster_a53{label="a53 = a39"; a53};
+	a53 [label="", shapefile="a53.jpg"];
+
+	subgraph cluster_a54{label="a54 = a39"; a54};
+	a54 [label="", shapefile="a54.jpg"];
+
+	subgraph cluster_a55{label="a55 = a41"; a55};
+	a55 [label="", shapefile="a55.jpg"];
+
+	subgraph cluster_a56{label="a56 = a41"; a56};
+	a56 [label="", shapefile="a56.jpg"];
+
+	subgraph cluster_a57{label="a57 = a41"; a57};
+	a57 [label="", shapefile="a57.jpg"];
+
+	subgraph cluster_a58{label="a58 = a41"; a58};
+	a58 [label="", shapefile="a58.jpg"];
+
+	subgraph cluster_a59{label="a59 = a41"; a59};
+	a59 [label="", shapefile="a59.jpg"];
+
+}

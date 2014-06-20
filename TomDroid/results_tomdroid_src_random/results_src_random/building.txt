@@ -1,0 +1,141 @@
+Updated local.properties
+No project name specified, using Activity name 'Tomdroid'.
+If you wish to change it, edit the first line of build.xml.
+Added file C:\Users\unina\Desktop\tomdroid-src-0.5.0\build.xml
+Updated file C:\Users\unina\Desktop\tomdroid-src-0.5.0\proguard-project.txt
+Buildfile: C:\Users\unina\Desktop\tomdroid-src-0.5.0\build.xml
+
+emma:
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 20
+ [checkenv] Installed at D:\android-sdks
+
+-setup:
+     [echo] Project Name: Tomdroid
+  [gettype] Project Type: Self-Tested Application
+     [echo] Switching between debug and non debug build: Deleting previous compilation output...
+   [delete] Deleting directory C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\classes
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-build-setup:
+     [echo] Resolving Build Target for Tomdroid...
+[gettarget] Project Target:   Android 2.3.3
+[gettarget] API level:        10
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\classes
+     [echo] ----------
+     [echo] Resolving Dependencies for Tomdroid...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'instrument'...
+   [subant] No sub-builds to iterate on
+
+-pre-build:
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+[renderscript] No RenderScript files to compile.
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Found Deleted Target File
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 30 source files to C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\classes
+     [echo] Instrumenting classes from C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin/classes...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] Converting compiled files and external libraries into C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\classes.dex...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res
+   [crunch] To destination dir: C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-hdpi\ic_launcher.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-hdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-hdpi\ic_launcher.png: 75% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-hdpi\icon_actionbar_dot.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-hdpi\icon_actionbar_dot.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-hdpi\icon_actionbar_dot.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-hdpi\icon_actionbar_sync.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-hdpi\icon_actionbar_sync.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-hdpi\icon_actionbar_sync.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-hdpi\icon_actionbar_sync_background.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-hdpi\icon_actionbar_sync_background.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-hdpi\icon_actionbar_sync_background.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-ldpi\ic_launcher.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-ldpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-ldpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-ldpi\icon_actionbar_dot.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-ldpi\icon_actionbar_dot.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-ldpi\icon_actionbar_dot.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-ldpi\icon_actionbar_sync.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-ldpi\icon_actionbar_sync.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-ldpi\icon_actionbar_sync.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-ldpi\icon_actionbar_sync_background.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-ldpi\icon_actionbar_sync_background.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-ldpi\icon_actionbar_sync_background.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-mdpi\ic_launcher.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-mdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-mdpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-mdpi\icon_actionbar_dot.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-mdpi\icon_actionbar_dot.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-mdpi\icon_actionbar_dot.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-mdpi\icon_actionbar_sync.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-mdpi\icon_actionbar_sync.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-mdpi\icon_actionbar_sync.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable-mdpi\icon_actionbar_sync_background.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-mdpi\icon_actionbar_sync_background.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable-mdpi\icon_actionbar_sync_background.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable\actionbar_background.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable\actionbar_background.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable\actionbar_background.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable\icon.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable\icon.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable\icon.png: 94% size of source)
+   [crunch] Processing image to cache: C:\Users\unina\Desktop\tomdroid-src-0.5.0\res\drawable\icon_focused.png => C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable\icon_focused.png
+   [crunch]   (processed image to cache entry C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\res\drawable\icon_focused.png: 68% size of source)
+   [crunch] Crunched 15 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating Tomdroid-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\Tomdroid-debug.apk
+[propertyfile] Creating new property file: C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\build.prop
+[propertyfile] Updating property file: C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\build.prop
+[propertyfile] Updating property file: C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\build.prop
+[propertyfile] Updating property file: C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\build.prop
+
+-post-build:
+
+debug:
+
+install:
+     [echo] Installing C:\Users\unina\Desktop\tomdroid-src-0.5.0\bin\Tomdroid-debug.apk onto default emulator or device...
+     [exec] 	pkg: /data/local/tmp/Tomdroid-debug.apk
+     [exec] 67 KB/s (266108 bytes in 3.877s)
+     [exec] Success
+
+BUILD SUCCESSFUL
+Total time: 14 seconds
