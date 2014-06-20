@@ -1,9 +1,0 @@
-Playing Session 1_0 
-
-RandomSeed -2602889763231577818
-Error: Failed to generate emma coverage. Is emma jar on classpath?
-File not found!
-25 events performed of 25
-End of Session 1_0 
-RipperTest_1 is DONE 
-Random Ripper is DONE 
