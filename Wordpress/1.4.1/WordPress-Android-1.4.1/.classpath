@@ -4,10 +4,10 @@
 	<classpathentry exported="true" kind="lib" path="CWAC-AdapterWrapper.jar"/>
 	<classpathentry exported="true" kind="lib" path="CWAC-Bus.jar"/>
 	<classpathentry exported="true" kind="lib" path="CWAC-Task.jar"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="gen"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Meredith/AppData/Local/Android/robotium-solo-3.5.1.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="C:/Users/Katie/Documents/GitHub/BugWars/Wordpress/robotium-solo-3.5.1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
