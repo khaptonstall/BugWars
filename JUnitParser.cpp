@@ -30,7 +30,6 @@ int main(int argc, char** argv) {
 	string nextLine;
 	ofstream outfile;
 	outfile.open("output.java"); //Replace with desired output JUnit name
-	//ofstream outfile("output.java", std::ofstream::out);
 
 	outfile << "//Parser replaces non-working fireEvent calls in testTrace with" <<
 			'\n' << "//working Robotium methods." << '\n';
@@ -89,13 +88,11 @@ string parser(string inputText){
 				return inputText;
 			}
 		}
-
 	}
 	else{
 		return inputText;
 	}
 	return "";
-
 }
 
 
