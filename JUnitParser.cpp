@@ -81,7 +81,7 @@ string parser(string inputText){
 			while(getline(ss, token, ',')){
 				string_list.push_back(token);
 			}
-			if(string_list.size() == 5){
+			if(string_list.size() <= 5){
 				return "\t \tsolo.clickOnButton(" + string_list[2] + ");";
 			}
 			else{
