@@ -37,8 +37,16 @@ int main(int argc, char** argv) {
 	if(infile.is_open()){
 		while(getline(infile, currLine)){
 			if(currLine.find("fireEvent") != std::string::npos){
-				getline(infile, nextLine);
-				outfile << parser(currLine + nextLine) << '\n';
+				if(currLine.find("changeOrientation") == std::string::npos &&
+				   currLine.find("back") == std::string::npos &&
+				   currLine.find("openMenu") == std::string::npos &&
+				   currLine.find("click") == std::string::npos){
+
+					outfile << currLine << '\n';
+				}else{
+					getline(infile, nextLine);
+					outfile << parser(currLine + nextLine) << '\n';
+				}
 			}else{
 				outfile << parser(currLine) << '\n';
 			}
