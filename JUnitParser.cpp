@@ -18,18 +18,39 @@
 #include <fstream>
 #include <vector>
 #include <sstream>
+
+//itoa
+#include <stdio.h>
+//itoa
+#include <stdlib.h>
 using namespace std;
 
-string parser(string inputText);
+string parser(string inputText, string vers);
 
 
 int main(int argc, char** argv) {
 	ifstream infile;
-	infile.open("File.java"); //Replace with your JUnit file name
+	string path = "C:/Users/Meredith/workspace/WPTest_2/src/org/wordpress/android/test";
+	path += "/Wordpress_Test2_";
+	cout << "Test version number: ";
+	int version;
+	cin >> version;
+	stringstream v;
+	v << version;
+	string vers = v.str();
+	stringstream s;
+	s << path << version;
+	path = s.str();
+	cout << path << endl;
+	path = path;
+	string inpath = path + ".java";
+	infile.open(inpath.c_str());
 	string currLine;
 	string nextLine;
 	ofstream outfile;
-	outfile.open("output.java"); //Replace with desired output JUnit name
+	path = path + "_parsed.java";
+	cout << path << endl;
+	outfile.open(path.c_str()); //Replace with desired output JUnit name
 
 	outfile << "//Parser replaces non-working fireEvent calls in testTrace with" <<
 			'\n' << "//working Robotium methods." << '\n';
@@ -45,10 +66,10 @@ int main(int argc, char** argv) {
 					outfile << currLine << '\n';
 				}else{
 					getline(infile, nextLine);
-					outfile << parser(currLine + nextLine) << '\n';
+					outfile << parser(currLine + nextLine, vers) << '\n';
 				}
 			}else{
-				outfile << parser(currLine) << '\n';
+				outfile << parser(currLine, vers) << '\n';
 			}
 		}
 	}
@@ -59,6 +80,7 @@ int main(int argc, char** argv) {
 
 
 	outfile.close();
+	cout << "DONE." << endl;
 	return 0;
 }
 
@@ -68,7 +90,7 @@ int main(int argc, char** argv) {
  * @param string inputText
  * @return new Robotium call as a string
  */
-string parser(string inputText){
+string parser(string inputText, string vers){
 	//find returns npos if string not found
 	//So if string is found...
 	if(inputText.find("fireEvent") != std::string::npos){
@@ -103,6 +125,25 @@ string parser(string inputText){
 			}
 		}
 	}
+	//Replaces class & constructor names
+	else if(inputText.find("AndroidGuiTest") != std::string::npos){
+		//public AndroidGuiTest () {
+		if(inputText.find("class") != std::string::npos) {
+			return ("public class Wordpress_Test2_"+vers+"_parsed extends ActivityInstrumentationTestCase2 {");
+		}
+		if(inputText.find("public AndroidGuiTest") != std::string::npos) {
+			return ("	public Wordpress_Test2_" + vers + "_parsed () {");
+		}
+	}
+	else if(inputText.find("Wordpress_Test2") != std::string::npos){
+			//public AndroidGuiTest () {
+			if(inputText.find("class") != std::string::npos) {
+				return ("public class Wordpress_Test2_"+vers+"_parsed extends ActivityInstrumentationTestCase2 {");
+			}
+			if(inputText.find("public Wordpress_Test2") != std::string::npos) {
+				return ("	public Wordpress_Test2_" + vers + "_parsed () {");
+			}
+		}
 	else{
 		return inputText;
 	}
