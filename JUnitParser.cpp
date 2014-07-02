@@ -88,9 +88,15 @@ string parser(string inputText){
 			string token;
 			while(getline(ss, token, ',')){
 				string_list.push_back(token);
+				cout << token << '\n';
 			}
-			if(string_list.size() <= 5){
-				return "\t \tsolo.clickOnButton(" + string_list[2] + ");";
+			if(string_list.size() <= 4){
+				if(string_list[2].find("menu") != std::string::npos){
+					return "\t \tsolo.clickOnMenuItem(" + string_list[1] + ");";
+				}
+				else{
+					return "\t \tsolo.clickOnButton(" + string_list[1] + ");";
+				}
 			}
 			else{
 				return inputText;
