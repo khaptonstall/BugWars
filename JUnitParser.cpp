@@ -26,31 +26,23 @@
 using namespace std;
 
 string parser(string inputText, string vers);
+int classRenames;
 
 
 int main(int argc, char** argv) {
 	ifstream infile;
+	//change this string to the path of your jUnit test project::
 	string path = "C:/Users/Meredith/workspace/WPTest_2/src/org/wordpress/android/test";
 	path += "/Wordpress_Test2_";
 	cout << "Test version number: ";
-	int version;
-	cin >> version;
-	stringstream v;
-	v << version;
-	string vers = v.str();
-	stringstream s;
-	s << path << version;
-	path = s.str();
-	cout << path << endl;
-	path = path;
-	string inpath = path + ".java";
-	infile.open(inpath.c_str());
+	string version; cin >> version;
+	path = path + version;
+	infile.open((path + ".java").c_str());	//opens input file
 	string currLine;
 	string nextLine;
 	ofstream outfile;
 	path = path + "_parsed.java";
-	cout << path << endl;
-	outfile.open(path.c_str()); //Replace with desired output JUnit name
+	outfile.open((path + ".java").c_str()); //opens output file
 
 	outfile << "//Parser replaces non-working fireEvent calls in testTrace with" <<
 			'\n' << "//working Robotium methods." << '\n';
@@ -66,10 +58,10 @@ int main(int argc, char** argv) {
 					outfile << currLine << '\n';
 				}else{
 					getline(infile, nextLine);
-					outfile << parser(currLine + nextLine, vers) << '\n';
+					outfile << parser(currLine + nextLine, version) << '\n';
 				}
 			}else{
-				outfile << parser(currLine, vers) << '\n';
+				outfile << parser(currLine, version) << '\n';
 			}
 		}
 	}
@@ -77,8 +69,6 @@ int main(int argc, char** argv) {
 		cout << "Unable to open";
 	}
 	infile.close();
-
-
 	outfile.close();
 	cout << "DONE." << endl;
 	return 0;
@@ -90,7 +80,7 @@ int main(int argc, char** argv) {
  * @param string inputText
  * @return new Robotium call as a string
  */
-string parser(string inputText, string vers){
+string parser(string inputText, string version){
 	//find returns npos if string not found
 	//So if string is found...
 	if(inputText.find("fireEvent") != std::string::npos){
@@ -110,40 +100,29 @@ string parser(string inputText, string vers){
 			string token;
 			while(getline(ss, token, ',')){
 				string_list.push_back(token);
-				cout << token << '\n';
 			}
-			if(string_list.size() <= 4){
-				if(string_list[2].find("menu") != std::string::npos){
-					return "\t \tsolo.clickOnMenuItem(" + string_list[1] + ");";
-				}
-				else{
-					return "\t \tsolo.clickOnButton(" + string_list[1] + ");";
-				}
+			if(string_list.size() <= 5){
+				return "\t \tsolo.clickOnButton(" + string_list[2] + ");";
 			}
 			else{
 				return inputText;
 			}
 		}
 	}
-	//Replaces class & constructor names
-	else if(inputText.find("AndroidGuiTest") != std::string::npos){
-		//public AndroidGuiTest () {
-		if(inputText.find("class") != std::string::npos) {
-			return ("public class Wordpress_Test2_"+vers+"_parsed extends ActivityInstrumentationTestCase2 {");
-		}
-		if(inputText.find("public AndroidGuiTest") != std::string::npos) {
-			return ("	public Wordpress_Test2_" + vers + "_parsed () {");
+	//Corrects class & constructor names to match new file name
+	else if (classRenames < 3) {
+		//these are the two likely class names
+		if((inputText.find("AndroidGuiTest") != std::string::npos) || (inputText.find("Wordpress_Test2") != std::string::npos)){
+			if(inputText.find("class") != std::string::npos) {
+				classRenames++;
+				return ("public class Wordpress_Test2_" + version + "_parsed extends ActivityInstrumentationTestCase2 {");
+			}
+			else {
+				classRenames++;
+				return ("	public Wordpress_Test2_" + version + "_parsed () {");
+			}
 		}
 	}
-	else if(inputText.find("Wordpress_Test2") != std::string::npos){
-			//public AndroidGuiTest () {
-			if(inputText.find("class") != std::string::npos) {
-				return ("public class Wordpress_Test2_"+vers+"_parsed extends ActivityInstrumentationTestCase2 {");
-			}
-			if(inputText.find("public Wordpress_Test2") != std::string::npos) {
-				return ("	public Wordpress_Test2_" + vers + "_parsed () {");
-			}
-		}
 	else{
 		return inputText;
 	}
