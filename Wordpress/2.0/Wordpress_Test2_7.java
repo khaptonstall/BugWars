@@ -3,6 +3,8 @@
 //Random
 //wp_2_rand_6
 //7-7-14
+
+//Logged in, two blank blogs selected
 package org.wordpress.android.test;
 
 /*	Add package and import declarations. Try CTRL+SHIFT+O if you're using Eclipse.
