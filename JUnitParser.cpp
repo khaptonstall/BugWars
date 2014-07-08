@@ -90,12 +90,27 @@ string parser(string inputText){
 				string_list.push_back(token);
 				cout << token << '\n';
 			}
-			if(string_list.size() <= 4){
-				if(string_list[2].find("menu") != std::string::npos){
+			if(string_list.size() == 4){
+				if(string_list[1] == ""){
+					return inputText;
+				}
+				else if(string_list[2].find("menu") != std::string::npos){
 					return "\t \tsolo.clickOnMenuItem(" + string_list[1] + ");";
 				}
 				else{
 					return "\t \tsolo.clickOnButton(" + string_list[1] + ");";
+				}
+			}
+			else if(string_list.size() == 5){
+				if(string_list[2].empty()){
+					cout << "TRUE";
+					return inputText;
+				}
+				else if(string_list[3].find("menu") != std::string::npos){
+					return "\t \tsolo.clickOnMenuItem(" + string_list[2] + ");";
+				}
+				else{
+					return "\t \tsolo.clickOnButton(" + string_list[2] + ");";
 				}
 			}
 			else{
