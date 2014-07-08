@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
 	ofstream outfile;
 	outfile.open("output.java"); //Replace with desired output JUnit name
 
-	outfile << "//Parser replaces non-working fireEvent calls in testTrace with" <<
+	outfile << "//Parser replaces non-working fireEvent calls in testCase with" <<
 			'\n' << "//working Robotium methods." << '\n';
 
 	if(infile.is_open()){
@@ -91,7 +91,7 @@ string parser(string inputText){
 				cout << token << '\n';
 			}
 			if(string_list.size() == 4){
-				if(string_list[1] == ""){
+				if(string_list[1].length() <= 3){
 					return inputText;
 				}
 				else if(string_list[2].find("menu") != std::string::npos){
@@ -102,8 +102,7 @@ string parser(string inputText){
 				}
 			}
 			else if(string_list.size() == 5){
-				if(string_list[2].empty()){
-					cout << "TRUE";
+				if(string_list[2].length() <= 3){
 					return inputText;
 				}
 				else if(string_list[3].find("menu") != std::string::npos){
