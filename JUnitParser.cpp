@@ -24,6 +24,7 @@ string parser(string inputText);
 
 
 int main(int argc, char** argv) {
+	int orientationCount = 1;
 	ifstream infile;
 	infile.open("File.java"); //Replace with your JUnit file name
 	string currLine;
@@ -37,13 +38,23 @@ int main(int argc, char** argv) {
 	if(infile.is_open()){
 		while(getline(infile, currLine)){
 			if(currLine.find("fireEvent") != std::string::npos){
-				if(currLine.find("changeOrientation") == std::string::npos &&
-				   currLine.find("back") == std::string::npos &&
+				if(currLine.find("back") == std::string::npos &&
 				   currLine.find("openMenu") == std::string::npos &&
 				   currLine.find("click") == std::string::npos){
 
 					outfile << currLine << '\n';
-				}else{
+				}
+				else if(currLine.find("changeOrientation") == std::string::npos){
+					if (orientationCount % 2 == 0){
+						outfile << "\t \tsolo.setActivityOrientation(Solo.POTRAIT);" << "\n";
+						orientationCount += 1;
+					}
+					else{
+						outfile << "\t \tsolo.setActivityOrientation(Solo.LANDSCAPE);" << "\n";
+						orientationCount += 1;
+					}
+				}
+				else{
 					getline(infile, nextLine);
 					outfile << parser(currLine + nextLine) << '\n';
 				}
