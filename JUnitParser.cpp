@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
 			if (currLine.find("fireEvent") != std::string::npos) {
 				if (currLine.find("changeOrientation") != std::string::npos) {
 					if (orientationCount % 2 == 0) {
-						outfile<< "\t \tsolo.setActivityOrientation(Solo.POTRAIT);"<< "\n";
+						outfile<< "\t \tsolo.setActivityOrientation(Solo.PORTRAIT);"<< "\n";
 						orientationCount += 1;
 					} else {
 						outfile<< "\t \tsolo.setActivityOrientation(Solo.LANDSCAPE);"<< "\n";
