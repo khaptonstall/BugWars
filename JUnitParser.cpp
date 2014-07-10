@@ -21,34 +21,29 @@
 using namespace std;
 
 string parser(string inputText);
+bool found(string line, string text);
+int orientationCount;
 
 int main(int argc, char** argv) {
-	int orientationCount = 1;
+
+	orientationCount = 1;
 	ifstream infile;
-	infile.open("File.java"); //Replace with your JUnit file name
+	infile.open("INPUT.java"); //Replace with your JUnit file name
 	string currLine;
 	string nextLine;
 	ofstream outfile;
-	outfile.open("output.java"); //Replace with desired output JUnit name
+	outfile.open("OUTPUT.java"); //Replace with desired output JUnit name
 
 	outfile << "//Parser replaces non-working fireEvent calls in testCase with"
 			<< '\n' << "//working Robotium methods." << '\n';
 
 	if (infile.is_open()) {
 		while (getline(infile, currLine)) {
-			if (currLine.find("fireEvent") != std::string::npos) {
-				if (currLine.find("changeOrientation") != std::string::npos) {
-					if (orientationCount % 2 == 0) {
-						outfile<< "\t \tsolo.setActivityOrientation(Solo.POTRAIT);"<< "\n";
-						orientationCount += 1;
-					} else {
-						outfile<< "\t \tsolo.setActivityOrientation(Solo.LANDSCAPE);"<< "\n";
-						orientationCount += 1;
-					}
-				}
-				else if (currLine.find("back") == std::string::npos
-						&& currLine.find("openMenu") == std::string::npos
-						&& currLine.find("click") == std::string::npos) {
+			if (found(currLine, "fireEvent")) {
+				if (!found(currLine, "back")
+						&& !found(currLine, "openMenu")
+						&& !found(currLine, "click")
+						&& !found(currLine, "changeOrientation")) {
 					outfile << currLine << '\n';
 				}
 			    else {
@@ -60,10 +55,10 @@ int main(int argc, char** argv) {
 			}
 		}
 	} else {
-		cout << "Unable to open";
+		cout << "Unable to open" << endl;
 	}
 	infile.close();
-
+	cout << "DONE." << endl;
 	outfile.close();
 	return 0;
 }
@@ -75,16 +70,21 @@ int main(int argc, char** argv) {
  * @return new Robotium call as a string
  */
 string parser(string inputText) {
-	//find returns npos if string not found
-	//So if string is found...
-	if (inputText.find("fireEvent") != std::string::npos) {
-		if (inputText.find("changeOrientation") != std::string::npos) {
-			return "\t \tsolo.setActivityOrientation(Solo.LANDSCAPE);";
-		} else if (inputText.find("back") != std::string::npos) {
+	//if string is found...
+	if (found(inputText, "fireEvent")) {
+		if (found(inputText, "changeOrientation")) {
+			if (orientationCount % 2 == 0) {
+				orientationCount += 1;
+				return "\t \tsolo.setActivityOrientation(Solo.POTRAIT);";
+			} else {
+				orientationCount += 1;
+				return "\t \tsolo.setActivityOrientation(Solo.LANDSCAPE);";
+			}
+		} else if (found(inputText, "back")) {
 			return "\t \tsolo.goBack();";
-		} else if (inputText.find("openMenu") != std::string::npos) {
+		} else if (found(inputText, "openMenu")) {
 			return "\t \tsolo.sendKey(Solo.MENU);";
-		} else if (inputText.find("click") != std::string::npos) {
+		} else if (found(inputText, "click")) {
 
 			vector<string> string_list;
 			istringstream ss(inputText);
@@ -96,7 +96,7 @@ string parser(string inputText) {
 			if (string_list.size() == 4) {
 				if (string_list[1].length() <= 3) {
 					return inputText;
-				} else if (string_list[2].find("menu") != std::string::npos) {
+				} else if (found(string_list[2], "menu")) {
 					return "\t \tsolo.clickOnMenuItem(" + string_list[1] + ");";
 				} else {
 					return "\t \tsolo.clickOnButton(" + string_list[1] + ");";
@@ -104,7 +104,7 @@ string parser(string inputText) {
 			} else if (string_list.size() == 5) {
 				if (string_list[2].length() <= 3) {
 					return inputText;
-				} else if (string_list[3].find("menu") != std::string::npos) {
+				} else if (found(string_list[3], "menu")) {
 					return "\t \tsolo.clickOnMenuItem(" + string_list[2] + ");";
 				} else {
 					return "\t \tsolo.clickOnButton(" + string_list[2] + ");";
@@ -118,4 +118,19 @@ string parser(string inputText) {
 	}
 	return "";
 }
+
+
+/**
+ * Returns true if the substring 'text' the string 'line'.
+ * Returns false if the substring is not found
+ * @param string line
+ * @param string text
+ * @return bool
+ */
+bool found(string line, string text) {
+	if (line.find(text) != std::string::npos) {
+		return true;
+	} else return false;
+}
+
 
