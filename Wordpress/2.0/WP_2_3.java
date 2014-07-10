@@ -25,7 +25,7 @@ import static android.content.Context.WINDOW_SERVICE;
 import static android.view.Surface.*;
 
 @SuppressWarnings("rawtypes")
-public class AndroidGuiTest extends ActivityInstrumentationTestCase2 {
+public class WP_2_3 extends ActivityInstrumentationTestCase2 {
 	
 	// Attributes
 	private Activity theActivity;
@@ -114,7 +114,7 @@ public class AndroidGuiTest extends ActivityInstrumentationTestCase2 {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public AndroidGuiTest () {
+	public WP_2_3 () {
 		super(PACKAGE_NAME,theClass);
 		this.theViews = new HashMap<Integer,View>();
 	}
@@ -141,1285 +141,933 @@ public class AndroidGuiTest extends ActivityInstrumentationTestCase2 {
 
 	// Test Cases
 
-	// Generated from trace 98
+	// Generated from trace 248
 	public void testTrace00000 () {
 
 		// Testing base activity
-		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
-
+		// This event leads to WordPress
 		// Testing transition 
-		// Firing event: e8
-		fireEvent (2131165257, 39, "", "linearLayout", "click");
+		// Firing event: e1
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a2
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "Dashboard");
 
 		// Testing transition 
-		// Firing event: e27
-		fireEvent (2131165200, 44, "", "button", "click");
+		// Firing event: e7
+		fireEvent (2131165253, 28, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a3
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e52
-		fireEvent (2131165257, 72, "", "linearLayout", "click");
+		// Setting input: i6
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i7
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e21
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a4
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e70
-		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5");
+		// Firing event: e39
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a5
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e79
-		fireEvent (8, "", "listView", "selectListItem", "3");
+		// Setting input: i34
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i35
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e41
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "1");
 
 		retrieveWidgets();
 		// Testing current activity: should be a6
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e87
-		fireEvent (0, "", "null", "openMenu");
+		// Firing event: e61
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a7
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e90
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i74
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i75
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e67
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a8
-		solo.assertCurrentActivity("", "ChooserActivity");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e94
-		fireEvent (8, "", "listView", "longClickListItem", "1");
+		// Setting input: i86
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i87
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e76
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "3");
 
-		// This event leads to Android System
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 248
-	public void testTrace00001 () {
-
-		// Testing base activity
 		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
+		// Testing current activity: should be a9
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e112
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i104
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i105
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e88
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a10
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e115
-		fireEvent (2, "Preferences", "menuItem", "click");
+		// Setting input: i120
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i121
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e99
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a11
-		solo.assertCurrentActivity("", "Preferences");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e126
-		fireEvent (22, "Cancel", "button", "click");
+		// Firing event: e114
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a12
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e139
-		fireEvent (2131165257, 39, "", "linearLayout", "click");
+		// Firing event: e120
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a13
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e154
-		fireEvent (16908298, 6, "", "listView", "longClickListItem", "2");
+		// Firing event: e124
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a14
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e168
-		fireEvent (8, "", "listView", "longClickListItem", "2");
+		// Firing event: e135
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a15
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e174
-		fireEvent (16908314, 17, "No", "button", "click");
+		// Firing event: e140
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a16
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e187
-		fireEvent (16908298, 6, "", "listView", "longClickListItem", "4");
+		// Setting input: i174
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i175
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e150
+		fireEvent (2131165287, 21, "Save", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a17
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e201
+		// Firing event: e155
 		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a18
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e218
-		fireEvent (0, "", "null", "back");
+		// Setting input: i186
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i187
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e163
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a19
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e222
-		fireEvent (2131165201, 13, "", "button", "click");
+		// Setting input: i194
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i195
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e170
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "1");
 
 		retrieveWidgets();
 		// Testing current activity: should be a20
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e242
-		fireEvent (2131165252, 28, "", "linearLayout", "click");
+		// Setting input: i208
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i209
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e180
+		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");
 
-		// This event leads to WordPress
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 567
-	public void testTrace00002 () {
-
-		// Testing base activity
 		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
+		// Testing current activity: should be a21
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Firing event: e266
+		// Firing event: e201
 		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a22
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Firing event: e274
-		fireEvent (0, "", "null", "changeOrientation");
+		// Firing event: e210
+		fireEvent (2131165296, 13, "More", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a23
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Firing event: e281
-		fireEvent (0, "", "null", "changeOrientation");
+		// Firing event: e223
+		fireEvent (2131165297, 14, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a24
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Firing event: e287
-		fireEvent (0, "", "null", "openMenu");
+		// Firing event: e233
+		fireEvent (8, "", "listView", "longClickListItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a25
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Firing event: e291
-		fireEvent (2131165249, 16, "", "linearLayout", "click");
+		// Firing event: e241
+		fireEvent (2131165292, 9, " U ", "toggle", "click");
+
+		// This event leads to fail
+		solo.sleep (SLEEP_AFTER_TASK);
+	}
+
+	// Generated from trace 983
+	public void testTrace00001 () {
+
+		// Testing base activity
+		// This event leads to WordPress
+		// Testing transition 
+		// Firing event: e251
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a26
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "Dashboard");
 
 		// Testing transition 
-		// Firing event: e310
-		fireEvent (16908298, 6, "", "listView", "selectListItem", "6");
+		// Firing event: e259
+		fireEvent (2131165255, 36, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a27
 		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e330
-		fireEvent (0, "", "null", "openMenu");
+		// Firing event: e272
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a28
 		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e332
-		fireEvent (1, "New Page", "menuItem", "click");
+		// Firing event: e273
+		fireEvent (2131165200, 14, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a29
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i4
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i5
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e338
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
-
-		retrieveWidgets();
-		// Testing current activity: should be a30
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i24
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i25
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e351
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
-
-		retrieveWidgets();
-		// Testing current activity: should be a31
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i40
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i41
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e362
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
-
-		retrieveWidgets();
-		// Testing current activity: should be a32
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i52
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i53
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e371
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
-
-		retrieveWidgets();
-		// Testing current activity: should be a33
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i74
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i75
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e385
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
-
-		retrieveWidgets();
-		// Testing current activity: should be a34
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e400
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a35
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i108
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i109
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e408
-		fireEvent (2131165283, 17, "Edit", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a36
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e413
-		fireEvent (16908794, 14, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a37
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e433
-		fireEvent (16908794, 22, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a38
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e447
-		fireEvent (16908794, 22, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a39
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e461
-		fireEvent (16908794, 22, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a40
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e474
-		fireEvent (16908796, 20, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a41
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e494
-		fireEvent (0, "", "null", "back");
-
-		retrieveWidgets();
-		// Testing current activity: should be a42
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e505
-		fireEvent (0, "", "null", "back");
-
-		retrieveWidgets();
-		// Testing current activity: should be a43
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e512
-		fireEvent (0, "", "null", "changeOrientation");
-
-		retrieveWidgets();
-		// Testing current activity: should be a44
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e517
-		fireEvent (0, "", "null", "changeOrientation");
-
-		retrieveWidgets();
-		// Testing current activity: should be a45
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e520
-		fireEvent (0, "", "null", "back");
-
-		retrieveWidgets();
-		// Testing current activity: should be a46
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i140
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i141
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e529
-		fireEvent (2131165283, 17, "Edit", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a47
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e541
-		fireEvent (16908795, 23, "", "focusableEditText", "focus");
-
-		retrieveWidgets();
-		// Testing current activity: should be a48
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e554
-		fireEvent (16908794, 23, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a49
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Firing event: e570
-		fireEvent (16908796, 24, "", "button", "click");
-
-		// This event leads to fail
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 567
-	public void testTrace00003 () {
-
-		// Testing base activity
-		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e266
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a22
-		solo.assertCurrentActivity("", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e274
-		fireEvent (0, "", "null", "changeOrientation");
-
-		retrieveWidgets();
-		// Testing current activity: should be a23
-		solo.assertCurrentActivity("", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e281
-		fireEvent (0, "", "null", "changeOrientation");
-
-		retrieveWidgets();
-		// Testing current activity: should be a24
-		solo.assertCurrentActivity("", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e287
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a25
-		solo.assertCurrentActivity("", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e291
-		fireEvent (2131165249, 16, "", "linearLayout", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a26
 		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e310
-		fireEvent (16908298, 6, "", "listView", "selectListItem", "6");
+		// Firing event: e278
+		fireEvent (2131165200, 14, "", "button", "click");
 
 		retrieveWidgets();
-		// Testing current activity: should be a27
+		// Testing current activity: should be a30
+		solo.assertCurrentActivity("", "Posts");
+
+		// Testing transition 
+		// Firing event: e294
+		fireEvent (2131165200, 14, "", "button", "click");
+
+		retrieveWidgets();
+		// Testing current activity: should be a31
+		solo.assertCurrentActivity("", "Posts");
+
+		// Testing transition 
+		// Firing event: e307
+		fireEvent (2131165257, 42, "", "linearLayout", "click");
+
+		retrieveWidgets();
+		// Testing current activity: should be a32
 		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
 		// Firing event: e330
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a28
-		solo.assertCurrentActivity("", "Posts");
-
-		// Testing transition 
-		// Firing event: e332
-		fireEvent (1, "New Page", "menuItem", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a29
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i4
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i5
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e338
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
-
-		retrieveWidgets();
-		// Testing current activity: should be a30
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i24
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i25
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e351
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
-
-		retrieveWidgets();
-		// Testing current activity: should be a31
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i40
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i41
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e362
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
-
-		retrieveWidgets();
-		// Testing current activity: should be a32
-		solo.assertCurrentActivity("", "EditPost");
-
-		// Testing transition 
-		// Setting input: i52
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i53
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e371
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
+		fireEvent (2131165201, 51, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a33
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Setting input: i74
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i75
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e385
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e337
+		fireEvent (16908298, 6, "", "listView", "selectListItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a34
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e400
-		fireEvent (0, "", "null", "openMenu");
+		// Firing event: e357
+		fireEvent (2131165388, 53, "", "webPage", "longClick");
 
 		retrieveWidgets();
 		// Testing current activity: should be a35
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Setting input: i108
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i109
-		setInput (2131165286, "writeText", "45");
-		// Firing event: e408
-		fireEvent (2131165283, 17, "Edit", "button", "click");
+		// Firing event: e367
+		fireEvent (2131165388, 53, "", "webPage", "longClick");
 
 		retrieveWidgets();
 		// Testing current activity: should be a36
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e413
-		fireEvent (16908794, 14, "", "button", "click");
+		// Firing event: e380
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a37
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e433
-		fireEvent (16908794, 22, "", "button", "click");
+		// Firing event: e385
+		fireEvent (16908298, 6, "", "listView", "selectListItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a38
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e447
-		fireEvent (16908794, 22, "", "button", "click");
+		// Firing event: e409
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a39
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e461
-		fireEvent (16908794, 22, "", "button", "click");
+		// Firing event: e426
+		fireEvent (2131165200, 49, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a40
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e474
-		fireEvent (16908796, 20, "", "button", "click");
+		// Firing event: e440
+		fireEvent (16908298, 6, "", "listView", "longClickListItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a41
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e494
-		fireEvent (0, "", "null", "back");
+		// Firing event: e464
+		fireEvent (16908298, 6, "", "listView", "selectListItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a42
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e505
-		fireEvent (0, "", "null", "back");
+		// Firing event: e514
+		fireEvent (2131165258, 81, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a43
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Comments");
 
 		// Testing transition 
-		// Firing event: e512
-		fireEvent (0, "", "null", "changeOrientation");
+		// Firing event: e523
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a44
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e517
-		fireEvent (0, "", "null", "changeOrientation");
+		// Firing event: e537
+		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a45
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e520
-		fireEvent (0, "", "null", "back");
+		// Firing event: e545
+		fireEvent (8, "", "listView", "selectListItem", "1");
 
 		retrieveWidgets();
 		// Testing current activity: should be a46
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i140
+		// Setting input: i234
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i141
+		// Setting input: i235
 		setInput (2131165286, "writeText", "45");
-		// Firing event: e529
-		fireEvent (2131165283, 17, "Edit", "button", "click");
+		// Firing event: e559
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a47
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e541
-		fireEvent (16908795, 23, "", "focusableEditText", "focus");
+		// Setting input: i244
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i245
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e567
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a48
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e554
-		fireEvent (16908794, 23, "", "button", "click");
+		// Setting input: i258
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i259
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e577
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "1");
 
 		retrieveWidgets();
 		// Testing current activity: should be a49
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e570
-		fireEvent (16908796, 24, "", "button", "click");
+		// Setting input: i282
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i283
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e592
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
 
-		// This event leads to fail
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 582
-	public void testTrace00004 () {
-
-		// Testing base activity
 		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
+		// Testing current activity: should be a50
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e581
-		fireEvent (2131165252, 28, "", "linearLayout", "click");
-
-		// This event leads to WordPress
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 627
-	public void testTrace00005 () {
-
-		// Testing base activity
-		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e604
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i294
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i295
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e601
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a51
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e609
-		fireEvent (4, "About", "menuItem", "click");
+		// Setting input: i312
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i313
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e613
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a52
-		solo.assertCurrentActivity("", "About");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e617
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i324
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i325
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e622
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a53
-		solo.assertCurrentActivity("", "About");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e623
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i346
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i347
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e636
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a54
-		solo.assertCurrentActivity("", "About");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e626
-		fireEvent (2131165192, 9, "Privacy Policy", "button", "click");
+		// Setting input: i366
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i367
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e649
+		fireEvent (2131165287, 21, "Save", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a55
-		solo.assertCurrentActivity("", "About");
-
-		// Testing transition 
-		// Firing event: e633
-		fireEvent (2131165193, 10, "www.automattic.com", "text", "click");
-
-		// This event leads to fail
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 627
-	public void testTrace00006 () {
-
-		// Testing base activity
-		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e604
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a51
-		solo.assertCurrentActivity("", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e609
-		fireEvent (4, "About", "menuItem", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a52
-		solo.assertCurrentActivity("", "About");
-
-		// Testing transition 
-		// Firing event: e617
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a53
-		solo.assertCurrentActivity("", "About");
-
-		// Testing transition 
-		// Firing event: e623
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a54
-		solo.assertCurrentActivity("", "About");
-
-		// Testing transition 
-		// Firing event: e626
-		fireEvent (2131165192, 9, "Privacy Policy", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a55
-		solo.assertCurrentActivity("", "About");
-
-		// Testing transition 
-		// Firing event: e633
-		fireEvent (2131165193, 10, "www.automattic.com", "text", "click");
-
-		// This event leads to fail
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 629
-	public void testTrace00007 () {
-
-		// Testing base activity
-		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e637
-		fireEvent (0, "", "null", "openMenu");
-
-		// This event leads to fail
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 796
-	public void testTrace00008 () {
-
-		// Testing base activity
-		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e653
-		fireEvent (0, "", "null", "changeOrientation");
-
-		retrieveWidgets();
-		// Testing current activity: should be a56
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
 		// Firing event: e663
-		fireEvent (2131165258, 43, "", "linearLayout", "click");
+		fireEvent (16908298, 6, "", "listView", "longClickListItem", "4");
+
+		retrieveWidgets();
+		// Testing current activity: should be a56
+		solo.assertCurrentActivity("", "Posts");
+
+		// Testing transition 
+		// Firing event: e674
+		fireEvent (8, "", "listView", "selectListItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a57
-		solo.assertCurrentActivity("", "Comments");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e670
-		fireEvent (2131165200, 18, "", "button", "click");
+		// Firing event: e683
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a58
-		solo.assertCurrentActivity("", "Comments");
+		solo.assertCurrentActivity("", "ChooserActivity");
 
 		// Testing transition 
-		// Firing event: e686
-		fireEvent (2131165263, 60, "", "linearLayout", "click");
+		// Firing event: e690
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a59
-		solo.assertCurrentActivity("", "Read");
-
-		// Testing transition 
-		// Firing event: e693
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a60
-		solo.assertCurrentActivity("", "Read");
+		solo.assertCurrentActivity("", "ChooserActivity");
 
 		// Testing transition 
 		// Firing event: e695
-		fireEvent (1, "Home", "menuItem", "click");
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
-		// Testing current activity: should be a61
-		solo.assertCurrentActivity("", "Comments");
-
-		// Testing transition 
-		// Firing event: e702
-		fireEvent (2131165201, 20, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a62
-		solo.assertCurrentActivity("", "Comments");
+		// Testing current activity: should be a60
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
 		// Firing event: e709
-		fireEvent (0, "", "null", "changeOrientation");
+		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5");
+
+		retrieveWidgets();
+		// Testing current activity: should be a61
+		solo.assertCurrentActivity("", "Posts");
+
+		// Testing transition 
+		// Firing event: e718
+		fireEvent (8, "", "listView", "selectListItem", "2");
+
+		retrieveWidgets();
+		// Testing current activity: should be a62
+		solo.assertCurrentActivity("", "Posts");
+
+		// Testing transition 
+		// Firing event: e726
+		fireEvent (16908313, 15, "Yes", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a63
-		solo.assertCurrentActivity("", "Comments");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e710
-		fireEvent (16908313, 15, "OK", "button", "click");
+		// Firing event: e731
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a64
-		solo.assertCurrentActivity("", "Comments");
+		solo.assertCurrentActivity("", "Dashboard");
 
 		// Testing transition 
-		// Firing event: e715
-		fireEvent (2131165201, 20, "", "button", "click");
+		// Firing event: e741
+		fireEvent (2131165255, 36, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a65
-		solo.assertCurrentActivity("", "Comments");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e722
-		fireEvent (0, "", "null", "changeOrientation");
+		// Firing event: e751
+		fireEvent (2131165201, 16, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a66
-		solo.assertCurrentActivity("", "Comments");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e724
-		fireEvent (0, "", "null", "back");
+		// Firing event: e759
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a67
-		solo.assertCurrentActivity("", "Comments");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e729
-		fireEvent (0, "", "null", "back");
+		// Firing event: e761
+		fireEvent (2131165201, 16, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a68
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e742
-		fireEvent (2131165262, 50, "", "linearLayout", "click");
+		// Firing event: e767
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a69
-		solo.assertCurrentActivity("", "Settings");
-
-		// Testing transition 
-		// Setting input: i148
-		setInput (2131165215, "writeText", "27");
-		// Setting input: i149
-		setInput (2131165217, "writeText", "29");
-		// Firing event: e750
-		fireEvent (2131165348, 18, "", "spinner", "selectSpinnerItem", "3");
-
-		retrieveWidgets();
-		// Testing current activity: should be a70
-		solo.assertCurrentActivity("", "Settings");
-
-		// Testing transition 
-		// Setting input: i202
-		setInput (2131165215, "writeText", "27");
-		// Setting input: i203
-		setInput (2131165217, "writeText", "29");
-		// Firing event: e780
-		fireEvent (2131165219, 24, "Save", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a71
 		solo.assertCurrentActivity("", "Dashboard");
 
 		// Testing transition 
-		// Firing event: e798
-		fireEvent (2131165264, 56, "", "linearLayout", "click");
+		// Firing event: e777
+		fireEvent (2131165255, 36, "", "linearLayout", "click");
+
+		retrieveWidgets();
+		// Testing current activity: should be a70
+		solo.assertCurrentActivity("", "Posts");
+
+		// Testing transition 
+		// Firing event: e787
+		fireEvent (2131165201, 16, "", "button", "click");
+
+		retrieveWidgets();
+		// Testing current activity: should be a71
+		solo.assertCurrentActivity("", "Posts");
+
+		// Testing transition 
+		// Firing event: e794
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a72
-		solo.assertCurrentActivity("", "ViewStats");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Setting input: i210
-		setInput (2131165378, "writeText", "77");
-		// Setting input: i211
-		setInput (2131165379, "writeText", "78");
+		// Firing event: e799
+		fireEvent (0, "", "null", "changeOrientation");
+
+		retrieveWidgets();
+		// Testing current activity: should be a73
+		solo.assertCurrentActivity("", "Posts");
+
+		// Testing transition 
 		// Firing event: e803
-		fireEvent (2131165381, 19, "Need help?", "text", "click");
-
-		// This event leads to WordPress
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 798
-	public void testTrace00009 () {
-
-		// Testing base activity
-		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
-
-		// Testing transition 
-		// Firing event: e810
 		fireEvent (0, "", "null", "changeOrientation");
 
-		// This event leads to WordPress
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 800
-	public void testTrace00010 () {
-
-		// Testing base activity
 		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
+		// Testing current activity: should be a74
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e812
+		// Firing event: e807
 		fireEvent (0, "", "null", "changeOrientation");
 
-		// This event leads to WordPress
-		solo.sleep (SLEEP_AFTER_TASK);
-	}
-
-	// Generated from trace 989
-	public void testTrace00011 () {
-
-		// Testing base activity
 		retrieveWidgets();
-		// Testing current activity: should be a1
-		solo.assertCurrentActivity("Testing base activity", "Dashboard");
+		// Testing current activity: should be a75
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e815
-		fireEvent (2131165204, 16, "", "linearLayout", "click");
+		// Firing event: e811
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a76
 		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e842
+		// Firing event: e813
 		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a77
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e848
-		fireEvent (2131165251, 21, "", "linearLayout", "click");
+		// Firing event: e816
+		fireEvent (2131165200, 14, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a78
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e881
-		fireEvent (0, "", "null", "openMenu");
+		// Firing event: e826
+		fireEvent (2131165253, 31, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a79
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i276
+		// Setting input: i368
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i277
-		setInput (2131165268, "writeText", "85");
-		// Setting input: i278
+		// Setting input: i369
 		setInput (2131165286, "writeText", "45");
-		// Firing event: e884
-		fireEvent (2131165269, 14, "Select Categories", "button", "click");
+		// Firing event: e837
+		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a80
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "EditContent");
+
+		// Testing transition 
+		// Firing event: e859
+		fireEvent (0, "", "null", "changeOrientation");
+
+		retrieveWidgets();
+		// Testing current activity: should be a81
+		solo.assertCurrentActivity("", "EditContent");
+
+		// Testing transition 
+		// Firing event: e862
+		fireEvent (2131165291, 8, "I ", "toggle", "click");
+
+		retrieveWidgets();
+		// Testing current activity: should be a82
+		solo.assertCurrentActivity("", "EditContent");
+
+		// Testing transition 
+		// Firing event: e881
+		fireEvent (0, "", "null", "back");
+
+		retrieveWidgets();
+		// Testing current activity: should be a83
+		solo.assertCurrentActivity("", "EditContent");
+
+		// Testing transition 
+		// Firing event: e894
+		fireEvent (0, "", "null", "openMenu");
+
+		retrieveWidgets();
+		// Testing current activity: should be a84
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
 		// Firing event: e906
 		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
-		// Testing current activity: should be a81
-		solo.assertCurrentActivity("", "SelectCategories");
-
-		// Testing transition 
-		// Firing event: e910
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
-		// Testing current activity: should be a82
-		solo.assertCurrentActivity("", "SelectCategories");
-
-		// Testing transition 
-		// Firing event: e913
-		fireEvent (0, "", "null", "back");
-
-		retrieveWidgets();
-		// Testing current activity: should be a83
-		solo.assertCurrentActivity("", "SelectCategories");
-
-		// Testing transition 
-		// Firing event: e916
-		fireEvent (2131165344, 5, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a84
-		solo.assertCurrentActivity("", "AddCategory");
-
-		// Testing transition 
-		// Firing event: e924
-		fireEvent (0, "", "null", "openMenu");
-
-		retrieveWidgets();
 		// Testing current activity: should be a85
-		solo.assertCurrentActivity("", "AddCategory");
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Setting input: i339
-		setInput (2131165228, "writeText", "61");
-		// Setting input: i340
-		setInput (2131165230, "writeText", "84");
-		// Setting input: i341
-		setInput (2131165232, "writeText", "86");
-		// Firing event: e927
-		fireEvent (2131165220, 15, "Cancel", "button", "click");
+		// Firing event: e911
+		fireEvent (2131165292, 9, " U ", "toggle", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a86
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Firing event: e934
-		fireEvent (0, "", "null", "openMenu");
+		// Firing event: e924
+		fireEvent (2131165293, 10, " ABC ", "toggle", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a87
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Firing event: e937
+		// Firing event: e941
 		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a88
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e943
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i392
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i393
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e948
+		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a89
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e947
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i400
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i401
+		setInput (2131165286, "writeText", "45");
+		// Firing event: e955
+		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a90
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "EditContent");
 
 		// Testing transition 
-		// Firing event: e949
-		fireEvent (2131165344, 5, "", "button", "click");
+		// Firing event: e971
+		fireEvent (2131165294, 11, " link ", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a91
-		solo.assertCurrentActivity("", "AddCategory");
+		solo.assertCurrentActivity("", "Link");
 
 		// Testing transition 
-		// Firing event: e956
-		fireEvent (0, "", "null", "back");
-
-		retrieveWidgets();
-		// Testing current activity: should be a92
-		solo.assertCurrentActivity("", "SelectCategories");
-
-		// Testing transition 
-		// Firing event: e959
-		fireEvent (2131165344, 5, "", "button", "click");
-
-		retrieveWidgets();
-		// Testing current activity: should be a93
-		solo.assertCurrentActivity("", "AddCategory");
-
-		// Testing transition 
-		// Firing event: e966
-		fireEvent (0, "", "null", "back");
-
-		retrieveWidgets();
-		// Testing current activity: should be a94
-		solo.assertCurrentActivity("", "SelectCategories");
-
-		// Testing transition 
-		// Firing event: e973
+		// Firing event: e982
 		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
-		// Testing current activity: should be a95
-		solo.assertCurrentActivity("", "SelectCategories");
+		// Testing current activity: should be a92
+		solo.assertCurrentActivity("", "Link");
 
 		// Testing transition 
-		// Firing event: e977
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i422
+		setInput (2131165303, "writeText", "55");
+		// Setting input: i423
+		setInput (2131165304, "writeText", "56");
+		// Firing event: e984
+		fireEvent (2131165220, 8, "Cancel", "button", "click");
+
+		// This event leads to crash
+		solo.sleep (SLEEP_AFTER_TASK);
+	}
+
+	// Generated from trace 985
+	public void testTrace00002 () {
+
+		// Testing base activity
+		// This event leads to WordPress
+		// Testing transition 
+		// Firing event: e989
+		fireEvent (0, "", "null", "changeOrientation");
+
+		// This event leads to WordPress
+		solo.sleep (SLEEP_AFTER_TASK);
+	}
+
+	// Generated from trace 1063
+	public void testTrace00003 () {
+
+		// Testing base activity
+		// This event leads to WordPress
+		// Testing transition 
+		// Firing event: e999
+		fireEvent (2131165258, 43, "", "linearLayout", "click");
+
+		retrieveWidgets();
+		// Testing current activity: should be a94
+		solo.assertCurrentActivity("", "Comments");
+
+		// Testing transition 
+		// Firing event: e1006
+		fireEvent (2131165201, 20, "", "button", "click");
+
+		retrieveWidgets();
+		// Testing current activity: should be a95
+		solo.assertCurrentActivity("", "Comments");
+
+		// Testing transition 
+		// Firing event: e1012
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a96
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "Dashboard");
 
 		// Testing transition 
-		// Firing event: e980
-		fireEvent (0, "", "null", "back");
+		// Firing event: e1017
+		fireEvent (2131165204, 16, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a97
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e983
-		fireEvent (2131165344, 5, "", "button", "click");
+		// Firing event: e1040
+		fireEvent (16908298, 6, "", "listView", "longClickListItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a98
-		solo.assertCurrentActivity("", "AddCategory");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e990
-		fireEvent (0, "", "null", "back");
+		// Firing event: e1054
+		fireEvent (8, "", "listView", "longClickListItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a99
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e997
+		// Firing event: e1063
 		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a100
-		solo.assertCurrentActivity("", "SelectCategories");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e999
-		fireEvent (2131165345, 6, "Done", "button", "click");
+		// Firing event: e1067
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a101
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		solo.sleep (SLEEP_AFTER_TASK);
 	}

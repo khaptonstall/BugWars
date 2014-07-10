@@ -29,7 +29,7 @@ import static android.content.Context.WINDOW_SERVICE;
 import static android.view.Surface.*;
 
 @SuppressWarnings("rawtypes")
-public class AndroidGuiTest extends ActivityInstrumentationTestCase2 {
+public class WP_2_5 extends ActivityInstrumentationTestCase2 {
 	
 	// Attributes
 	private Activity theActivity;
@@ -118,7 +118,7 @@ public class AndroidGuiTest extends ActivityInstrumentationTestCase2 {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public AndroidGuiTest () {
+	public WP_2_5 () {
 		super(PACKAGE_NAME,theClass);
 		this.theViews = new HashMap<Integer,View>();
 	}
