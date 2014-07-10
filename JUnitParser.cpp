@@ -23,20 +23,24 @@ using namespace std;
 string parser(string inputText);
 bool found(string line, string text);
 int orientationCount;
+string fullPath;
+string NAME_FORMAT = "WP_2_"; //format of junit file names
 
 int main(int argc, char** argv) {
 
-	orientationCount = 1;
-	ifstream infile;
-	infile.open("INPUT.java"); //Replace with your JUnit file name
-	string currLine;
-	string nextLine;
-	ofstream outfile;
-	outfile.open("OUTPUT.java"); //Replace with desired output JUnit name
+	fullPath = "PATH/FILENAME.java";	//Replace with the full path of JUnit test suite
+	string outPath = fullPath.substr(0, fullPath.find(".")) + "_p.java";
 
-	outfile << "//Parser replaces non-working fireEvent calls in testCase with"
+	ifstream infile;
+	infile.open(fullPath.c_str());
+	string currLine, nextLine;
+	ofstream outfile;
+	outfile.open(outPath.c_str());
+
+	outfile << "//JUnitParser replaces non-working fireEvent calls in testCase with"
 			<< '\n' << "//working Robotium methods." << '\n';
 
+	orientationCount = 1;
 	if (infile.is_open()) {
 		while (getline(infile, currLine)) {
 			if (found(currLine, "fireEvent")) {
@@ -50,6 +54,8 @@ int main(int argc, char** argv) {
 					getline(infile, nextLine);
 					outfile << parser(currLine + nextLine) << '\n';
 				}
+			} else if(found(currLine, "AndroidGuiTest") || found(currLine, NAME_FORMAT)) {
+				outfile << parser(currLine) << '\n';
 			} else {
 				outfile << parser(currLine) << '\n';
 			}
@@ -75,7 +81,7 @@ string parser(string inputText) {
 		if (found(inputText, "changeOrientation")) {
 			if (orientationCount % 2 == 0) {
 				orientationCount += 1;
-				return "\t \tsolo.setActivityOrientation(Solo.POTRAIT);";
+				return "\t \tsolo.setActivityOrientation(Solo.PORTRAIT);";
 			} else {
 				orientationCount += 1;
 				return "\t \tsolo.setActivityOrientation(Solo.LANDSCAPE);";
@@ -85,13 +91,11 @@ string parser(string inputText) {
 		} else if (found(inputText, "openMenu")) {
 			return "\t \tsolo.sendKey(Solo.MENU);";
 		} else if (found(inputText, "click")) {
-
 			vector<string> string_list;
 			istringstream ss(inputText);
 			string token;
 			while (getline(ss, token, ',')) {
 				string_list.push_back(token);
-				//cout << token << '\n';
 			}
 			if (string_list.size() == 4) {
 				if (string_list[1].length() <= 3) {
@@ -113,7 +117,21 @@ string parser(string inputText) {
 				return inputText;
 			}
 		}
-	} else {
+	}
+	//Corrects class & constructor name inside junit file to match new file name
+	//AndroidGuiTest is the default from AndroidRipper. NAME_FORMAT is declared in this file.
+	if((found(inputText, "AndroidGuiTest")) || (found(inputText, NAME_FORMAT))){
+		string name = fullPath.erase(0, fullPath.find_last_of("/") + 1);
+		name = name.substr(0, name.find("."));
+		name = name + "_p";
+		if(found(inputText, "class")) {
+			return ("public class " + name + " extends ActivityInstrumentationTestCase2 {");
+		}
+		else {
+			return ("	public " + name + " () {");
+		}
+	}
+	else {
 		return inputText;
 	}
 	return "";
@@ -132,5 +150,3 @@ bool found(string line, string text) {
 		return true;
 	} else return false;
 }
-
-
