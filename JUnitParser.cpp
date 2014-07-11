@@ -29,7 +29,7 @@ string NAME_FORMAT = "WP_2_"; //format of junit file names
 int main(int argc, char** argv) {
 
 	fullPath = "PATH/FILENAME.java";	//Replace with the full path of JUnit test suite
-	string outPath = fullPath.substr(0, fullPath.find(".")) + "_p.java";
+	string outPath = fullPath.substr(0, fullPath.find(".")) + "_parsed.java";
 
 	ifstream infile;
 	infile.open(fullPath.c_str());
@@ -43,32 +43,22 @@ int main(int argc, char** argv) {
 	orientationCount = 1;
 	if (infile.is_open()) {
 		while (getline(infile, currLine)) {
-<<<<<<< HEAD
-			if (currLine.find("fireEvent") != std::string::npos) {
-				if (currLine.find("changeOrientation") != std::string::npos) {
-					if (orientationCount % 2 == 0) {
-						outfile<< "\t \tsolo.setActivityOrientation(Solo.PORTRAIT);"<< "\n";
-						orientationCount += 1;
-					} else {
-						outfile<< "\t \tsolo.setActivityOrientation(Solo.LANDSCAPE);"<< "\n";
-						orientationCount += 1;
-					}
-				}
-				else if (currLine.find("back") == std::string::npos
-						&& currLine.find("openMenu") == std::string::npos
-						&& currLine.find("click") == std::string::npos) {
-=======
 			if (found(currLine, "fireEvent")) {
 				if (!found(currLine, "back")
 						&& !found(currLine, "openMenu")
 						&& !found(currLine, "click")
 						&& !found(currLine, "changeOrientation")) {
->>>>>>> e67166f6241779af08522f04876886d63cd3bf37
 					outfile << currLine << '\n';
 				}
 			    else {
 					getline(infile, nextLine);
-					outfile << parser(currLine + nextLine) << '\n';
+					if(!found(nextLine, "retrieve")){
+						outfile << parser(currLine + nextLine) << '\n';
+
+					}
+					else{
+						outfile << parser(currLine) << '\n' << nextLine << '\n';
+					}
 				}
 			} else if(found(currLine, "AndroidGuiTest") || found(currLine, NAME_FORMAT)) {
 				outfile << parser(currLine) << '\n';
