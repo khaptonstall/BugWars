@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
 	ofstream outfile;
 	outfile.open(outPath.c_str());
 
-	outfile << "//JUnitParser replaces non-working fireEvent calls in test case with"
+	outfile << "//JUnitParser replaces non-working fireEvent calls in testCase with"
 			<< '\n' << "//working Robotium methods." << '\n';
 
 	orientationCount = 1;
@@ -45,11 +45,12 @@ int main(int argc, char** argv) {
 		while (getline(infile, currLine)) {
 			if (found(currLine, "fireEvent")) {
 				if (!found(currLine, "back")
-					&& !found(currLine, "openMenu")
-					&& !found(currLine, "click")
-					&& !found(currLine, "changeOrientation")) {
-						outfile << currLine << '\n';
-				} else {
+						&& !found(currLine, "openMenu")
+						&& !found(currLine, "click")
+						&& !found(currLine, "changeOrientation")) {
+					outfile << currLine << '\n';
+				}
+			    else {
 					getline(infile, nextLine);
 					if(!found(nextLine, "retrieve")){
 						outfile << parser(currLine + nextLine) << '\n';
