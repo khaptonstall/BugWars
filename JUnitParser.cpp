@@ -145,7 +145,7 @@ string parser(string inputText) {
 
 
 /**
- * Returns true if the substring 'text' the string 'line'.
+ * Returns true if the substring 'text' is found in the string 'line'.
  * Returns false if the substring is not found
  * @param string line
  * @param string text
