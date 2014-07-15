@@ -1,0 +1,3381 @@
+<!--This xml file contains android/robotium event call information,
+formatted for the C-PUT tool.-->
+<testSuite>
+<session id="WP_2_1_p_00000">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Preferences</name>
+		<value>clickOnMenuItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>Preferences</baseurl>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165251, 21, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908795, 15, "", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 17, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "9");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "10");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Select Categories</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>SelectCategories</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908298, 3, "", "multiChoiceList", "selectListItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 24, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "10");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "9");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165285, 31, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 25, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165265, 10, "Content", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditContent</baseurl>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165297, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (8, "", "listView", "selectListItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>B</name>
+		<value>clickOnButton</value>
+	</param></url>
+</session>
+<session id="WP_2_1_p_00001">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>		fireEvent (2131165264, 56, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>ViewStats</baseurl>
+	<param>
+		<name>		fireEvent (2131165370, 9, "", "spinner", "selectSpinnerItem", "6");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165370, 7, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165370, 7, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165370, 7, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165370, 7, "", "spinner", "selectSpinnerItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165369, 5, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165201, 29, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>GO</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165254, 31, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param></url>
+</session>
+<session id="WP_2_1_p_00002">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Preferences</name>
+		<value>clickOnMenuItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>Preferences</baseurl>
+	<param>
+		<name>Vibrate</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Blink notification light</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165253, 24, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 24, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908795, 15, "", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 19, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908795, 15, "", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 25, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 22, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 18, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908795, 15, "", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 21, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00000">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add self-hosted WordPress blog</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Get a free blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Get a free blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Add self-hosted WordPress blog</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Add blog hosted at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Get a free blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Add self-hosted WordPress blog</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Add self-hosted WordPress blog</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Get a free blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00001">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00002">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00003">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00004">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00005">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00006">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00007">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00008">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00009">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Start a new blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Start a new blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Start a new blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add blog hosted at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Add blog hosted at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Get a free blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Start a new blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Add blog hosted at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_2_p_00010">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add blog hosted at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_3_p_00000">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165253, 28, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditContent</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>More</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165297, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (8, "", "listView", "longClickListItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param></url>
+</session>
+<session id="WP_2_3_p_00001">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165255, 36, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165200, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165200, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165200, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165257, 42, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165201, 51, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "selectListItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165388, 53, "", "webPage", "longClick");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165388, 53, "", "webPage", "longClick");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "selectListItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165200, 49, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "longClickListItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "selectListItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165258, 81, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (8, "", "listView", "selectListItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "1");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "longClickListItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (8, "", "listView", "selectListItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+<url>
+	<baseurl>ChooserActivity</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (8, "", "listView", "selectListItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165255, 36, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (2131165201, 16, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165201, 16, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165255, 36, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (2131165201, 16, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165200, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165253, 31, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditContent</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>I </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name> ABC </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditContent</baseurl>
+	<param>
+		<name> link </name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Link</baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>55</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>56</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param></url>
+</session>
+<session id="WP_2_3_p_00002">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_3_p_00003">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>		fireEvent (2131165258, 43, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>		fireEvent (2131165201, 20, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165204, 16, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "longClickListItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (8, "", "listView", "longClickListItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00000">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>		fireEvent (2131165257, 39, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (2131165200, 44, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165257, 72, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (8, "", "listView", "selectListItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>ChooserActivity</baseurl>
+	<param>
+		<name>		fireEvent (8, "", "listView", "longClickListItem", "1");</name>
+		<value>fireEvent</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00001">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Preferences</name>
+		<value>clickOnMenuItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>Preferences</baseurl>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165257, 39, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "longClickListItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (8, "", "listView", "longClickListItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>No</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "longClickListItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165201, 13, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165252, 28, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00002">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165249, 16, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "selectListItem", "6");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>New Page</name>
+		<value>clickOnMenuItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 22, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 22, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 22, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 20, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908795, 23, "", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 23, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 24, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00003">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165249, 16, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (16908298, 6, "", "listView", "selectListItem", "6");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>New Page</name>
+		<value>clickOnMenuItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 14, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 22, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 22, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 22, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 20, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908795, 23, "", "focusableEditText", "focus");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908794, 23, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (16908796, 24, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00004">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>		fireEvent (2131165252, 28, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00005">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>About</name>
+		<value>clickOnMenuItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>About</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Privacy Policy</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>www.automattic.com</name>
+		<value>clickOnButton</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00006">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>About</name>
+		<value>clickOnMenuItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>About</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Privacy Policy</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>www.automattic.com</name>
+		<value>clickOnButton</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00007">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00008">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165258, 43, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>		fireEvent (2131165200, 18, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165263, 60, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Read</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Home</name>
+		<value>clickOnMenuItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>		fireEvent (2131165201, 20, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165201, 20, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165262, 50, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Settings</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165348, 18, "", "spinner", "selectSpinnerItem", "3");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165264, 56, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>ViewStats</baseurl>
+	<param>
+		<name>77</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>78</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Need help?</name>
+		<value>clickOnButton</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00009">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00010">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_4_p_00011">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>		fireEvent (2131165204, 16, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165251, 21, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Select Categories</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>SelectCategories</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165344, 5, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddCategory</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>61</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>84</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>86</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>SelectCategories</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165344, 5, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddCategory</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>SelectCategories</baseurl>
+	<param>
+		<name>		fireEvent (2131165344, 5, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddCategory</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>SelectCategories</baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165344, 5, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddCategory</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>SelectCategories</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Done</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl></url>
+</session>
+<session id="WP_2_5_p_00000">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add self-hosted WordPress blog</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Get a free blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Signup</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_6_p_00000">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>Add self-hosted WordPress blog</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Optional Settings</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAcountSettings</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
+	<param>
+		<name>Add self-hosted WordPress blog</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>AddAccount</baseurl>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param></url>
+</session>
+<session id="WP_2_7_p_00000">
+<url>
+	<baseurl>Dashboard</baseurl>
+
+	<param>
+		<name>		fireEvent (2131165258, 45, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Spam</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Spam</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>		fireEvent (2131165257, 41, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>		fireEvent (16908298, 9, "", "listView", "selectListItem", "2");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165200, 41, "", "button", "click");</name>
+		<value>fireEvent</value>
+	</param>
+	<param>
+		<name>		fireEvent (2131165258, 73, "", "linearLayout", "click");</name>
+		<value>fireEvent</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Approve</name>
+		<value>clickOnButton</value>
+	</param></url>
+</session>
+</testSuite>
