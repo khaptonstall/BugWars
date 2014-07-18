@@ -14,13 +14,13 @@
  *
  *      Notes: Be sure there are no comments that contain the word testTrace
  *
- *      	Formatting of list file:
- *      		first line: path of the junit test suite files
- *      			ex: C:/Users/Username/workspace/AppTests/
- *      			(include last slash)
- *      		each line after: name of a junit test file located in that path
- *      			ex: Wordpress_v2_4.java
- *      			(include extension)
+ *      Formatting of list file:
+ *      	first line: path of the junit test suite files
+ *      		ex: C:/Users/Username/workspace/AppTests/
+ *     			(include last slash)
+ *      	each line after: name of a junit test file located in that path
+ *      		ex: Wordpress_v2_4.java
+ *      		(include extension)
  */
 
 #include <iostream>
@@ -29,20 +29,29 @@
 #include <vector>
 #include <sstream>
 
+#include <stdlib.h>
+
 #include "found.h"
 #include "hasonlyspaces.h"
+#include "HexMatch.h"
 using namespace std;
 
 int xmlparse(); //main parsing method
-string eventXML(string inputText);
 string activityMgr(string inputText);
 string currentActivity;
 string path;
 
+string getInfo_fireEvent(string inputText);
+string getInfo_sendKey(string inputText);
+string getInfo_clickOnButton(string inputText);
+string getInfo_setInput(string inputText);
+string getInfo_setActivityOrientation(string inputText);
+string getInfo_goBack(string inputText);
+string getInfo_clickOnMenuItem(string inputText);
+
 string DEFAULT_ACTIVITY = "Dashboard"; //Replace with name of the starting activity
 string xmlName = "sample_out.xml"; //Replace with desired output XML file name & path
-string listName;
-//string fileListName = "fileList_p.txt"; //Replace with file name & path of the list of test suite files to include in log
+string listName; //Replace with file name & path of the list of test suite files to include in log
 
 
 /*
@@ -54,6 +63,9 @@ void setXFileName(string fileName) {
 	listName = fileName;
 }
 
+/* Main parsing method. For each java file listed in the specified text file, xmlparse() reads each line.
+ * For each gui event method, it adds information to an xml file, formatted for use with the C-PUT tool.
+ */
 int xmlparse() {
 
 	bool traceFound = false;
@@ -73,7 +85,7 @@ int xmlparse() {
 		while (has_only_spaces(line)) {
 			getline(listFile, line);
 		}
-		path = line;	//set path of JUnit test suites
+		path = line; //sets path of JUnit test suites
 		//for each line (each line is a file name in fileList.txt):
 		while(getline(listFile, line)){
 			if (!has_only_spaces(line)) {
@@ -99,28 +111,30 @@ int xmlparse() {
 						}
 						//if inside a testTrace method:
 						else if (traceFound) {
-							//if end of testTrace method found
 							if(found(currLine, "}")) {
-								outfile << "</url>\n" << "</session>\n";
+								//if end of testTrace method found
+								outfile << "\n</url>\n" << "</session>\n";
 								traceFound = false;
-							}
-							if(found(currLine, "solo.sendKey") ||
-									found(currLine, "solo.clickOnButton") ||
-									found(currLine, "setInput") ||
-									found(currLine, "solo.setActivityOrientation") ||
-									found(currLine, "solo.goBack") ||
-									found(currLine, "solo.clickOnMenuItem") ||
-									found(currLine, "linearLayout") ||
-									found(currLine, "fireEvent")) {
-								outfile << eventXML(currLine);
-								// << '\n'
-							}
-							else if(found(currLine, "solo.assertCurrentActivity")) {
+							} else if (found(currLine, "solo.sendKey")) {
+								outfile << getInfo_sendKey(currLine);
+							} else if (found(currLine, "solo.clickOnButton")) {
+								outfile << getInfo_clickOnButton(currLine);
+							} else if (found(currLine, "setInput")) {
+								outfile << getInfo_setInput(currLine);
+							} else if (found(currLine, "solo.setActivityOrientation")) {
+								outfile << getInfo_setActivityOrientation(currLine);
+							} else if (found(currLine, "solo.goBack")) {
+								outfile << getInfo_goBack(currLine);
+							} else if (found(currLine, "solo.clickOnMenuItem")) {
+								outfile << getInfo_clickOnMenuItem(currLine);
+							} else if (found(currLine, "fireEvent")) {
+								outfile << getInfo_fireEvent(currLine);
+							} else if(found(currLine, "solo.assertCurrentActivity")) {
 									outfile << activityMgr(currLine);
 							}
 						}
 					}
-				} else {
+				}else {
 					cout << "Unable to open current junit file: " << filePath << endl;
 				}
 				infile.close();
@@ -137,91 +151,215 @@ int xmlparse() {
 }
 
 
-/**
- * eventXML gets information from the robotium event methods
- * and adds xml information to the output xml file.
+
+/* Gets information from a robotium event method call: sendKey
+ * Formats information in xml.
  * @param string inputText
- * @return xml code representing android events
+ * @return xml code representing an android event
  */
-string eventXML(string inputText){
-	if (found(inputText, "fireEvent")) {				//temporary
+string getInfo_sendKey(string inputText) {
+	if(found(inputText, "Solo.MENU")) {
+		return ("\n\t<param>\n\t\t"
+				"<name>Solo.MENU</name>\n\t\t"
+				"<value>sendKey</value>\n\t</param>");
+	} else {
+		return "unknown key";
+		cout << "sendKey not matched to existing key options." << endl;
+	}
+}
+
+/* Gets information from a robotium event method call: clickOnButton
+ * Formats information in xml.
+ * @param string inputText
+ * @return xml code representing an android event
+ */
+string getInfo_clickOnButton(string inputText) {
+	//solo.clickOnButton( "Privacy Policy");
+	/*
+	vector<string> string_list;
+	istringstream ss(inputText);
+	string token;
+	while(getline(ss, token, '\"')){
+		string_list.push_back(token);
+	}
+	string button = string_list[1];
+	*/
+	string button = inputText.substr(inputText.find("\"") + 1, string::npos);
+	button = button.substr(0, button.find("\""));
+
+	return "\n\t<param>\n\t\t<name>"
+			+ button
+			+ "</name>\n\t\t<value>clickOnButton</value>\n\t</param>";
+}
+
+/* Gets information from an inputText method
+ * Formats information for xml file.
+ * @param string inputText
+ * @return xml code representing an android event
+ */
+string getInfo_setInput(string inputText) {
+	//setInput (2131165236, "writeText", "90");
+	/*
+	vector<string> string_list;
+	istringstream sstream(inputText);
+	string token;
+	while(getline(sstream, token, ',')){
+		string_list.push_back(token);
+	}
+	string text = string_list[2];
+	text = text.erase(0,2);
+	text = text.erase(text.find("\""));
+	*/
+	string input = inputText.substr(0, inputText.find_last_of("\""));
+	input = input.substr(input.find_last_of("\"") + 1, string::npos);
+
+	return  "\n\t<param>\n\t\t<name>"
+			+ input
+			+ "</name>\n\t\t<value>setInput</value>\n\t</param>";
+}
+
+/* Gets information from a robotium event method: setActivityOrientation
+ * Formats information for xml file.
+ * @param string inputText
+ * @return xml code representing an android event
+ */
+string getInfo_setActivityOrientation(string inputText) {
+	if(found(inputText, "Solo.LANDSCAPE")) {
+		return ("\n\t<param>\n\t\t"
+				"<name>Solo.LANDSCAPE</name>\n\t\t"
+				"<value>setActivityOrientation</value>\n\t</param>");
+	} else if(found(inputText, "Solo.PORTRAIT")) {
+		return ("\n\t<param>\n\t\t"
+				"<name>Solo.PORTRAIT</name>\n\t\t"
+				"<value>setActivityOrientation</value>\n\t</param>");
+	}
+	return inputText;
+}
+
+/* Gets information from a robotium event method: goBack
+ * Formats information for xml file.
+ * @param string inputText
+ * @return xml code representing an android event
+ */
+string getInfo_goBack(string inputText) {
+	return ("\n\t<param>\n\t\t"
+			"<name>Back</name>\n\t\t"
+			"<value>sendKey</value>\n\t</param>");
+}
+
+/* Gets information from robotium method clickOnMenuItem(itemName)
+ * & formats information in xml.
+ * @param string inputText
+ * @return xml code representing an android event
+ */
+string getInfo_clickOnMenuItem(string inputText) {
+	//solo.clickOnMenuItem( "New Page");
+	/*
+	vector<string> string_list;
+	istringstream ss(inputText);
+	string token;
+	while(getline(ss, token, '\"')){
+		string_list.push_back(token);
+	}
+	string item = string_list[1];
+	*/
+	string item = inputText.substr(inputText.find("\"") + 1, string::npos);
+	item = item.substr(0, item.find("\""));
+	return "\n\t<param>\n\t\t<name>"
+			+ item
+			+ "</name>\n\t\t<value>clickOnMenuItem</value>\n\t</param>";
+}
+
+/* Gets information from an fireEvent method call
+ * Formats information for xml file.
+ * @param string inputText
+ * @return xml code representing an android event
+ */
+string getInfo_fireEvent(string inputText) {
+	if(found(inputText, "listView")) {
+			/*
+		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5"); //page from database/listview
+			public void fireEvent (int widgetId, int widgetIndex, String widgetName, String widgetType, String eventType, String value)
+		fireEvent (8, "", "listView", "selectListItem", "3");	//context menu
+			public void fireEvent (int widgetIndex, String widgetName, String widgetType, String eventType, String value);
+		fireEvent (8, "", "listView", "longClickListItem", "1"); //context menu
+			public void fireEvent (int widgetIndex, String widgetName, String widgetType, String eventType, String value);
+		*/
+		inputText = inputText.erase(0, inputText.find("(") + 1);
+		inputText = inputText.erase(inputText.find(")"), string::npos);
+		cout << "\n" << inputText << endl;
+
+		string clickType;
+		if (found(inputText, "longClickListItem")) {
+			clickType = "longClickListItem";
+		} else if (found(inputText, "selectListItem")) {
+			clickType = "selectListItem";
+		}
+
+		vector<string> param_list;
+		istringstream ss(inputText);
+		string token;
+		while(getline(ss, token, ',')){
+			param_list.push_back(token);
+		}
+		//int i;
+		for (int i = 0; i < param_list.size(); i++) {
+			cout << param_list[i] << endl;
+		}
+		//If the second fireEvent parameter is an empty string (""), it is clicking on a context menu
+		if (found(param_list[1], "\"\"")) {
+			string value = param_list[4];
+			value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2);
+
+			return ("\n\t<param>\n\t\t<name>"
+				"listItem #" + value + " in context menu."
+				"</name>\n\t\t"
+				"<value>" + clickType + "</value>\n\t</param>");
+
+		}
+		//if the second fireEvent parameter is not an empty string, it is NOT clicking on a context menu item
+		else {
+			string value = param_list[5];
+			value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2); //erases quotation marks around the string value
+
+			//int n = atoi(value.c_str());
+			//cout << "value: " << value << endl;
+			//cout << "N: " << n << endl;
+			//int n = Math.min(l.getCount(), Math.max(1,num))-1;
+
+			return ("\n\t<param>\n\t\t<name>"
+				"listItem, value = " + value
+				+ "</name>\n\t\t"
+				"<value>" + clickType + "</value>\n\t</param>");
+
+		}
+	}
+
+	else if(found(inputText, "\"click\"")) {
+		//fireEvent (2131165251, 21, "", "linearLayout", "click");
+		string i = inputText.substr(inputText.find("("));
+		i = i.substr(1, i.find(","));
+
+		//string myString = i;
+		//v1 = widgetID
+		int v1 = atoi(i.c_str());
+
+		//cout << "v1: " << v1 << endl;
+		//cout << "v2: " << value << endl;
+
 		return ("\n\t<param>\n\t\t"
 			"<name>"
-			+ inputText
+			+ findWidgetName(v1)
 			+ "</name>\n\t\t"
 			"<value>fireEvent</value>\n\t</param>");
 		//cout << "found!" << endl;
+		//}
 	}
-	else if(found(inputText, "solo.sendKey")) {
-		if(found(inputText, "Solo.MENU")) {
-			return ("\n\t<param>\n\t\t"
-					"<name>Solo.MENU</name>\n\t\t"
-					"<value>sendKey</value>\n\t</param>");
-		} else {
-			cout << "sendKey not matched to existing key options." << endl;
-		}
-	}
-	else if(found(inputText, "solo.clickOnButton")) {		//clickOnButton events
-		vector<string> string_list;
-		istringstream ss(inputText);
-		string token;
-		while(getline(ss, token, '\"')){
-			string_list.push_back(token);
-		}
-		string button = string_list[1];
-		return "\n\t<param>\n\t\t<name>"
-				+ button
-				+ "</name>\n\t\t<value>clickOnButton</value>\n\t</param>";
-	}
-	else if(found(inputText, "setInput")) {				//setInput events
-		vector<string> string_list;
-		istringstream sstream(inputText);
-		string token;
-		while(getline(sstream, token, ',')){
-			string_list.push_back(token);
-		}
-		string text = string_list[2];
-		text = text.erase(0,2);
-		text = text.erase(text.find("\""));
-		return  "\n\t<param>\n\t\t<name>" + text
-				+ "</name>\n\t\t<value>setInput</value>\n\t</param>";
-	}
-	else if(found(inputText, "solo.setActivityOrientation")) {	//setActivityOrientation events
-		if(found(inputText, "Solo.LANDSCAPE")) {
-			return ("\n\t<param>\n\t\t"
-					"<name>Solo.LANDSCAPE</name>\n\t\t"
-					"<value>setActivityOrientation</value>\n\t</param>");
-		} else if(found(inputText, "Solo.PORTRAIT")) {
-			return ("\n\t<param>\n\t\t"
-					"<name>Solo.PORTRAIT</name>\n\t\t"
-					"<value>setActivityOrientation</value>\n\t</param>");
-		}
-	}
-	else if(found(inputText, "solo.goBack")) {					//goBack events								//temporary
-		return ("\n\t<param>\n\t\t"
-				"<name>Back</name>\n\t\t"
-				"<value>sendKey</value>\n\t</param>");
-	}
-	else if(found(inputText, "solo.clickOnMenuItem")) {
-		vector<string> string_list;
-		istringstream ss(inputText);
-		string token;
-		while(getline(ss, token, '\"')){
-			string_list.push_back(token);
-		}
-		string item = string_list[1];
-		return "\n\t<param>\n\t\t<name>"
-				+ item
-				+ "</name>\n\t\t<value>clickOnMenuItem</value>\n\t</param>";
-	}
-	else if(found(inputText, "linearLayout")) {
-		string x = "xx";
-		return "\n\t<param>\n\t\t<name>"
-				+ x
-				+ "</name>\n\t\t<value>linearLayout</value>\n\t</param>";
-	}
-	return "";
+
+	return "\n" + inputText + "\n";
 }
+
+
 
 /**
  * Reads activity name from robotium method (solo.assertCurrentActivity),

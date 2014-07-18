@@ -13,12 +13,12 @@
  *      		of both the infile and outfile as commented below. Build and run.
  *
  *      Formatting of list file:
-*      		first line: path of the junit test suite files
-*      			ex: C:/Users/Username/workspace/AppTests/
-*      			(include last slash)
-*      		each line after: name of a junit test file located in that path
-*      			ex: Wordpress_v2_4.java
-*      			(include extension)
+ *      	first line: path of the junit test suite files
+ *      		ex: C:/Users/Username/workspace/AppTests/
+ *      		(include last slash)
+ *      	each line after: name of a junit test file located in that path
+ *      		ex: Wordpress_v2_4.java
+ *      		(include extension)
  */
 
 #include <iostream>

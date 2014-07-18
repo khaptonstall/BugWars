@@ -28,6 +28,7 @@
 #include "JUnitParser.h" //declaration for jparse(bool multiple)
 #include "found.h"	//supporting method, found(string line, string text)
 #include "hasonlyspaces.h" //supporting method, has_only_spaces(string line)
+#include "HexMatch.h"
 using namespace std;
 
 bool readKey(char selection);
@@ -44,12 +45,12 @@ int main() {
 		cout << "Do you want to parse multiple test suites? y/n: " << endl;
 		cin >> selection;
 		if (readKey(selection)) {
-			cout << "What is the name of the file containing the path & list of test suites? " << endl;
+			cout << "Enter the name of the file containing the path & list of test suites: " << endl;
 			cin >> jListName;
 			setJListFile(jListName);
 			parseMultipleJUnit = true;
 		} else {
-			cout << "What is the name of the file containing the path of the test suite? " << endl;
+			cout << "Enter the name of the file containing the path of the test suite: " << endl;
 			string jpath;
 			cin >> jpath;
 			setPath(jpath);
@@ -68,10 +69,16 @@ int main() {
 			string xListName = setJListFile(jListName);
 			setXFileName(xListName);
 		} else {
-			cout << "What is the name of the file containing the path & list of test suites to add to the xml file? "  << endl;
+			cout << "Enter the name of the file containing the path & list of test suites to add to the xml file:"  << endl;
 			string xListName;
 			cin >> xListName;
 			setXFileName(xListName);
+		}
+		if (!isRPathSet()) {
+			cout << "Enter the full path of the R.java file for the android application being tested:" << endl;
+			string rpath;
+			cin >> rpath;
+			setRPath(rpath);
 		}
 		parseXML = true;
 	} else {
@@ -94,6 +101,7 @@ int main() {
 	}
 
 	cout << "DONE." << endl;
+
 	return 0;
 }
 

@@ -1,4 +1,0 @@
-C:/Users/Meredith/workspace/WPTest_2/src/org/wordpress/android/test/
-WP_2_1.java
-WP_2_2.java
-WP_2_3.java
