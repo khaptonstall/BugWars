@@ -1,6 +1,6 @@
 package org.wordpress.android.test;
 
-/* Wordpress 2.1 Original Version Random - WP2.1_0 folder */
+/* Wordpress 2.1 Original Version Random - WP2.1_1 folder */
 
 /*	Add package and import declarations. Try CTRL+SHIFT+O if you're using Eclipse.
 //	Robotium must be in the build path!!! Otherwise, Solo cannot be resolved to a class.
@@ -143,837 +143,795 @@ public class AndroidGuiTest extends ActivityInstrumentationTestCase2 {
 
 	// Test Cases
 
-	// Generated from trace 1738
+	// Generated from trace 101
 	public void testTrace00000 () {
 
 		// Testing base activity
 		// This event leads to WordPress
 		// Testing transition 
-		// Firing event: e0
-		fireEvent (0, "", "null", "openMenu");
+		// Firing event: e1
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a2
 		solo.assertCurrentActivity("", "Dashboard");
 
 		// Testing transition 
-		// Firing event: e3
-		fireEvent (2, "Preferences", "menuItem", "click");
+		// Firing event: e7
+		fireEvent (2131165254, 28, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a3
-		solo.assertCurrentActivity("", "Preferences");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e9
-		fireEvent (1, 9, "Katie's Sweet Testing Blog", "check", "click");
+		// Setting input: i12
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i13
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i14
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e22
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a4
-		solo.assertCurrentActivity("", "Preferences");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e26
-		fireEvent (23, "Cancel", "button", "click");
+		// Setting input: i33
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i34
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i35
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e32
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a5
-		solo.assertCurrentActivity("", "Dashboard");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e38
-		fireEvent (2131165256, 36, "", "linearLayout", "click");
+		// Firing event: e46
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a6
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e47
-		fireEvent (16908298, 9, "", "listView", "selectListItem", "1");
+		// Setting input: i66
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i67
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i68
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e49
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a7
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e67
-		fireEvent (16908298, 9, "", "listView", "longClickListItem", "4");
+		// Setting input: i96
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i97
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i98
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e62
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a8
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e77
-		fireEvent (8, "", "listView", "longClickListItem", "2");
+		// Setting input: i111
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i112
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i113
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e70
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a9
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e83
-		fireEvent (16908314, 17, "No", "button", "click");
+		// Setting input: i144
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i145
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i146
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e84
+		fireEvent (2131165293, 36, "Save", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a10
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "Dashboard");
 
 		// Testing transition 
-		// Firing event: e93
-		fireEvent (16908298, 9, "", "listView", "longClickListItem", "3");
+		// Firing event: e99
+		fireEvent (2131165263, 53, "", "linearLayout", "click");
+
+		// This event leads to crash
+		solo.sleep (SLEEP_AFTER_TASK);
+	}
+
+	// Generated from trace 153
+	public void testTrace00001 () {
+
+		// Testing base activity
+		// This event leads to WordPress
+		// Testing transition 
+		// Firing event: e112
+		fireEvent (2131165257, 39, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a11
 		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e108
-		fireEvent (0, "", "null", "changeOrientation");
+		// Firing event: e120
+		fireEvent (16908298, 9, "", "listView", "selectListItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a12
 		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e109
-		fireEvent (8, "", "listView", "selectListItem", "1");
+		// Firing event: e142
+		fireEvent (2131165201, 63, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a13
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Posts");
 
 		// Testing transition 
-		// Firing event: e138
+		// Firing event: e150
+		fireEvent (2131165413, 23, "", "button", "click");
+
+		// This event leads to crash
+		solo.sleep (SLEEP_AFTER_TASK);
+	}
+
+	// Generated from trace 1793
+	public void testTrace00002 () {
+
+		// Testing base activity
+		// This event leads to WordPress
+		// Testing transition 
+		// Firing event: e157
 		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a14
-		solo.assertCurrentActivity("", "EditPost");
+		solo.assertCurrentActivity("", "Dashboard");
 
 		// Testing transition 
-		// Setting input: i132
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i133
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i134
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i135
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e154
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "9");
+		// Firing event: e161
+		fireEvent (2131165252, 21, "", "linearLayout", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a15
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i148
+		// Setting input: i159
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i149
+		// Setting input: i160
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i150
+		// Setting input: i161
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i151
+		// Setting input: i162
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e161
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e177
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a16
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e201
-		fireEvent (0, "", "null", "changeOrientation");
+		// Setting input: i279
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i280
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i281
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i282
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e210
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "9");
 
 		retrieveWidgets();
 		// Testing current activity: should be a17
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i308
+		// Setting input: i351
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i309
+		// Setting input: i352
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i310
+		// Setting input: i353
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i311
+		// Setting input: i354
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e207
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e231
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "9");
 
 		retrieveWidgets();
 		// Testing current activity: should be a18
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i408
+		// Setting input: i371
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i409
+		// Setting input: i372
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i410
+		// Setting input: i373
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i411
+		// Setting input: i374
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e235
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "6");
+		// Firing event: e239
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a19
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i448
+		// Setting input: i447
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i449
+		// Setting input: i448
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i450
+		// Setting input: i449
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i451
+		// Setting input: i450
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e248
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "4");
+		// Firing event: e261
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a20
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i524
+		// Setting input: i543
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i525
+		// Setting input: i544
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i526
+		// Setting input: i545
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i527
+		// Setting input: i546
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e270
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e288
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a21
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i620
+		// Setting input: i627
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i621
+		// Setting input: i628
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i622
+		// Setting input: i629
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i623
+		// Setting input: i630
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e297
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e312
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "6");
 
 		retrieveWidgets();
 		// Testing current activity: should be a22
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i692
+		// Setting input: i715
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i693
+		// Setting input: i716
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i694
+		// Setting input: i717
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i695
+		// Setting input: i718
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e318
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e337
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "10");
 
 		retrieveWidgets();
 		// Testing current activity: should be a23
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i732
+		// Setting input: i787
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i733
+		// Setting input: i788
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i734
+		// Setting input: i789
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i735
+		// Setting input: i790
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e331
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
+		// Firing event: e358
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "10");
 
 		retrieveWidgets();
 		// Testing current activity: should be a24
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e369
-		fireEvent (0, "", "null", "changeOrientation");
+		// Setting input: i803
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i804
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i805
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i806
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e365
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a25
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i904
+		// Setting input: i923
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i905
+		// Setting input: i924
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i906
+		// Setting input: i925
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i907
+		// Setting input: i926
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e380
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "4");
+		// Firing event: e398
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
 
 		retrieveWidgets();
 		// Testing current activity: should be a26
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i940
+		// Setting input: i955
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i941
+		// Setting input: i956
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i942
+		// Setting input: i957
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i943
+		// Setting input: i958
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e392
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e409
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a27
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1012
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i1013
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i1014
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i1015
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e413
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e445
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a28
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1096
+		// Setting input: i1115
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i1097
+		// Setting input: i1116
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i1098
+		// Setting input: i1117
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i1099
+		// Setting input: i1118
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e437
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "4");
+		// Firing event: e455
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a29
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1196
+		// Setting input: i1211
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i1197
+		// Setting input: i1212
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i1198
+		// Setting input: i1213
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i1199
+		// Setting input: i1214
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e465
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e482
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
 
 		retrieveWidgets();
 		// Testing current activity: should be a30
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1252
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i1253
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i1254
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i1255
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e482
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e508
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a31
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e515
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i1327
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i1328
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i1329
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i1330
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e517
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "1");
 
 		retrieveWidgets();
 		// Testing current activity: should be a32
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1380
+		// Setting input: i1423
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i1381
+		// Setting input: i1424
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i1382
+		// Setting input: i1425
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i1383
+		// Setting input: i1426
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e520
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
+		// Firing event: e544
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "7");
 
 		retrieveWidgets();
 		// Testing current activity: should be a33
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1488
+		// Setting input: i1455
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i1489
+		// Setting input: i1456
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i1490
+		// Setting input: i1457
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i1491
+		// Setting input: i1458
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e550
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "6");
+		// Firing event: e555
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a34
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1516
+		// Setting input: i1539
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i1517
+		// Setting input: i1540
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i1518
+		// Setting input: i1541
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i1519
+		// Setting input: i1542
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e560
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e579
+		fireEvent (2131165289, 32, "Edit", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a35
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1608
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i1609
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i1610
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i1611
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e586
-		fireEvent (2131165289, 32, "Edit", "button", "click");
+		// Firing event: e601
+		fireEvent (16908795, 23, "", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a36
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e614
-		fireEvent (0, "", "null", "changeOrientation");
+		// Firing event: e612
+		fireEvent (16908795, 20, "", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a37
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e626
-		fireEvent (0, "", "null", "back");
+		// Firing event: e625
+		fireEvent (16908794, 19, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a38
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1712
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i1713
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i1714
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i1715
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e643
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
+		// Firing event: e644
+		fireEvent (16908796, 24, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a39
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1748
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i1749
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i1750
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i1751
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e655
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e657
+		fireEvent (16908795, 23, "", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a40
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1856
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i1857
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i1858
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i1859
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e685
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
+		// Firing event: e676
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a41
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1892
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i1893
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i1894
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i1895
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e697
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e682
+		fireEvent (16908795, 19, "", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a42
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i1992
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i1993
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i1994
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i1995
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e725
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "6");
+		// Firing event: e701
+		fireEvent (16908313, 29, "Set", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a43
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2028
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i2029
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i2030
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i2031
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e737
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
+		// Firing event: e706
+		fireEvent (16908794, 14, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a44
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2100
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i2101
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i2102
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i2103
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e758
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
+		// Firing event: e718
+		fireEvent (16908794, 14, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a45
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2220
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i2221
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i2222
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i2223
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e791
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "9");
+		// Firing event: e731
+		fireEvent (16908795, 15, "", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a46
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e817
-		fireEvent (0, "", "null", "changeOrientation");
+		// Firing event: e743
+		fireEvent (16908795, 16, "", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a47
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2356
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i2357
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i2358
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i2359
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e831
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "7");
+		// Firing event: e763
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a48
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2404
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i2405
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i2406
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i2407
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e846
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e775
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a49
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2508
+		// Setting input: i1607
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i2509
+		// Setting input: i1608
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i2510
+		// Setting input: i1609
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i2511
+		// Setting input: i1610
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e875
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "9");
+		// Firing event: e783
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a50
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2540
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i2541
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i2542
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i2543
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e886
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e818
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a51
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2628
+		// Setting input: i1751
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i2629
+		// Setting input: i1752
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i2630
+		// Setting input: i1753
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i2631
+		// Setting input: i1754
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e911
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
+		// Firing event: e825
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a52
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2696
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i2697
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i2698
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i2699
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e931
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "2");
+		// Firing event: e859
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a53
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2772
+		// Setting input: i1895
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i2773
+		// Setting input: i1896
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i2774
+		// Setting input: i1897
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i2775
+		// Setting input: i1898
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e953
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
+		// Firing event: e867
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a54
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2848
+		// Setting input: i1995
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i2849
+		// Setting input: i1996
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i2850
+		// Setting input: i1997
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i2851
+		// Setting input: i1998
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e975
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "4");
+		// Firing event: e895
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "6");
 
 		retrieveWidgets();
 		// Testing current activity: should be a55
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2908
+		// Setting input: i2023
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i2909
+		// Setting input: i2024
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i2910
+		// Setting input: i2025
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i2911
+		// Setting input: i2026
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e993
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e905
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "1");
 
 		retrieveWidgets();
 		// Testing current activity: should be a56
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i2992
+		// Setting input: i2147
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i2993
+		// Setting input: i2148
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i2994
+		// Setting input: i2149
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i2995
+		// Setting input: i2150
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1017
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "4");
+		// Firing event: e939
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
 
 		retrieveWidgets();
 		// Testing current activity: should be a57
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3068
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i3069
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i3070
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i3071
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e1039
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e966
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a58
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3128
+		// Setting input: i2247
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i3129
+		// Setting input: i2248
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i3130
+		// Setting input: i2249
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i3131
+		// Setting input: i2250
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1057
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "2");
+		// Firing event: e970
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a59
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3188
+		// Setting input: i2323
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i3189
+		// Setting input: i2324
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i3190
+		// Setting input: i2325
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i3191
+		// Setting input: i2326
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1075
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e992
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a60
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3240
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i3241
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i3242
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i3243
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e1091
-		fireEvent (2131165274, 16, "Select Categories", "button", "click");
+		// Firing event: e1028
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a61
-		solo.assertCurrentActivity("", "SelectCategories");
-
-		// Testing transition 
-		// Firing event: e1114
-		fireEvent (0, "", "null", "changeOrientation");
-
-		retrieveWidgets();
-		// Testing current activity: should be a62
-		solo.assertCurrentActivity("", "SelectCategories");
-
-		// Testing transition 
-		// Firing event: e1119
-		fireEvent (0, "", "null", "back");
-
-		retrieveWidgets();
-		// Testing current activity: should be a63
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1140
+		// Setting input: i2463
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i2464
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i2465
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i2466
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1033
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "3");
+
+		retrieveWidgets();
+		// Testing current activity: should be a62
+		solo.assertCurrentActivity("", "EditPost");
+
+		// Testing transition 
+		// Setting input: i2523
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i2524
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i2525
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i2526
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1051
+		fireEvent (2131165274, 16, "Select Categories", "button", "click");
+
+		retrieveWidgets();
+		// Testing current activity: should be a63
+		solo.assertCurrentActivity("", "SelectCategories");
+
+		// Testing transition 
+		// Firing event: e1072
 		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
@@ -981,191 +939,183 @@ public class AndroidGuiTest extends ActivityInstrumentationTestCase2 {
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3440
+		// Setting input: i2631
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i3441
+		// Setting input: i2632
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i3442
+		// Setting input: i2633
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i3443
+		// Setting input: i2634
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1157
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
+		// Firing event: e1084
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a65
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3460
+		// Setting input: i2719
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i3461
+		// Setting input: i2720
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i3462
+		// Setting input: i2721
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i3463
+		// Setting input: i2722
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1165
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e1109
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "7");
 
 		retrieveWidgets();
 		// Testing current activity: should be a66
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3560
+		// Setting input: i2791
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i3561
+		// Setting input: i2792
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i3562
+		// Setting input: i2793
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i3563
+		// Setting input: i2794
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1193
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "2");
+		// Firing event: e1130
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "7");
 
 		retrieveWidgets();
 		// Testing current activity: should be a67
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3644
+		// Setting input: i2851
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i3645
+		// Setting input: i2852
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i3646
+		// Setting input: i2853
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i3647
+		// Setting input: i2854
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1217
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e1148
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a68
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3712
+		// Setting input: i2939
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i3713
+		// Setting input: i2940
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i3714
+		// Setting input: i2941
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i3715
+		// Setting input: i2942
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1237
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "4");
+		// Firing event: e1173
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
 
 		retrieveWidgets();
 		// Testing current activity: should be a69
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3796
+		// Setting input: i2991
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i3797
+		// Setting input: i2992
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i3798
+		// Setting input: i2993
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i3799
+		// Setting input: i2994
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1261
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "7");
+		// Firing event: e1189
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a70
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i3836
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i3837
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i3838
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i3839
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e1274
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e1220
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a71
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1308
-		fireEvent (0, "", "null", "back");
+		// Setting input: i3107
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i3108
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i3109
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i3110
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1224
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a72
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4016
+		// Setting input: i3203
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i4017
+		// Setting input: i3204
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i4018
+		// Setting input: i3205
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i4019
+		// Setting input: i3206
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1325
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
+		// Firing event: e1251
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a73
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4076
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i4077
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i4078
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i4079
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e1343
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e1282
+		fireEvent (0, "", "null", "back");
 
 		retrieveWidgets();
 		// Testing current activity: should be a74
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4108
+		// Setting input: i3379
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i4109
+		// Setting input: i3380
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i4110
+		// Setting input: i3381
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i4111
+		// Setting input: i3382
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1354
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "1");
+		// Firing event: e1301
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "10");
 
 		retrieveWidgets();
 		// Testing current activity: should be a75
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4224
+		// Setting input: i3395
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i4225
+		// Setting input: i3396
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i4226
+		// Setting input: i3397
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i4227
+		// Setting input: i3398
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1386
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "6");
+		// Firing event: e1308
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a76
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1415
+		// Firing event: e1347
 		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
@@ -1173,244 +1123,324 @@ public class AndroidGuiTest extends ActivityInstrumentationTestCase2 {
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4340
+		// Setting input: i3555
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i4341
+		// Setting input: i3556
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i4342
+		// Setting input: i3557
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i4343
+		// Setting input: i3558
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1421
-		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "5");
+		// Firing event: e1354
+		fireEvent (2131165289, 32, "Edit", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a78
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4432
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i4433
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i4434
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i4435
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e1447
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "4");
+		// Firing event: e1376
+		fireEvent (16908795, 23, "", "focusableEditText", "focus");
 
 		retrieveWidgets();
 		// Testing current activity: should be a79
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4528
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i4529
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i4530
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i4531
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e1474
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "10");
+		// Firing event: e1391
+		fireEvent (16908796, 25, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a80
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4560
-		setInput (2131165236, "writeText", "90");
-		// Setting input: i4561
-		setInput (2131165270, "writeText", "8");
-		// Setting input: i4562
-		setInput (2131165273, "writeText", "11");
-		// Setting input: i4563
-		setInput (2131165292, "writeText", "72");
-		// Firing event: e1485
-		fireEvent (2131165289, 32, "Edit", "button", "click");
+		// Firing event: e1400
+		fireEvent (16908794, 18, "", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a81
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1504
-		fireEvent (16908795, 19, "", "focusableEditText", "focus");
+		// Firing event: e1420
+		fireEvent (16908313, 28, "Set", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a82
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1517
-		fireEvent (16908794, 19, "", "button", "click");
+		// Firing event: e1435
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a83
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1528
-		fireEvent (16908794, 14, "", "button", "click");
+		// Firing event: e1447
+		fireEvent (0, "", "null", "openMenu");
 
 		retrieveWidgets();
 		// Testing current activity: should be a84
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1554
-		fireEvent (0, "", "null", "openMenu");
+		// Firing event: e1456
+		fireEvent (16908313, 25, "Set", "button", "click");
 
 		retrieveWidgets();
 		// Testing current activity: should be a85
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1557
-		fireEvent (16908795, 15, "", "focusableEditText", "focus");
+		// Firing event: e1481
+		fireEvent (0, "", "null", "changeOrientation");
 
 		retrieveWidgets();
 		// Testing current activity: should be a86
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1572
-		fireEvent (16908796, 17, "", "button", "click");
+		// Setting input: i3691
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i3692
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i3693
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i3694
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1486
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "4");
 
 		retrieveWidgets();
 		// Testing current activity: should be a87
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1588
-		fireEvent (16908795, 19, "", "focusableEditText", "focus");
+		// Setting input: i3751
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i3752
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i3753
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i3754
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1504
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "1");
 
 		retrieveWidgets();
 		// Testing current activity: should be a88
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1607
-		fireEvent (16908313, 29, "Set", "button", "click");
+		// Setting input: i3855
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i3856
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i3857
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i3858
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1533
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a89
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1615
-		fireEvent (16908794, 18, "", "button", "click");
+		// Setting input: i3955
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i3956
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i3957
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i3958
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1561
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "10");
 
 		retrieveWidgets();
 		// Testing current activity: should be a90
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1633
-		fireEvent (0, "", "null", "back");
+		// Setting input: i4007
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4008
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4009
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4010
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1577
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a91
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4644
+		// Setting input: i4063
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i4645
+		// Setting input: i4064
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i4646
+		// Setting input: i4065
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i4647
+		// Setting input: i4066
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1645
-		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
+		// Firing event: e1594
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "1");
 
 		retrieveWidgets();
 		// Testing current activity: should be a92
 		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Setting input: i4748
+		// Setting input: i4143
 		setInput (2131165236, "writeText", "90");
-		// Setting input: i4749
+		// Setting input: i4144
 		setInput (2131165270, "writeText", "8");
-		// Setting input: i4750
+		// Setting input: i4145
 		setInput (2131165273, "writeText", "11");
-		// Setting input: i4751
+		// Setting input: i4146
 		setInput (2131165292, "writeText", "72");
-		// Firing event: e1674
-		fireEvent (2131165293, 37, "Save", "button", "click");
+		// Firing event: e1617
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a93
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1684
-		fireEvent (16908298, 9, "", "listView", "longClickListItem", "3");
+		// Setting input: i4187
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4188
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4189
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4190
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1631
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a94
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1697
-		fireEvent (0, "", "null", "back");
+		// Setting input: i4295
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4296
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4297
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4298
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1661
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "5");
 
 		retrieveWidgets();
 		// Testing current activity: should be a95
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1701
-		fireEvent (16908298, 9, "", "listView", "selectListItem", "2");
+		// Setting input: i4379
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4380
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4381
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4382
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1685
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
 
 		retrieveWidgets();
 		// Testing current activity: should be a96
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1714
-		fireEvent (2131165410, 39, "", "button", "click");
+		// Setting input: i4459
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4460
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4461
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4462
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1708
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "10");
 
 		retrieveWidgets();
 		// Testing current activity: should be a97
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1726
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i4531
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4532
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4533
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4534
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1729
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "10");
 
 		retrieveWidgets();
 		// Testing current activity: should be a98
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1731
-		fireEvent (0, "", "null", "openMenu");
+		// Setting input: i4575
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4576
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4577
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4578
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1743
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "3");
 
 		retrieveWidgets();
 		// Testing current activity: should be a99
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1733
-		fireEvent (16908313, 15, "Yes", "button", "click");
+		// Setting input: i4619
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4620
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4621
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4622
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1757
+		fireEvent (2131165286, 28, "", "spinner", "selectSpinnerItem", "2");
 
 		retrieveWidgets();
 		// Testing current activity: should be a100
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		// Testing transition 
-		// Firing event: e1738
-		fireEvent (0, "", "null", "back");
+		// Setting input: i4739
+		setInput (2131165236, "writeText", "90");
+		// Setting input: i4740
+		setInput (2131165270, "writeText", "8");
+		// Setting input: i4741
+		setInput (2131165273, "writeText", "11");
+		// Setting input: i4742
+		setInput (2131165292, "writeText", "72");
+		// Firing event: e1790
+		fireEvent (2131165291, 34, "", "spinner", "selectSpinnerItem", "8");
 
 		retrieveWidgets();
 		// Testing current activity: should be a101
-		solo.assertCurrentActivity("", "Posts");
+		solo.assertCurrentActivity("", "EditPost");
 
 		solo.sleep (SLEEP_AFTER_TASK);
 	}
