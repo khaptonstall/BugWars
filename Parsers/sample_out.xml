@@ -4,7 +4,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00000">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>dashboard_pages_btn</name>
 		<value>fireEvent</value>
@@ -13,8 +12,8 @@ formatted for the C-PUT prioritization tool.-->
 <url>
 	<baseurl>Posts</baseurl>
 	<param>
-		<name>home_small</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
 		<name>dashboard_pages_btn</name>
@@ -48,7 +47,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00001">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -102,8 +100,8 @@ formatted for the C-PUT prioritization tool.-->
 <url>
 	<baseurl>Dashboard</baseurl>
 	<param>
-		<name>action_refresh</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
 		<name>dashboard_quickphoto_btn</name>
@@ -114,7 +112,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00002">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -161,8 +158,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
-
+	<param>
+		<name>spinner item #2</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>90</name>
 		<value>setInput</value>
@@ -171,8 +170,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
-
+	<param>
+		<name>spinner item #4</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>90</name>
 		<value>setInput</value>
@@ -181,8 +182,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
-
+	<param>
+		<name>spinner item #4</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>90</name>
 		<value>setInput</value>
@@ -191,8 +194,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
-
+	<param>
+		<name>spinner item #2</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>90</name>
 		<value>setInput</value>
@@ -201,8 +206,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
-
+	<param>
+		<name>spinner item #5</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -220,24 +227,24 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
 		<name>Back</name>
@@ -274,19 +281,18 @@ formatted for the C-PUT prioritization tool.-->
 		fireEvent (16908795, 23, "", "focusableEditText", "focus");
 
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 </url>
 </session>
 <session id="WP_2_4_p_00003">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -333,8 +339,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
-
+	<param>
+		<name>spinner item #2</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>90</name>
 		<value>setInput</value>
@@ -343,8 +351,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
-
+	<param>
+		<name>spinner item #4</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>90</name>
 		<value>setInput</value>
@@ -353,8 +363,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "4");
-
+	<param>
+		<name>spinner item #4</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>90</name>
 		<value>setInput</value>
@@ -363,8 +375,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
-
+	<param>
+		<name>spinner item #2</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>90</name>
 		<value>setInput</value>
@@ -373,8 +387,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "5");
-
+	<param>
+		<name>spinner item #5</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -392,24 +408,24 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
 		<name>Back</name>
@@ -446,19 +462,18 @@ formatted for the C-PUT prioritization tool.-->
 		fireEvent (16908795, 23, "", "focusableEditText", "focus");
 
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
-		<name>name not found</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 </url>
 </session>
 <session id="WP_2_4_p_00004">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>dashboard_quickphoto_btn</name>
 		<value>fireEvent</value>
@@ -468,7 +483,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00005">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -501,7 +515,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00006">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -534,7 +547,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00007">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -544,7 +556,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00008">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.LANDSCAPE</name>
 		<value>setActivityOrientation</value>
@@ -557,8 +568,8 @@ formatted for the C-PUT prioritization tool.-->
 <url>
 	<baseurl>Comments</baseurl>
 	<param>
-		<name>home_small</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
 		<name>dashboard_subs_btn</name>
@@ -579,8 +590,8 @@ formatted for the C-PUT prioritization tool.-->
 <url>
 	<baseurl>Comments</baseurl>
 	<param>
-		<name>action_refresh</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
 		<name>Solo.PORTRAIT</name>
@@ -591,8 +602,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name>action_refresh</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
@@ -624,8 +635,10 @@ formatted for the C-PUT prioritization tool.-->
 		<name>29</name>
 		<value>setInput</value>
 	</param>
-		fireEvent (2131165348, 18, "", "spinner", "selectSpinnerItem", "3");
-
+	<param>
+		<name>spinner item #3</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>27</name>
 		<value>setInput</value>
@@ -665,7 +678,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00009">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.PORTRAIT</name>
 		<value>setActivityOrientation</value>
@@ -675,7 +687,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00010">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>Solo.LANDSCAPE</name>
 		<value>setActivityOrientation</value>
@@ -685,7 +696,6 @@ formatted for the C-PUT prioritization tool.-->
 <session id="WP_2_4_p_00011">
 <url>
 	<baseurl>Dashboard</baseurl>
-
 	<param>
 		<name>dashboard_overlay</name>
 		<value>fireEvent</value>
@@ -743,8 +753,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name>newCategory</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 </url>
 <url>
@@ -789,8 +799,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name>newCategory</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 </url>
 <url>
@@ -803,8 +813,8 @@ formatted for the C-PUT prioritization tool.-->
 <url>
 	<baseurl>SelectCategories</baseurl>
 	<param>
-		<name>newCategory</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 </url>
 <url>
@@ -829,8 +839,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name>newCategory</name>
-		<value>fireEvent</value>
+		<name>date picker</name>
+		<value>click button</value>
 	</param>
 </url>
 <url>

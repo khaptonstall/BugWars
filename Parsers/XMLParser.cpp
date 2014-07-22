@@ -28,8 +28,11 @@
 #include <fstream>
 #include <vector>
 #include <sstream>
+#include <stdlib.h> //atoi //changes string to int
 
-#include <stdlib.h>
+//#include <iostream>       // std::cerr
+//#include <typeinfo>       // operator typeid
+//#include <exception>      // std::exception
 
 #include "found.h"
 #include "hasonlyspaces.h"
@@ -38,9 +41,6 @@ using namespace std;
 
 int xmlparse(); //main parsing method
 string activityMgr(string inputText);
-string currentActivity;
-string path;
-
 string getInfo_fireEvent(string inputText);
 string getInfo_sendKey(string inputText);
 string getInfo_clickOnButton(string inputText);
@@ -49,7 +49,8 @@ string getInfo_setActivityOrientation(string inputText);
 string getInfo_goBack(string inputText);
 string getInfo_clickOnMenuItem(string inputText);
 
-string DEFAULT_ACTIVITY = "Dashboard"; //Replace with name of the starting activity
+string currentActivity;
+string path;
 string xmlName = "sample_out.xml"; //Replace with desired output XML file name & path
 string listName; //Replace with file name & path of the list of test suite files to include in log
 
@@ -70,14 +71,17 @@ int xmlparse() {
 
 	bool traceFound = false;
 
+
 	ofstream outfile;
 	outfile.open(xmlName.c_str());
 	outfile << "<!--This xml file contains android/robotium event call information," <<
-				'\n' << "formatted for the C-PUT prioritization tool.-->" << '\n';
+					'\n' << "formatted for the C-PUT prioritization tool.-->" << '\n';
 	outfile << "<testSuite>" << '\n';
+
 
 	ifstream listFile;
 	listFile.open(listName.c_str());
+
 
 	if(listFile.is_open()){
 		string line;
@@ -93,6 +97,7 @@ int xmlparse() {
 				string currentFileName = line.substr(0, line.find("."));	//name, without extension
 				ifstream infile;
 				infile.open(filePath.c_str());
+
 				if(infile.is_open()){
 					string currLine;
 					//reads each line in the open file
@@ -100,14 +105,11 @@ int xmlparse() {
 						//if new testTrace method found:
 						if(found(currLine, "testTrace")) {
 							traceFound = true;
-							currentActivity = DEFAULT_ACTIVITY;
 							string traceNum = currLine;
 							traceNum = traceNum.erase(0, traceNum.find("0"));
 							traceNum = traceNum.erase(traceNum.find(" "));
 							outfile << "<session id=\"" << currentFileName
-									<< "_" << traceNum << "\">" << '\n'
-									<< "<url>"
-									<< "\n\t<baseurl>" + currentActivity + "</baseurl>" << '\n';
+									<< "_" << traceNum << "\">" << '\n';
 						}
 						//if inside a testTrace method:
 						else if (traceFound) {
@@ -115,7 +117,9 @@ int xmlparse() {
 								//if end of testTrace method found
 								outfile << "\n</url>\n" << "</session>\n";
 								traceFound = false;
-							} else if (found(currLine, "solo.sendKey")) {
+							} else if(found(currLine, "solo.assertCurrentActivity")) {
+								outfile << activityMgr(currLine);
+							}else if (found(currLine, "solo.sendKey")) {
 								outfile << getInfo_sendKey(currLine);
 							} else if (found(currLine, "solo.clickOnButton")) {
 								outfile << getInfo_clickOnButton(currLine);
@@ -129,20 +133,18 @@ int xmlparse() {
 								outfile << getInfo_clickOnMenuItem(currLine);
 							} else if (found(currLine, "fireEvent")) {
 								outfile << getInfo_fireEvent(currLine);
-							} else if(found(currLine, "solo.assertCurrentActivity")) {
-									outfile << activityMgr(currLine);
 							}
 						}
 					}
-				}else {
+				} else {
 					cout << "Unable to open current junit file: " << filePath << endl;
 				}
 				infile.close();
-				cout << "Finished parsing to XML: " << line << endl;
+				cout << "Finished parsing current junit file to XML: " << line << endl;
 			}
 		}
 	} else {
-		cout << "Unable to open file containing list of test suites.";
+		cout << "Unable to open the file containing list of test suites: " << listName;
 	}
 	outfile << "</testSuite>" << endl;
 	outfile.close();
@@ -151,6 +153,40 @@ int xmlparse() {
 }
 
 
+/**
+ * Reads activity name from robotium method (solo.assertCurrentActivity),
+ * compares name to value of currentActivity.
+ * If new activity, ends current xml url section and begins new <url> xml section
+ * @param string inputText
+ * @return new line of xml code, as string
+ */
+string activityMgr(string inputText) {
+	//sets first currentActivity for each test trace:
+	if (found(inputText, "Testing base activity") && found(inputText, "solo.assertCurrentActivity")) {
+		//solo.assertCurrentActivity("Testing base activity", "Dashboard");
+		//GuiRipper's junit tests assert the base activity at the beginning of each test trace
+		currentActivity = inputText.substr(inputText.find(",") + 3, string::npos);
+		currentActivity = currentActivity.substr(0, currentActivity.find(")") - 1);
+		return ("<url>\n\t<baseurl>" + currentActivity + "</baseurl>"); // << '\n';
+	}
+
+	vector<string> string_list;
+	istringstream ss(inputText);
+	string token;
+	while(getline(ss, token, ',')){
+		string_list.push_back(token);
+	}
+	string Activity = string_list[1];
+	Activity = Activity.erase(0,2);
+	Activity = Activity.erase(Activity.find("\""));
+
+	//if different activity is found..
+	if (Activity.compare(currentActivity) != 0) {
+		currentActivity = Activity;
+		return "\n</url>\n<url>\n\t<baseurl>" + Activity + "</baseurl>";
+	}
+	return "";
+}
 
 /* Gets information from a robotium event method call: sendKey
  * Formats information in xml.
@@ -166,6 +202,7 @@ string getInfo_sendKey(string inputText) {
 		return "unknown key";
 		cout << "sendKey not matched to existing key options." << endl;
 	}
+	return inputText;
 }
 
 /* Gets information from a robotium event method call: clickOnButton
@@ -254,15 +291,6 @@ string getInfo_goBack(string inputText) {
  */
 string getInfo_clickOnMenuItem(string inputText) {
 	//solo.clickOnMenuItem( "New Page");
-	/*
-	vector<string> string_list;
-	istringstream ss(inputText);
-	string token;
-	while(getline(ss, token, '\"')){
-		string_list.push_back(token);
-	}
-	string item = string_list[1];
-	*/
 	string item = inputText.substr(inputText.find("\"") + 1, string::npos);
 	item = item.substr(0, item.find("\""));
 	return "\n\t<param>\n\t\t<name>"
@@ -277,7 +305,7 @@ string getInfo_clickOnMenuItem(string inputText) {
  */
 string getInfo_fireEvent(string inputText) {
 	if(found(inputText, "listView")) {
-			/*
+		/*
 		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5"); //page from database/listview
 			public void fireEvent (int widgetId, int widgetIndex, String widgetName, String widgetType, String eventType, String value)
 		fireEvent (8, "", "listView", "selectListItem", "3");	//context menu
@@ -302,11 +330,13 @@ string getInfo_fireEvent(string inputText) {
 		while(getline(ss, token, ',')){
 			param_list.push_back(token);
 		}
+		/*
 		//int i;
 		for (int i = 0; i < param_list.size(); i++) {
 			cout << param_list[i] << endl;
 		}
-		//If the second fireEvent parameter is an empty string (""), it is clicking on a context menu
+		*/
+		//If the second fireEvent parameter is an empty string (""), method is clicking on a context menu
 		if (found(param_list[1], "\"\"")) {
 			string value = param_list[4];
 			value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2);
@@ -315,9 +345,9 @@ string getInfo_fireEvent(string inputText) {
 				"listItem #" + value + " in context menu."
 				"</name>\n\t\t"
 				"<value>" + clickType + "</value>\n\t</param>");
-
 		}
-		//if the second fireEvent parameter is not an empty string, it is NOT clicking on a context menu item
+
+		//if the second fireEvent parameter is not an empty string, method is NOT clicking on a context menu item
 		else {
 			string value = param_list[5];
 			value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2); //erases quotation marks around the string value
@@ -331,65 +361,59 @@ string getInfo_fireEvent(string inputText) {
 				"listItem, value = " + value
 				+ "</name>\n\t\t"
 				"<value>" + clickType + "</value>\n\t</param>");
-
 		}
 	}
+	else if(found(inputText, "\"button\"")) {
+		//fireEvent (16908796, 24, "", "button", "click"); date picker
+		return ("\n\t<param>\n\t\t<name>"
+			"date picker"
+			"</name>\n\t\t"
+			"<value>click button</value>\n\t</param>");
+	}
+	else if(found(inputText, "spinner")) {
+		//fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
+		inputText = inputText.erase(0, inputText.find("(") + 1);
+		inputText = inputText.erase(inputText.find(")"), string::npos);
+		//cout << "\n" << inputText << endl;
 
+		vector<string> param_list;
+		istringstream ss(inputText);
+		string token;
+		while(getline(ss, token, ',')){
+			param_list.push_back(token);
+		}
+		/*
+		//int i;
+		for (int i = 0; i < param_list.size(); i++) {
+			cout << param_list[i] << endl;
+		}
+		*/
+
+		string value = param_list[5];
+		value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2);
+
+		return ("\n\t<param>\n\t\t<name>"
+				"spinner item #" + value
+				+ "</name>\n\t\t"
+				"<value>selectSpinnerItem</value>\n\t</param>");
+	}
 	else if(found(inputText, "\"click\"")) {
 		//fireEvent (2131165251, 21, "", "linearLayout", "click");
-		string i = inputText.substr(inputText.find("("));
-		i = i.substr(1, i.find(","));
+		string widgetId = inputText.substr(inputText.find("("));
+		widgetId = widgetId.substr(1, widgetId.find(","));
+		int id = atoi(widgetId.c_str());
 
-		//string myString = i;
-		//v1 = widgetID
-		int v1 = atoi(i.c_str());
-
-		//cout << "v1: " << v1 << endl;
-		//cout << "v2: " << value << endl;
-
-		return ("\n\t<param>\n\t\t"
-			"<name>"
-			+ findWidgetName(v1)
-			+ "</name>\n\t\t"
+		return ("\n\t<param>\n\t\t<name>"
+			+ findWidgetName(id) + "</name>\n\t\t"
 			"<value>fireEvent</value>\n\t</param>");
 		//cout << "found!" << endl;
 		//}
 	}
-
 	return "\n" + inputText + "\n";
 }
 
 
 
-/**
- * Reads activity name from robotium method (solo.assertCurrentActivity),
- * compares name to value of currentActivity.
- * If new activity, end current xml url section and begin new <url> xml section
- * @param string inputText
- * @return new line of xml code, as string
- */
-string activityMgr(string inputText) {
-	vector<string> string_list;
-	istringstream ss(inputText);
-	string token;
-	while(getline(ss, token, ',')){
-		string_list.push_back(token);
-	}
-	string Activity = string_list[1];
-	Activity = Activity.erase(0,2);
-	Activity = Activity.erase(Activity.find("\""));
-		//if currentActivity not previously set
-		/*if (currentActivity.compare("new") == 0) {
-			//first activity is manually set, making this irrelevant
-			currentActivity = Activity;
-			return "<url>\n\t<baseurl>" + Activity + "</baseurl>";
-		}*/
-	//if different activity is found..
-	if (Activity.compare(currentActivity) != 0) {
-		currentActivity = Activity;
-		return "\n</url>\n<url>\n\t<baseurl>" + Activity + "</baseurl>";
-	}
-	return "";
-}
+
 
 

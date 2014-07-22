@@ -169,6 +169,8 @@ string fireEventFix(string inputText) {
 		return "\t \tsolo.goBack();";
 	} else if (found(inputText, "openMenu")) {
 		return "\t \tsolo.sendKey(Solo.MENU);";
+	} else if (found(inputText, "menuItem")) {
+		return inputText; //fireEvent (1, "New Page", "menuItem", "click");
 	} else if (found(inputText, "click")) {
 		vector<string> string_list;
 		istringstream ss(inputText);
@@ -187,18 +189,15 @@ string fireEventFix(string inputText) {
 		} else if (string_list.size() == 5) {
 			if (string_list[2].length() <= 3) {
 				return inputText;
-			} else if (found(string_list[3], "menu")) {
-				return "\t \tsolo.clickOnMenuItem(" + string_list[2] + ");";
-			} else {
+			} //else if (found(string_list[3], "menu")) {
+				//return "\t \tsolo.clickOnMenuItem(" + string_list[2] + ");";
+			//}
+			else {
 				return "\t \tsolo.clickOnButton(" + string_list[2] + ");";
 			}
-		} else {
-			return inputText;
 		}
 	}
-	else {
-		return inputText;
-	}
+	return inputText;
 }
 
 /**

@@ -29,6 +29,9 @@ void setRPath(string fullPath) {
 	RPathSet = true;
 }
 
+/*
+ * return boolean true if RPath variable is set
+ */
 bool isRPathSet() {
 	if (RPathSet) {
 		return true;
@@ -54,7 +57,7 @@ string intToHex(int i) {
 }
 
 
-/* Searches an android application's R.java file for the widget matching the given ID. (The int id is converted to a hex value).
+/* Searches an android application's R.java file for the widget matching the given ID. (The int id is first converted to a hex value).
  * If the value is found, this method returns a string containing the name of the variable that stores that hex value.
  * This string name is the name of the widget.
  * param int widget id.
