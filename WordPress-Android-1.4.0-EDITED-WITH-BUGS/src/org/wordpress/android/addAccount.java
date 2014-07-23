@@ -109,7 +109,7 @@ public class addAccount extends Activity {
 				{ 
 				  public void run() 
 				  {
-					  Looper.prepare();
+					  //Looper.prepare();
 					  configureAccount();
 					  Looper.loop();
 				  } 
