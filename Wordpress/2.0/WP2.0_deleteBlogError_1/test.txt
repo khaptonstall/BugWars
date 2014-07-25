@@ -1,0 +1,55 @@
+Playing Session 1_0 
+RandomSeed -7644749903175760810
+File not found!
+0 events performed of 0
+End of Session 1_0 
+Playing Session 1_1 
+RandomSeed 3802138002134648644
+File not found!
+0 events performed of 0
+End of Session 1_1 
+Playing Session 1_2 
+RandomSeed -7608263625591057205
+
+com.nofatclips.crawler.guitree.NomadEngine:INSTRUMENTATION_RESULT: shortMsg=java.lang.NullPointerException
+INSTRUMENTATION_RESULT: longMsg=java.lang.NullPointerException: Failure delivering result ResultInfo{who=null, request=4, result=0, data=Intent {  }} to activity {org.wordpress.android/org.wordpress.android.EditContent}: java.lang.NullPointerException
+INSTRUMENTATION_CODE: 0
+File not found!
+30 events performed of 100
+End of Session 1_2 
+Playing Session 1_3 
+RandomSeed 7943196947244831568
+File not found!
+30 events performed of 100
+End of Session 1_3 
+Playing Session 1_4 
+RandomSeed 715232174897689182
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+55 events performed of 100
+End of Session 1_4 
+Playing Session 1_5 
+RandomSeed 6726968762894401330
+File not found!
+55 events performed of 100
+End of Session 1_5 
+Playing Session 1_6 
+RandomSeed -1998146456603590053
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+56 events performed of 100
+End of Session 1_6 
+Playing Session 1_7 
+RandomSeed 7677212850360945411
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+100 events performed of 100
+End of Session 1_7 
+RipperTest_1 is DONE 
+Random Ripper is DONE 
