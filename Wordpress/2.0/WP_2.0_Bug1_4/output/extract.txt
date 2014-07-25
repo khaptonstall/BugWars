@@ -1,0 +1,38 @@
+Playing Session 1_0 
+
+RandomSeed 8597712218452338708
+File not found!
+0 events performed of 0
+End of Session 1_0 
+
+Playing Session 1_1 
+
+RandomSeed 4254786967141844443
+File not found!
+0 events performed of 0
+End of Session 1_1 
+
+Playing Session 1_2 
+
+RandomSeed 8564662541233754259
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+11 events performed of 50
+End of Session 1_2 
+
+Playing Session 1_3 
+
+RandomSeed -3207830520758691933
+File not found!
+11 events performed of 50
+End of Session 1_3 
+
+Playing Session 1_4 
+
+RandomSeed -5425332338573617055
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+50 events performed of 50
+End of Session 1_4 
+RipperTest_1 is DONE 
+Random Ripper is DONE 

@@ -1,0 +1,5 @@
+1 cycles have been executed.
+5 restarts have beeen executed
+0 problems in test execution have been found, causing 0 failures and 0 errors.
+0 application crashes have been found.
+
