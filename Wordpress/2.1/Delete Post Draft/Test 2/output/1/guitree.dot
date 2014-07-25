@@ -1,0 +1,214 @@
+digraph GuiTree {
+
+	graph [nodesep=1, fontsize=36];
+	node [fontsize=36];
+	edge [fontsize=36, headport=ne];
+
+## Edges
+
+	a1 -> a2 [label="e5: click\n'Quick Photo'"];
+	a1 -> a3 [label="e15: openMenu"];
+	a3 -> a4 [label="e18: click\n'Preferences'"];
+	a4 -> a5 [label="e24: click\n'Katie's Sweet Testing Blog'"];
+	a5 -> a6 [label="e43: back"];
+	a6 -> a7 [label="e48: click\n'New Post'"];
+	a7 -> a8 [label="e86: back"];
+	a8 -> a9 [label="e101: click\n'Stats'"];
+	a9 -> a10 [label="e115: selectSpinnerItem\n'All Time'"];
+	a10 -> a11 [label="e131: selectSpinnerItem\n'Year'"];
+	a11 -> a12 [label="e153: back"];
+	a12 -> a13 [label="e161: click\n'Quick Photo'"];
+	a1 -> f0 [label="e172: openMenu"];
+	a1 -> a14 [label="e175: changeOrientation"];
+	a1 -> a15 [label="e177: changeOrientation"];
+	a15 -> a16 [label="e178: click\n'android.widget.ImageButton #2131165200'"];
+	a16 -> a17 [label="e197: openMenu"];
+	a17 -> a18 [label="e202: click\n'About'"];
+	a18 -> a19 [label="e206: click\n'Terms of Service'"];
+	a19 -> a20 [label="e216: openMenu"];
+	a20 -> a21 [label="e223: changeOrientation"];
+	a1 -> a22 [label="e232: click\n'Pages'"];
+	a22 -> a23 [label="e253: longClickListItem\n'90'"];
+	a23 -> a24 [label="e269: longClickListItem\n'Edit Page'"];
+	a24 -> a25 [label="e277: selectSpinnerItem\n'Pending Review'"];
+	a25 -> a26 [label="e291: click\n'Save'"];
+	a26 -> a27 [label="e320: openMenu"];
+	a27 -> a28 [label="e322: click\n'New Page'"];
+	a28 -> a29 [label="e327: selectSpinnerItem\n'Draft'"];
+	a29 -> a30 [label="e343: back"];
+	a30 -> a31 [label="e350: selectSpinnerItem\n'Local Draft'"];
+	a31 -> a32 [label="e360: selectSpinnerItem\n'Local Draft'"];
+	a32 -> a33 [label="e368: selectSpinnerItem\n'Pending Review'"];
+	a33 -> a34 [label="e378: selectSpinnerItem\n'Pending Review'"];
+	a34 -> a35 [label="e390: selectSpinnerItem\n'Local Draft'"];
+	a35 -> a36 [label="e403: back"];
+	a36 -> a37 [label="e413: back"];
+	a37 -> a38 [label="e419: selectSpinnerItem\n'Private'"];
+	a38 -> a39 [label="e432: click\n'Save'"];
+	a39 -> a40 [label="e440: selectListItem\n'Pages'"];
+	a40 -> a41 [label="e472: selectListItem\n'90'"];
+	a41 -> a42 [label="e502: click\n'android.widget.Button #2131165201'"];
+	a42 -> a43 [label="e509: click\n'android.widget.ImageButton #2131165412'"];
+	a43 -> a44 [label="e518: changeOrientation"];
+	a44 -> a45 [label="e521: openMenu"];
+	a45 -> a46 [label="e523: click\n'OK'"];
+	a46 -> a47 [label="e533: click\n'android.widget.Button #2131165201'"];
+	a47 -> a48 [label="e538: click\n'android.widget.ImageButton #2131165410'"];
+	a48 -> a49 [label="e550: openMenu"];
+	a49 -> a50 [label="e554: back"];
+	a50 -> a51 [label="e562: click\n'android.widget.ImageButton #2131165200'"];
+
+## Nodes
+
+	subgraph cluster_a1{label="a1"; a1};
+	a1 [label="", shapefile="a1.jpg"];
+
+	a2 [label="exit"];
+
+	subgraph cluster_a3{label="a3"; a3};
+	a3 [label="", shapefile="a3.jpg"];
+
+	subgraph cluster_a4{label="a4"; a4};
+	a4 [label="", shapefile="a4.jpg"];
+
+	subgraph cluster_a5{label="a5"; a5};
+	a5 [label="", shapefile="a5.jpg"];
+
+	subgraph cluster_a6{label="a6"; a6};
+	a6 [label="", shapefile="a6.jpg"];
+
+	subgraph cluster_a7{label="a7"; a7};
+	a7 [label="", shapefile="a7.jpg"];
+
+	subgraph cluster_a8{label="a8"; a8};
+	a8 [label="", shapefile="a8.jpg"];
+
+	subgraph cluster_a9{label="a9"; a9};
+	a9 [label="", shapefile="a9.jpg"];
+
+	subgraph cluster_a10{label="a10"; a10};
+	a10 [label="", shapefile="a10.jpg"];
+
+	subgraph cluster_a11{label="a11"; a11};
+	a11 [label="", shapefile="a11.jpg"];
+
+	subgraph cluster_a12{label="a12"; a12};
+	a12 [label="", shapefile="a12.jpg"];
+
+	a13 [label="exit"];
+
+	f0 [label="fail"];
+
+	a14 [label="exit"];
+
+	subgraph cluster_a15{label="a15"; a15};
+	a15 [label="", shapefile="a15.jpg"];
+
+	subgraph cluster_a16{label="a16"; a16};
+	a16 [label="", shapefile="a16.jpg"];
+
+	subgraph cluster_a17{label="a17"; a17};
+	a17 [label="", shapefile="a17.jpg"];
+
+	subgraph cluster_a18{label="a18"; a18};
+	a18 [label="", shapefile="a18.jpg"];
+
+	subgraph cluster_a19{label="a19"; a19};
+	a19 [label="", shapefile="a19.jpg"];
+
+	subgraph cluster_a20{label="a20"; a20};
+	a20 [label="", shapefile="a20.jpg"];
+
+	a21 [label="exit"];
+
+	subgraph cluster_a22{label="a22"; a22};
+	a22 [label="", shapefile="a22.jpg"];
+
+	subgraph cluster_a23{label="a23"; a23};
+	a23 [label="", shapefile="a23.jpg"];
+
+	subgraph cluster_a24{label="a24"; a24};
+	a24 [label="", shapefile="a24.jpg"];
+
+	subgraph cluster_a25{label="a25"; a25};
+	a25 [label="", shapefile="a25.jpg"];
+
+	subgraph cluster_a26{label="a26"; a26};
+	a26 [label="", shapefile="a26.jpg"];
+
+	subgraph cluster_a27{label="a27"; a27};
+	a27 [label="", shapefile="a27.jpg"];
+
+	subgraph cluster_a28{label="a28"; a28};
+	a28 [label="", shapefile="a28.jpg"];
+
+	subgraph cluster_a29{label="a29"; a29};
+	a29 [label="", shapefile="a29.jpg"];
+
+	subgraph cluster_a30{label="a30"; a30};
+	a30 [label="", shapefile="a30.jpg"];
+
+	subgraph cluster_a31{label="a31"; a31};
+	a31 [label="", shapefile="a31.jpg"];
+
+	subgraph cluster_a32{label="a32"; a32};
+	a32 [label="", shapefile="a32.jpg"];
+
+	subgraph cluster_a33{label="a33"; a33};
+	a33 [label="", shapefile="a33.jpg"];
+
+	subgraph cluster_a34{label="a34"; a34};
+	a34 [label="", shapefile="a34.jpg"];
+
+	subgraph cluster_a35{label="a35"; a35};
+	a35 [label="", shapefile="a35.jpg"];
+
+	subgraph cluster_a36{label="a36"; a36};
+	a36 [label="", shapefile="a36.jpg"];
+
+	subgraph cluster_a37{label="a37"; a37};
+	a37 [label="", shapefile="a37.jpg"];
+
+	subgraph cluster_a38{label="a38"; a38};
+	a38 [label="", shapefile="a38.jpg"];
+
+	subgraph cluster_a39{label="a39"; a39};
+	a39 [label="", shapefile="a39.jpg"];
+
+	subgraph cluster_a40{label="a40"; a40};
+	a40 [label="", shapefile="a40.jpg"];
+
+	subgraph cluster_a41{label="a41"; a41};
+	a41 [label="", shapefile="a41.jpg"];
+
+	subgraph cluster_a42{label="a42"; a42};
+	a42 [label="", shapefile="a42.jpg"];
+
+	subgraph cluster_a43{label="a43"; a43};
+	a43 [label="", shapefile="a43.jpg"];
+
+	subgraph cluster_a44{label="a44"; a44};
+	a44 [label="", shapefile="a44.jpg"];
+
+	subgraph cluster_a45{label="a45"; a45};
+	a45 [label="", shapefile="a45.jpg"];
+
+	subgraph cluster_a46{label="a46"; a46};
+	a46 [label="", shapefile="a46.jpg"];
+
+	subgraph cluster_a47{label="a47"; a47};
+	a47 [label="", shapefile="a47.jpg"];
+
+	subgraph cluster_a48{label="a48"; a48};
+	a48 [label="", shapefile="a48.jpg"];
+
+	subgraph cluster_a49{label="a49"; a49};
+	a49 [label="", shapefile="a49.jpg"];
+
+	subgraph cluster_a50{label="a50"; a50};
+	a50 [label="", shapefile="a50.jpg"];
+
+	subgraph cluster_a51{label="a51"; a51};
+	a51 [label="", shapefile="a51.jpg"];
+
+}
