@@ -1,0 +1,16 @@
+1 cycles have been executed.
+20 restarts have beeen executed
+2 problems in test execution have been found, causing 0 failures and 2 errors.
+1 application crashes have been found.
+
+
+Errors have been found in the following traces:
+
+1_15 - java.lang.IndexOutOfBoundsException: Invalid index 0, size is 0
+1_17 - java.lang.IndexOutOfBoundsException: Invalid index 0, size is 0
+
+Crashes have been found in the following traces:
+
+1_10 - com.nofatclips.crawler.guitree.NomadEngine:INSTRUMENTATION_RESULT: shortMsg=java.lang.NullPointerException
+After about 0.0 seconds
+
