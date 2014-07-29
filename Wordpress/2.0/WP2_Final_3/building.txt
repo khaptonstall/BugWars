@@ -1,0 +1,2 @@
+	pkg: /data/local/tmp/crawler.apk
+Success

@@ -1,0 +1,1861 @@
+I/nofatclips(  249): Preferences file found.
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Dashboard
+W/nofatclips(  249): --->Dashboard
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Starting a new session
+I/nofatclips(  249): Saved image on disk: a1.jpg
+I/nofatclips(  249): Planning for new Activity Dashboard
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Restarting
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Playing Trace 14
+I/nofatclips(  249): Retrieved from return list id=2131165263
+I/nofatclips(  249): Firing event: type= click index=53 widget=android.widget.LinearLayout
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Read
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Read
+I/nofatclips(  249): Registering activity Read (id: a2) as a new found state
+I/nofatclips(  249): Saved image on disk: a2.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk. This is the first batch: the file will be created.
+I/nofatclips(  249): Planning for new Activity Read
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 99 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 18
+I/nofatclips(  249): Retrieved from return list id=-1
+I/nofatclips(  249): Firing event: type= openMenu name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Read
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Read
+I/nofatclips(  249): Registering activity Read (id: a3) as a new found state
+I/nofatclips(  249): Saved image on disk: a3.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Read
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 98 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 24
+I/nofatclips(  249): Retrieved from return list id=16908726
+I/nofatclips(  249): Firing event: type= openMenu name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Read
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Read
+I/nofatclips(  249): Registering activity Read (id: a4) as a new found state
+I/nofatclips(  249): Saved image on disk: a4.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Read
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 97 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 28
+I/nofatclips(  249): Retrieved from return list id=-1
+I/nofatclips(  249): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Read
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Read
+I/nofatclips(  249): Registering activity Read (id: a5) as a new found state
+I/nofatclips(  249): Saved image on disk: a5.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Read
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 96 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 32
+I/nofatclips(  249): Retrieved from return list id=2131165329
+I/nofatclips(  249): Firing event: type= longClick index=7 widget=android.webkit.WebView
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Read
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Read
+I/nofatclips(  249): Registering activity Read (id: a6) as a new found state
+I/nofatclips(  249): Saved image on disk: a6.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Read
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 95 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 36
+I/nofatclips(  249): Retrieved from return list id=2131165329
+I/nofatclips(  249): Firing event: type= longClick index=7 widget=android.webkit.WebView
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Read
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Read
+I/nofatclips(  249): Registering activity Read (id: a7) as a new found state
+I/nofatclips(  249): Saved image on disk: a7.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Read
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 94 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 40
+I/nofatclips(  249): Retrieved from return list id=-1
+I/nofatclips(  249): Firing event: type= openMenu name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Read
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Read
+I/nofatclips(  249): Registering activity Read (id: a8) as a new found state
+I/nofatclips(  249): Saved image on disk: a8.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Read
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 93 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 46
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Read
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Read
+I/nofatclips(  249): Registering activity Read (id: a9) as a new found state
+I/nofatclips(  249): Saved image on disk: a9.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Read
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 92 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 50
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Dashboard
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Dashboard
+I/nofatclips(  249): Registering activity Dashboard (id: a10) as a new found state
+I/nofatclips(  249): Saved image on disk: a10.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Dashboard
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 91 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 65
+I/nofatclips(  249): Retrieved from return list id=2131165262
+I/nofatclips(  249): Firing event: type= click index=50 widget=android.widget.LinearLayout
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Settings
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Settings
+I/nofatclips(  249): Registering activity Settings (id: a11) as a new found state
+I/nofatclips(  249): Saved image on disk: a11.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Settings
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 90 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 84
+I/nofatclips(  249): Retrieved from return list id=2131165215
+I/nofatclips(  249): Retrieved from return list id=2131165217
+I/nofatclips(  249): Retrieved from return list id=2131165348
+I/nofatclips(  249): Firing event: type= selectSpinnerItem index=18 widget=android.widget.Spinner
+I/nofatclips(  249): Clicking the spinner view
+I/nofatclips(  249): Swapping to listview item 9
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Settings
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Settings
+I/nofatclips(  249): Registering activity Settings (id: a12) as a new found state
+I/nofatclips(  249): Saved image on disk: a12.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Settings
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 89 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 103
+I/nofatclips(  249): Retrieved from return list id=2131165215
+I/nofatclips(  249): Retrieved from return list id=2131165217
+I/nofatclips(  249): Retrieved from return list id=2131165348
+I/nofatclips(  249): Firing event: type= selectSpinnerItem index=18 widget=android.widget.Spinner
+I/nofatclips(  249): Clicking the spinner view
+I/nofatclips(  249): Swapping to listview item 8
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Settings
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Settings
+I/nofatclips(  249): Registering activity Settings (id: a13) as a new found state
+I/nofatclips(  249): Saved image on disk: a13.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Settings
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 88 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 122
+I/nofatclips(  249): Retrieved from return list id=2131165215
+I/nofatclips(  249): Retrieved from return list id=2131165217
+I/nofatclips(  249): Retrieved from return list id=2131165348
+I/nofatclips(  249): Firing event: type= selectSpinnerItem index=18 widget=android.widget.Spinner
+I/nofatclips(  249): Clicking the spinner view
+I/nofatclips(  249): Swapping to listview item 4
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Settings
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Settings
+I/nofatclips(  249): Registering activity Settings (id: a14) as a new found state
+I/nofatclips(  249): Saved image on disk: a14.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Settings
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 87 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 141
+I/nofatclips(  249): Retrieved from return list id=16908290
+I/nofatclips(  249): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Settings
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Settings
+I/nofatclips(  249): Registering activity Settings (id: a15) as a new found state
+I/nofatclips(  249): Saved image on disk: a15.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Settings
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 86 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 160
+I/nofatclips(  249): Retrieved from return list id=2131165215
+I/nofatclips(  249): Retrieved from return list id=2131165217
+I/nofatclips(  249): Retrieved from return list id=2131165200
+I/nofatclips(  249): Firing event: type= click index=33 widget=android.widget.ImageButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Settings
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Settings
+I/nofatclips(  249): Registering activity Settings (id: a16) as a new found state
+I/nofatclips(  249): Saved image on disk: a16.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Settings
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 85 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 190
+I/nofatclips(  249): Retrieved from return list id=2131165215
+I/nofatclips(  249): Retrieved from return list id=2131165217
+I/nofatclips(  249): Retrieved from return list id=2131165262
+I/nofatclips(  249): Firing event: type= click index=72 widget=android.widget.LinearLayout
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Settings
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Settings
+I/nofatclips(  249): Registering activity Settings (id: a17) as a new found state
+I/nofatclips(  249): Saved image on disk: a17.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Settings
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 84 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 209
+I/nofatclips(  249): Retrieved from return list id=2131165215
+I/nofatclips(  249): Retrieved from return list id=2131165217
+I/nofatclips(  249): Retrieved from return list id=2131165219
+I/nofatclips(  249): Firing event: type= click index=24 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Dashboard
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Dashboard
+I/nofatclips(  249): Registering activity Dashboard (id: a18) as a new found state
+I/nofatclips(  249): Saved image on disk: a18.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Dashboard
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 83 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 224
+I/nofatclips(  249): Retrieved from return list id=2131165200
+I/nofatclips(  249): Firing event: type= click index=11 widget=android.widget.ImageButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Dashboard
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Dashboard
+I/nofatclips(  249): Registering activity Dashboard (id: a19) as a new found state
+I/nofatclips(  249): Saved image on disk: a19.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Dashboard
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 82 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 228
+I/nofatclips(  249): Retrieved from return list id=2131165200
+I/nofatclips(  249): Firing event: type= click index=11 widget=android.widget.ImageButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Dashboard
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Dashboard
+I/nofatclips(  249): Registering activity Dashboard (id: a20) as a new found state
+I/nofatclips(  249): Saved image on disk: a20.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Dashboard
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 81 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 243
+I/nofatclips(  249): Retrieved from return list id=2131165258
+I/nofatclips(  249): Firing event: type= click index=43 widget=android.widget.LinearLayout
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a21) as a new found state
+I/nofatclips(  249): Saved image on disk: a21.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 80 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 247
+I/nofatclips(  249): Retrieved from return list id=16908290
+I/nofatclips(  249): Firing event: type= openMenu name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a22) as a new found state
+I/nofatclips(  249): Saved image on disk: a22.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 79 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 251
+I/nofatclips(  249): Retrieved from return list id=16908313
+I/nofatclips(  249): Firing event: type= click index=15 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a23) as a new found state
+I/nofatclips(  249): Saved image on disk: a23.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 78 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 256
+I/nofatclips(  249): Retrieved from return list id=2131165201
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a24) as a new found state
+I/nofatclips(  249): Saved image on disk: a24.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 77 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 260
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a25) as a new found state
+I/nofatclips(  249): Saved image on disk: a25.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 76 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 265
+I/nofatclips(  249): Retrieved from return list id=2131165201
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a26) as a new found state
+I/nofatclips(  249): Saved image on disk: a26.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 75 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 269
+I/nofatclips(  249): Retrieved from return list id=16908290
+I/nofatclips(  249): Firing event: type= openMenu name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a27) as a new found state
+I/nofatclips(  249): Saved image on disk: a27.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 74 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 273
+I/nofatclips(  249): Retrieved from return list id=16908313
+I/nofatclips(  249): Firing event: type= click index=15 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a28) as a new found state
+I/nofatclips(  249): Saved image on disk: a28.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 73 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 278
+I/nofatclips(  249): Retrieved from return list id=2131165201
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a29) as a new found state
+I/nofatclips(  249): Saved image on disk: a29.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 72 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 282
+I/nofatclips(  249): Retrieved from return list id=16908313
+I/nofatclips(  249): Firing event: type= click index=15 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Comments
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Comments
+I/nofatclips(  249): Registering activity Comments (id: a30) as a new found state
+I/nofatclips(  249): Saved image on disk: a30.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Comments
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 71 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 287
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Dashboard
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Dashboard
+I/nofatclips(  249): Registering activity Dashboard (id: a31) as a new found state
+I/nofatclips(  249): Saved image on disk: a31.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Dashboard
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 70 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 302
+I/nofatclips(  249): Retrieved from return list id=2131165257
+I/nofatclips(  249): Firing event: type= click index=39 widget=android.widget.LinearLayout
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Posts
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Posts
+I/nofatclips(  249): Registering activity Posts (id: a32) as a new found state
+I/nofatclips(  249): Saved image on disk: a32.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Posts
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 69 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 306
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Posts
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Posts
+I/nofatclips(  249): Registering activity Posts (id: a33) as a new found state
+I/nofatclips(  249): Saved image on disk: a33.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Posts
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 68 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 311
+I/nofatclips(  249): Retrieved from return list id=16908290
+I/nofatclips(  249): Firing event: type= openMenu name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is Posts
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity Posts
+I/nofatclips(  249): Registering activity Posts (id: a34) as a new found state
+I/nofatclips(  249): Saved image on disk: a34.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity Posts
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 67 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 315
+I/nofatclips(  249): Retrieved from return list id=16908310
+I/nofatclips(  249): Firing event: type= click index=1 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a35) as a new found state
+I/nofatclips(  249): Saved image on disk: a35.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 66 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 321
+I/nofatclips(  249): Retrieved from return list id=-1
+I/nofatclips(  249): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a36) as a new found state
+I/nofatclips(  249): Saved image on disk: a36.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 65 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 327
+I/nofatclips(  249): Retrieved from return list id=2131165236
+I/nofatclips(  249): Retrieved from return list id=2131165286
+I/nofatclips(  249): Retrieved from return list id=2131165283
+I/nofatclips(  249): Firing event: type= click index=16 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a37) as a new found state
+I/nofatclips(  249): Saved image on disk: a37.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 64 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 341
+I/nofatclips(  249): Retrieved from return list id=16908796
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a38) as a new found state
+I/nofatclips(  249): Saved image on disk: a38.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 63 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 355
+I/nofatclips(  249): Retrieved from return list id=16908795
+I/nofatclips(  249): Firing event: type= focus index=19 widget=android.widget.EditText
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a39) as a new found state
+I/nofatclips(  249): Saved image on disk: a39.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 62 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 369
+I/nofatclips(  249): Retrieved from return list id=16908795
+I/nofatclips(  249): Firing event: type= focus index=24 widget=android.widget.EditText
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a40) as a new found state
+I/nofatclips(  249): Saved image on disk: a40.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 61 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 383
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=23 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a41) as a new found state
+I/nofatclips(  249): Saved image on disk: a41.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 60 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 397
+I/nofatclips(  249): Retrieved from return list id=16908795
+I/nofatclips(  249): Firing event: type= focus index=19 widget=android.widget.EditText
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a42) as a new found state
+I/nofatclips(  249): Saved image on disk: a42.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 59 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 411
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=19 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a43) as a new found state
+I/nofatclips(  249): Saved image on disk: a43.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 58 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 425
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=22 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a44) as a new found state
+I/nofatclips(  249): Saved image on disk: a44.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 57 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 439
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=18 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a45) as a new found state
+I/nofatclips(  249): Saved image on disk: a45.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 56 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 453
+I/nofatclips(  249): Retrieved from return list id=16908795
+I/nofatclips(  249): Firing event: type= focus index=15 widget=android.widget.EditText
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a46) as a new found state
+I/nofatclips(  249): Saved image on disk: a46.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 55 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 467
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a47) as a new found state
+I/nofatclips(  249): Saved image on disk: a47.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 54 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 481
+I/nofatclips(  249): Retrieved from return list id=16908796
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a48) as a new found state
+I/nofatclips(  249): Saved image on disk: a48.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 53 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 495
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=22 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a49) as a new found state
+I/nofatclips(  249): Saved image on disk: a49.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 52 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 509
+I/nofatclips(  249): Retrieved from return list id=16908314
+I/nofatclips(  249): Firing event: type= click index=30 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a50) as a new found state
+I/nofatclips(  249): Saved image on disk: a50.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 51 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 515
+I/nofatclips(  249): Retrieved from return list id=-1
+I/nofatclips(  249): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a51) as a new found state
+I/nofatclips(  249): Saved image on disk: a51.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 50 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 521
+I/nofatclips(  249): Retrieved from return list id=-1
+I/nofatclips(  249): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a52) as a new found state
+I/nofatclips(  249): Saved image on disk: a52.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 49 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 527
+I/nofatclips(  249): Retrieved from return list id=2131165236
+I/nofatclips(  249): Retrieved from return list id=2131165286
+I/nofatclips(  249): Retrieved from return list id=2131165265
+I/nofatclips(  249): Firing event: type= focus index=9 widget=org.wordpress.android.util.WPEditText
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditContent
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditContent
+I/nofatclips(  249): Registering activity EditContent (id: a53) as a new found state
+I/nofatclips(  249): Saved image on disk: a53.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditContent
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 48 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 539
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a54) as a new found state
+I/nofatclips(  249): Saved image on disk: a54.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 47 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 545
+I/nofatclips(  249): Retrieved from return list id=2131165236
+I/nofatclips(  249): Retrieved from return list id=2131165286
+I/nofatclips(  249): Retrieved from return list id=2131165283
+I/nofatclips(  249): Firing event: type= click index=16 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a55) as a new found state
+I/nofatclips(  249): Saved image on disk: a55.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 46 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 559
+I/nofatclips(  249): Retrieved from return list id=16908796
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a56) as a new found state
+I/nofatclips(  249): Saved image on disk: a56.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 45 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 573
+I/nofatclips(  249): Retrieved from return list id=16908314
+I/nofatclips(  249): Firing event: type= click index=30 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a57) as a new found state
+I/nofatclips(  249): Saved image on disk: a57.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 44 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 579
+I/nofatclips(  249): Retrieved from return list id=2131165236
+I/nofatclips(  249): Retrieved from return list id=2131165286
+I/nofatclips(  249): Retrieved from return list id=2131165287
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a58) as a new found state
+I/nofatclips(  249): Saved image on disk: a58.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 43 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 583
+I/nofatclips(  249): Retrieved from return list id=16908290
+I/nofatclips(  249): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a59) as a new found state
+I/nofatclips(  249): Saved image on disk: a59.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 42 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 587
+I/nofatclips(  249): Retrieved from return list id=16908290
+I/nofatclips(  249): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a60) as a new found state
+I/nofatclips(  249): Saved image on disk: a60.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 41 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 591
+I/nofatclips(  249): Retrieved from return list id=16908313
+I/nofatclips(  249): Firing event: type= click index=15 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a61) as a new found state
+I/nofatclips(  249): Saved image on disk: a61.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 40 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 597
+I/nofatclips(  249): Retrieved from return list id=2131165236
+I/nofatclips(  249): Retrieved from return list id=2131165286
+I/nofatclips(  249): Retrieved from return list id=2131165283
+I/nofatclips(  249): Firing event: type= click index=16 widget=android.widget.Button
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a62) as a new found state
+I/nofatclips(  249): Saved image on disk: a62.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 39 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 611
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=22 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a63) as a new found state
+I/nofatclips(  249): Saved image on disk: a63.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 38 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 625
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=18 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a64) as a new found state
+I/nofatclips(  249): Saved image on disk: a64.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 37 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 639
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=22 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a65) as a new found state
+I/nofatclips(  249): Saved image on disk: a65.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 36 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 653
+I/nofatclips(  249): Retrieved from return list id=16908290
+I/nofatclips(  249): Firing event: type= openMenu name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a66) as a new found state
+I/nofatclips(  249): Saved image on disk: a66.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 35 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 667
+I/nofatclips(  249): Retrieved from return list id=16908795
+I/nofatclips(  249): Firing event: type= focus index=19 widget=android.widget.EditText
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a67) as a new found state
+I/nofatclips(  249): Saved image on disk: a67.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 34 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 681
+I/nofatclips(  249): Retrieved from return list id=16908794
+I/nofatclips(  249): Firing event: type= click index=15 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a68) as a new found state
+I/nofatclips(  249): Saved image on disk: a68.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 33 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 695
+I/nofatclips(  249): Retrieved from return list id=16908795
+I/nofatclips(  249): Firing event: type= focus index=15 widget=android.widget.EditText
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a69) as a new found state
+I/nofatclips(  249): Saved image on disk: a69.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 32 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 709
+I/nofatclips(  249): Retrieved from return list id=-1
+I/nofatclips(  249): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a70) as a new found state
+I/nofatclips(  249): Saved image on disk: a70.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 31 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 723
+I/nofatclips(  249): Retrieved from return list id=16908796
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a71) as a new found state
+I/nofatclips(  249): Saved image on disk: a71.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 30 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 737
+I/nofatclips(  249): Retrieved from return list id=16908795
+I/nofatclips(  249): Firing event: type= focus index=23 widget=android.widget.EditText
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Current activity is EditPost
+I/nofatclips(  249): Retrieving widgets
+I/nofatclips(  249): Performing comparation for activity EditPost
+I/nofatclips(  249): Registering activity EditPost (id: a72) as a new found state
+I/nofatclips(  249): Saved image on disk: a72.jpg
+I/nofatclips(  249): Waiting for 100 msec.
+I/nofatclips(  249): Session count is 1. Will dump to disk at 1
+I/nofatclips(  249): Saving the session on disk.
+I/nofatclips(  249): Planning for new Activity EditPost
+I/nofatclips(  249): Created trace to press the back button
+I/nofatclips(  249): Created trace to press the menu button
+I/nofatclips(  249): Created trace to change orientation
+I/nofatclips(  249): Check for termination: 29 steps left of 100
+I/nofatclips(  249): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  249): Incrementally Playing Trace 751
+I/nofatclips(  249): Retrieved from return list id=16908796
+I/nofatclips(  249): Firing event: type= click index=20 widget=android.widget.NumberPickerButton
+I/nofatclips(  249): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  297): Preferences file found.
+I/nofatclips(  297): Waiting for 100 msec.
+I/nofatclips(  297): Current activity is Dashboard
+W/nofatclips(  297): --->Dashboard
+I/nofatclips(  297): Retrieving widgets
+I/nofatclips(  297): Attempting to resume previous session
+I/nofatclips(  297): Memoryless engine: the task file will not be loaded. Looking for crashed traces.
+I/nofatclips(  297): Reading task file
+I/nofatclips(  297): Stateless comparator: the state file will not be loaded.
+I/nofatclips(  297): Saving the session on disk.
+I/nofatclips(  297): Planning for new Activity Dashboard
+I/nofatclips(  297): Created trace to press the menu button
+I/nofatclips(  297): Created trace to change orientation
+I/nofatclips(  297): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  297): Restarting
+I/nofatclips(  297): Waiting for 100 msec.
+I/nofatclips(  297): Retrieving widgets
+I/nofatclips(  297): Playing Trace 753
+I/nofatclips(  297): Firing event: type= openMenu name= widget=null
+I/nofatclips(  297): Saving the session on disk. This is the last batch. The session will be terminated.
+I/nofatclips(  289): Preferences file found.
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Dashboard
+W/nofatclips(  289): --->Dashboard
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Attempting to resume previous session
+I/nofatclips(  289): Memoryless engine: the task file will not be loaded. Looking for crashed traces.
+I/nofatclips(  289): Reading task file
+I/nofatclips(  289): Stateless comparator: the state file will not be loaded.
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Dashboard
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Restarting
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Playing Trace 768
+I/nofatclips(  289): Retrieved from return list id=2131165201
+I/nofatclips(  289): Firing event: type= click index=13 widget=android.widget.Button
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Dashboard
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Dashboard
+I/nofatclips(  289): Registering activity Dashboard (id: a73) as a new found state
+I/nofatclips(  289): Saved image on disk: a73.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Dashboard
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 28 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 783
+I/nofatclips(  289): Retrieved from return list id=2131165263
+I/nofatclips(  289): Firing event: type= click index=53 widget=android.widget.LinearLayout
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a74) as a new found state
+I/nofatclips(  289): Saved image on disk: a74.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 27 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 787
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a75) as a new found state
+I/nofatclips(  289): Saved image on disk: a75.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 26 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 791
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= openMenu name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a76) as a new found state
+I/nofatclips(  289): Saved image on disk: a76.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 25 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 797
+I/nofatclips(  289): Retrieved from return list id=16908310
+I/nofatclips(  289): Firing event: type= click index=1 widget=com.android.internal.view.menu.IconMenuItemView
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Dashboard
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Dashboard
+I/nofatclips(  289): Registering activity Dashboard (id: a77) as a new found state
+I/nofatclips(  289): Saved image on disk: a77.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Dashboard
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 24 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 812
+I/nofatclips(  289): Retrieved from return list id=2131165263
+I/nofatclips(  289): Firing event: type= click index=53 widget=android.widget.LinearLayout
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a78) as a new found state
+I/nofatclips(  289): Saved image on disk: a78.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 23 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 816
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a79) as a new found state
+I/nofatclips(  289): Saved image on disk: a79.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 22 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 820
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Dashboard
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Dashboard
+I/nofatclips(  289): Registering activity Dashboard (id: a80) as a new found state
+I/nofatclips(  289): Saved image on disk: a80.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Dashboard
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 21 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 835
+I/nofatclips(  289): Retrieved from return list id=2131165263
+I/nofatclips(  289): Firing event: type= click index=53 widget=android.widget.LinearLayout
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a81) as a new found state
+I/nofatclips(  289): Saved image on disk: a81.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 20 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 839
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a82) as a new found state
+I/nofatclips(  289): Saved image on disk: a82.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 19 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 843
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a83) as a new found state
+I/nofatclips(  289): Saved image on disk: a83.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 18 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 847
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= openMenu name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a84) as a new found state
+I/nofatclips(  289): Saved image on disk: a84.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 17 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 853
+I/nofatclips(  289): Retrieved from return list id=16908726
+I/nofatclips(  289): Firing event: type= openMenu name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a85) as a new found state
+I/nofatclips(  289): Saved image on disk: a85.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 16 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 857
+I/nofatclips(  289): Retrieved from return list id=2131165329
+I/nofatclips(  289): Firing event: type= longClick index=7 widget=android.webkit.WebView
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a86) as a new found state
+I/nofatclips(  289): Saved image on disk: a86.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 15 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 862
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= click index=8 widget=android.webkit.WebTextView
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a87) as a new found state
+I/nofatclips(  289): Saved image on disk: a87.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 14 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 867
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= click index=8 widget=android.webkit.WebTextView
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a88) as a new found state
+I/nofatclips(  289): Saved image on disk: a88.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 13 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 872
+I/nofatclips(  289): Retrieved from return list id=2131165329
+I/nofatclips(  289): Firing event: type= longClick index=7 widget=android.webkit.WebView
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a89) as a new found state
+I/nofatclips(  289): Saved image on disk: a89.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 12 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 877
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= click index=8 widget=android.webkit.WebTextView
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a90) as a new found state
+I/nofatclips(  289): Saved image on disk: a90.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 11 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 882
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= openMenu name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a91) as a new found state
+I/nofatclips(  289): Saved image on disk: a91.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 10 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 888
+I/nofatclips(  289): Retrieved from return list id=16908726
+I/nofatclips(  289): Firing event: type= changeOrientation name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a92) as a new found state
+I/nofatclips(  289): Saved image on disk: a92.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 9 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 894
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a93) as a new found state
+I/nofatclips(  289): Saved image on disk: a93.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 8 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 899
+I/nofatclips(  289): Retrieved from return list id=-1
+I/nofatclips(  289): Firing event: type= openMenu name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a94) as a new found state
+I/nofatclips(  289): Saved image on disk: a94.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 7 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 905
+I/nofatclips(  289): Retrieved from return list id=16908726
+I/nofatclips(  289): Firing event: type= openMenu name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Read
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Read
+I/nofatclips(  289): Registering activity Read (id: a95) as a new found state
+I/nofatclips(  289): Saved image on disk: a95.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Read
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 6 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 910
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Dashboard
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Dashboard
+I/nofatclips(  289): Registering activity Dashboard (id: a96) as a new found state
+I/nofatclips(  289): Saved image on disk: a96.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Dashboard
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 5 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 925
+I/nofatclips(  289): Retrieved from return list id=2131165204
+I/nofatclips(  289): Firing event: type= click index=16 widget=android.widget.LinearLayout
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Posts
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Posts
+I/nofatclips(  289): Registering activity Posts (id: a97) as a new found state
+I/nofatclips(  289): Saved image on disk: a97.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Posts
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 4 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 929
+I/nofatclips(  289): Retrieved from return list id=16908313
+I/nofatclips(  289): Firing event: type= click index=15 widget=android.widget.Button
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Posts
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Posts
+I/nofatclips(  289): Registering activity Posts (id: a98) as a new found state
+I/nofatclips(  289): Saved image on disk: a98.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Posts
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 3 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 934
+I/nofatclips(  289): Retrieved from return list id=16908290
+I/nofatclips(  289): Firing event: type= openMenu name= widget=null
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Posts
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Posts
+I/nofatclips(  289): Registering activity Posts (id: a99) as a new found state
+I/nofatclips(  289): Saved image on disk: a99.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Posts
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 2 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 938
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Posts
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Posts
+I/nofatclips(  289): Registering activity Posts (id: a100) as a new found state
+I/nofatclips(  289): Saved image on disk: a100.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Posts
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 1 steps left of 100
+I/nofatclips(  289): Dispatching new task. 2 more tasks remaining.
+I/nofatclips(  289): Incrementally Playing Trace 943
+I/nofatclips(  289): Retrieved from return list id=2131165200
+I/nofatclips(  289): Firing event: type= click index=14 widget=android.widget.ImageButton
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Current activity is Posts
+I/nofatclips(  289): Retrieving widgets
+I/nofatclips(  289): Performing comparation for activity Posts
+I/nofatclips(  289): Registering activity Posts (id: a101) as a new found state
+I/nofatclips(  289): Saved image on disk: a101.jpg
+I/nofatclips(  289): Waiting for 100 msec.
+I/nofatclips(  289): Session count is 1. Will dump to disk at 1
+I/nofatclips(  289): Saving the session on disk.
+I/nofatclips(  289): Planning for new Activity Posts
+I/nofatclips(  289): Created trace to press the back button
+I/nofatclips(  289): Created trace to press the menu button
+I/nofatclips(  289): Created trace to change orientation
+I/nofatclips(  289): Check for termination: 0 steps left of 100
+I/nofatclips(  289): Saving the session on disk. This is the last batch. The session will be terminated.
