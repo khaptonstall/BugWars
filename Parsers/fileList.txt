@@ -1,8 +1,3 @@
-C:/Users/Meredith/workspace/WPTest_2/src/org/wordpress/android/test/
-WP_2_1.java
-WP_2_2.java
-WP_2_3.java
-WP_2_4.java
-WP_2_5.java
-WP_2_6.java
-WP_2_7.java
+C:/Users/Meredith/workspace/WPTest_final/src/org/wordpress/android/test/
+WP2_Final_1.java
+WP2_Final_2.java

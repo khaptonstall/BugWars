@@ -26,39 +26,31 @@
 #include <fstream>
 #include <vector>
 #include <sstream>
-
-#include "found.h"
-#include "hasonlyspaces.h"
-
 using namespace std;
+#include "found.h"
+#include "XMLParser.h"
+#include "hasonlyspaces.h"
+#include "ClassNameFix.h"
 
-int jparse(bool multiple);
 void parser(string fileName);
-string classNameFix(string inputText);
 string fireEventFix(string inputText);
 
 int orientationCount;
 string fullPath;
-string NAME_FORMAT = "WP_2_"; //format of junit file names
-
 string listFileName;
 string outputListName;
-
-/* Sets listFileName and outputListName variables
- * @param string name of txt file containing list of JUnit files to parse
- * @return string name of txt file containing list of parsed JUnit file names
- */
-string setJListFile(string fileName) {
-	listFileName = fileName;
-	outputListName = fileName.substr(0, fileName.find(".")) + "_p.txt";
-	return outputListName;
-}
 
 /* Sets fullPath variable
  * @param string path/file name of the java file to parse
  */
 void setPath(string filePath) {
 	fullPath = filePath;
+}
+
+/* @return string with full path of junit file
+ */
+string getFullPath() {
+	return fullPath;
 }
 
 int jparse(bool multiple) {
@@ -106,8 +98,8 @@ int jparse(bool multiple) {
  * @return int 0
  */
 void parser(string fileName) {
-	fullPath = fileName;
-	string outPath = fullPath.substr(0, fullPath.find(".")) + "_p.java";
+	fullPath = fileName; //ex: WP2_Test_1.java
+	string outPath = fullPath.substr(0, fullPath.find(".")) + "_p.java"; //ex: WP2_Test_1_p.java
 
 	ifstream infile;
 	infile.open(fullPath.c_str());
@@ -116,7 +108,6 @@ void parser(string fileName) {
 	string currLine, nextLine;
 	outfile << "//JUnitParser replaces non-working fireEvent calls in test suite with"
 			<< '\n' << "//working Robotium methods." << '\n';
-
 	orientationCount = 1;
 	if (infile.is_open()) {
 		while (getline(infile, currLine)) {
@@ -126,18 +117,21 @@ void parser(string fileName) {
 					&& !found(currLine, "click")
 					&& !found(currLine, "changeOrientation")) {
 						outfile << currLine << '\n';
-				}
-			    else {
+				} else {
 					getline(infile, nextLine);
 					if(!found(nextLine, "retrieve")){
 						outfile << fireEventFix(currLine + nextLine) << '\n';
-					} else{
+					} else {
 						outfile << fireEventFix(currLine) << '\n' << nextLine << '\n';
 					}
 				}
-			} else if(found(currLine, "AndroidGuiTest") || found(currLine, NAME_FORMAT)) {
+			}
+			/* Replaces the class names automatically when parsing. NAME_FORMAT is set in main
+			 * Or can be set in ClassNameFix.cpp, or by calling setNameFormat(string format) */
+			else if(found(currLine, "AndroidGuiTest") || found(currLine, getNameFormat())) {
 				outfile << classNameFix(currLine) << '\n';
-			} else {
+			}
+			else {
 				outfile << currLine << '\n';
 			}
 		}
@@ -160,17 +154,20 @@ string fireEventFix(string inputText) {
 	if (found(inputText, "changeOrientation")) {
 		if (orientationCount % 2 == 0) {
 			orientationCount += 1;
-			return "\t \tsolo.setActivityOrientation(Solo.PORTRAIT);";
+			return "\t\tsolo.setActivityOrientation(Solo.PORTRAIT);";
 		} else {
 			orientationCount += 1;
-			return "\t \tsolo.setActivityOrientation(Solo.LANDSCAPE);";
+			return "\t\tsolo.setActivityOrientation(Solo.LANDSCAPE);";
 		}
 	} else if (found(inputText, "back")) {
-		return "\t \tsolo.goBack();";
+		//fireEvent (0, "", "null", "back");
+		return "\t\tsolo.goBack();";
 	} else if (found(inputText, "openMenu")) {
-		return "\t \tsolo.sendKey(Solo.MENU);";
+		//fireEvent (0, "", "null", "openMenu");
+		return "\t\tsolo.sendKey(Solo.MENU);";
 	} else if (found(inputText, "menuItem")) {
-		return inputText; //fireEvent (1, "New Page", "menuItem", "click");
+		//fireEvent (1, "New Page", "menuItem", "click");
+		return inputText;
 	} else if (found(inputText, "click")) {
 		vector<string> string_list;
 		istringstream ss(inputText);
@@ -178,43 +175,36 @@ string fireEventFix(string inputText) {
 		while (getline(ss, token, ',')) {
 			string_list.push_back(token);
 		}
-		if (string_list.size() == 4) {
-			if (string_list[1].length() <= 3) {
+		if (found(string_list[3], "\"button\"")) {
+			if (found(string_list[2], "\"\"")) {
+				//fireEvent (16908794, 19, "", "button", "click");
 				return inputText;
-			} else if (found(string_list[2], "menu")) {
-				return "\t \tsolo.clickOnMenuItem(" + string_list[1] + ");";
 			} else {
-				return "\t \tsolo.clickOnButton(" + string_list[1] + ");";
+				//fireEvent (16908313, 15, "Yes", "button", "click");
+				return "\t\tsolo.clickOnButton(" + string_list[2] + ");";
 			}
-		} else if (string_list.size() == 5) {
-			if (string_list[2].length() <= 3) {
-				return inputText;
-			} //else if (found(string_list[3], "menu")) {
-				//return "\t \tsolo.clickOnMenuItem(" + string_list[2] + ");";
-			//}
-			else {
-				return "\t \tsolo.clickOnButton(" + string_list[2] + ");";
-			}
+		} else if (found(string_list[3], "\"text\"")) {
+			//fireEvent (2131165193, 10, "www.automattic.com", "text", "click");
+			return "\t\tsolo.clickOnText(" + string_list[2] + ")";
+		} else if(found(string_list[2], "menuItem")) {
+			//fireEvent (1, "New Page", "menuItem", "click");
+			return inputText;
+		} else if (found(string_list[3], "toggle")) {
+			//fireEvent (2131165293, 10, " ABC ", "toggle", "click");
+			//maybe: return inputText?
+			return "\t\tsolo.clickOnButton(" + string_list[2] + ");";
 		}
 	}
 	return inputText;
 }
 
-/**
- * Corrects class & constructor name inside junit file to match new file name
- * "AndroidGuiTest" is the default from AndroidRipper.
- * NAME_FORMAT is declared in this file.
- * @param string inputText
- * @return string of new line containing the class changed to match new file name
+
+/* Sets listFileName and outputListName variables
+ * @param string name of txt file containing list of JUnit files to parse
+ * @return string name of txt file containing list of parsed JUnit file names
  */
-string classNameFix(string inputText) {
-	string name = fullPath.erase(0, fullPath.find_last_of("/") + 1);
-	name = name.substr(0, name.find("."));
-	name = name + "_p";
-	if(found(inputText, "class")) {
-		return ("public class " + name + " extends ActivityInstrumentationTestCase2 {");
-	}
-	else {
-		return ("	public " + name + " () {");
-	}
+void setJListFile(string fileName) {
+	listFileName = fileName;
+	string outputListName = fileName.substr(0, fileName.find(".")) + "_p.txt";
+	setXFileName(outputListName);
 }

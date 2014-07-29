@@ -3,40 +3,37 @@
  *
  *  Created on: July 16, 2014
  *      Author: Meredith Singletary
- *      Description: HexMatch contains methods for use when parsing JUnit test cases into to an xml file.
+ *      Description: HexMatch contains methods for use
+ *      when parsing JUnit test case information to an xml file.
  *
  */
-#include "HexMatch.h"
+
 #include <string>
 #include <sstream>
 #include <iostream>
 #include <fstream>
 #include <vector>
-
+using namespace std;
+#include "HexMatch.h"
 #include "found.h"
 
-using namespace std;
-
 string RPath;
-bool RPathSet;
 
-/* RPath/fullPath is the location of R.java of the android application being tested.
- * R.java is found inside the gen/ folder of the application code.
+/* RPath is the location of R.java of the android application being tested.
+ * R.java is found inside the /gen folder of the application code.
  * param string fullPath of R.java
  */
-void setRPath(string fullPath) {
-	RPath = fullPath;
-	RPathSet = true;
+void setRPath(string rpath) {
+	RPath = rpath;
 }
 
 /*
- * return boolean true if RPath variable is set
+ * return boolean true if RPath variable has been set, either manually or by a call to setRPath
  */
 bool isRPathSet() {
-	if (RPathSet) {
-		return true;
-	}
-	return false;
+	if (RPath.compare("") == 0)
+		return false;
+	return true;
 }
 
 /* Converts an integer value to the corresponding hex value.
@@ -50,12 +47,10 @@ string intToHex(int i) {
 		string result = sstream.str();
 		return result;
 	} catch (...) {
-		return "Exception occured.";
-		cout << "An exception was thrown by intToHex method." << endl;
+		cout << "An exception was thrown by intToHex method!" << endl;
 	}
 	return "";
 }
-
 
 /* Searches an android application's R.java file for the widget matching the given ID. (The int id is first converted to a hex value).
  * If the value is found, this method returns a string containing the name of the variable that stores that hex value.
@@ -65,35 +60,33 @@ string intToHex(int i) {
  */
 string findWidgetName(int id) {
 	try {
+		if (!isRPathSet()) {
+			//if RPath is not set, asks for user input in console.
+			cout << "Path of the R.java file for application under test: " << endl;
+			string path;
+			cin >> path;
+			setRPath(path);
+		}
 		string hex = intToHex(id);
-		setRPath("C:/Users/Meredith/AppData/Local/Android/APKs/WordPress-Source/WordPress-Android-2.0/gen/org/wordpress/android/R.java");
 		ifstream infile;
 		infile.open(RPath.c_str());
 		string currLine;
-		string line = "notFound";
-
+		string name;
 		if (infile.is_open()) {
 			while (getline(infile, currLine)) {
 				if (found(currLine, hex)) {
-					line = currLine;
+					name = currLine.substr(currLine.find_last_of(" "));
+					name = name.substr(1, name.find("=") - 1);
 				}
 			}
 		} else {
 			cout << "Unable to open R.java" << endl;
 		}
-
-		if (found(line, "notFound")) {
-			return "name not found";
-		}
-
-		string name = line.substr(line.find_last_of(" "));
-		name = name.substr(1, name.find("=") - 1);
-
 		infile.close();
 		//cout << "Finished searching R.java for widget with id = " << id << endl;
 		return name;
 	} catch (...) {
-		cout << "An exception was thrown inside the findWidgetName method: " << endl;
+		cout << "An exception was thrown inside the findWidgetName method!" << endl;
 	}
 	return "";
 }

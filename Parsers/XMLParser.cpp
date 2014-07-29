@@ -28,18 +28,12 @@
 #include <fstream>
 #include <vector>
 #include <sstream>
-#include <stdlib.h> //atoi //changes string to int
-
-//#include <iostream>       // std::cerr
-//#include <typeinfo>       // operator typeid
-//#include <exception>      // std::exception
-
+#include <stdlib.h> //atoi function //changes string to int
+using namespace std;
 #include "found.h"
 #include "hasonlyspaces.h"
 #include "HexMatch.h"
-using namespace std;
 
-int xmlparse(); //main parsing method
 string activityMgr(string inputText);
 string getInfo_fireEvent(string inputText);
 string getInfo_sendKey(string inputText);
@@ -52,13 +46,10 @@ string getInfo_clickOnMenuItem(string inputText);
 string currentActivity;
 string path;
 string xmlName = "sample_out.xml"; //Replace with desired output XML file name & path
-string listName; //Replace with file name & path of the list of test suite files to include in log
+string listName; 	//name & path of the list of test suite files to include in xml log
 
-
-/*
- * sets listFileName and outputListName variables
- * @param string name of txt file containing list of JUnit files to parse
- * @return string name of txt file containing list of parsed JUnit file names
+/* sets listName
+ * @param string name of txt file containing list of JUnit files to parse for xml info
  */
 void setXFileName(string fileName) {
 	listName = fileName;
@@ -68,9 +59,7 @@ void setXFileName(string fileName) {
  * For each gui event method, it adds information to an xml file, formatted for use with the C-PUT tool.
  */
 int xmlparse() {
-
 	bool traceFound = false;
-
 
 	ofstream outfile;
 	outfile.open(xmlName.c_str());
@@ -78,10 +67,8 @@ int xmlparse() {
 					'\n' << "formatted for the C-PUT prioritization tool.-->" << '\n';
 	outfile << "<testSuite>" << '\n';
 
-
 	ifstream listFile;
 	listFile.open(listName.c_str());
-
 
 	if(listFile.is_open()){
 		string line;
@@ -169,7 +156,6 @@ string activityMgr(string inputText) {
 		currentActivity = currentActivity.substr(0, currentActivity.find(")") - 1);
 		return ("<url>\n\t<baseurl>" + currentActivity + "</baseurl>"); // << '\n';
 	}
-
 	vector<string> string_list;
 	istringstream ss(inputText);
 	string token;
@@ -212,18 +198,8 @@ string getInfo_sendKey(string inputText) {
  */
 string getInfo_clickOnButton(string inputText) {
 	//solo.clickOnButton( "Privacy Policy");
-	/*
-	vector<string> string_list;
-	istringstream ss(inputText);
-	string token;
-	while(getline(ss, token, '\"')){
-		string_list.push_back(token);
-	}
-	string button = string_list[1];
-	*/
 	string button = inputText.substr(inputText.find("\"") + 1, string::npos);
 	button = button.substr(0, button.find("\""));
-
 	return "\n\t<param>\n\t\t<name>"
 			+ button
 			+ "</name>\n\t\t<value>clickOnButton</value>\n\t</param>";
@@ -236,17 +212,6 @@ string getInfo_clickOnButton(string inputText) {
  */
 string getInfo_setInput(string inputText) {
 	//setInput (2131165236, "writeText", "90");
-	/*
-	vector<string> string_list;
-	istringstream sstream(inputText);
-	string token;
-	while(getline(sstream, token, ',')){
-		string_list.push_back(token);
-	}
-	string text = string_list[2];
-	text = text.erase(0,2);
-	text = text.erase(text.find("\""));
-	*/
 	string input = inputText.substr(0, inputText.find_last_of("\""));
 	input = input.substr(input.find_last_of("\"") + 1, string::npos);
 
@@ -270,7 +235,9 @@ string getInfo_setActivityOrientation(string inputText) {
 				"<name>Solo.PORTRAIT</name>\n\t\t"
 				"<value>setActivityOrientation</value>\n\t</param>");
 	}
-	return inputText;
+	else {
+		return inputText;
+	}
 }
 
 /* Gets information from a robotium event method: goBack
@@ -305,17 +272,9 @@ string getInfo_clickOnMenuItem(string inputText) {
  */
 string getInfo_fireEvent(string inputText) {
 	if(found(inputText, "listView")) {
-		/*
-		fireEvent (16908298, 6, "", "listView", "longClickListItem", "5"); //page from database/listview
-			public void fireEvent (int widgetId, int widgetIndex, String widgetName, String widgetType, String eventType, String value)
-		fireEvent (8, "", "listView", "selectListItem", "3");	//context menu
-			public void fireEvent (int widgetIndex, String widgetName, String widgetType, String eventType, String value);
-		fireEvent (8, "", "listView", "longClickListItem", "1"); //context menu
-			public void fireEvent (int widgetIndex, String widgetName, String widgetType, String eventType, String value);
-		*/
 		inputText = inputText.erase(0, inputText.find("(") + 1);
 		inputText = inputText.erase(inputText.find(")"), string::npos);
-		cout << "\n" << inputText << endl;
+		//cout << "\n" << inputText << endl;
 
 		string clickType;
 		if (found(inputText, "longClickListItem")) {
@@ -330,23 +289,15 @@ string getInfo_fireEvent(string inputText) {
 		while(getline(ss, token, ',')){
 			param_list.push_back(token);
 		}
-		/*
-		//int i;
-		for (int i = 0; i < param_list.size(); i++) {
-			cout << param_list[i] << endl;
-		}
-		*/
 		//If the second fireEvent parameter is an empty string (""), method is clicking on a context menu
 		if (found(param_list[1], "\"\"")) {
 			string value = param_list[4];
 			value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2);
-
 			return ("\n\t<param>\n\t\t<name>"
 				"listItem #" + value + " in context menu."
 				"</name>\n\t\t"
 				"<value>" + clickType + "</value>\n\t</param>");
 		}
-
 		//if the second fireEvent parameter is not an empty string, method is NOT clicking on a context menu item
 		else {
 			string value = param_list[5];
@@ -363,8 +314,18 @@ string getInfo_fireEvent(string inputText) {
 				"<value>" + clickType + "</value>\n\t</param>");
 		}
 	}
+	else if(found(inputText, "\"click\"")) {
+			//fireEvent (2131165251, 21, "", "linearLayout", "click");
+			string widgetId = inputText.substr(inputText.find("("));
+			widgetId = widgetId.substr(1, widgetId.find(","));
+			int id = atoi(widgetId.c_str());
+			return ("\n\t<param>\n\t\t<name>"
+				+ findWidgetName(id) + "</name>\n\t\t"
+				"<value>click</value>\n\t</param>");
+		}
 	else if(found(inputText, "\"button\"")) {
 		//fireEvent (16908796, 24, "", "button", "click"); date picker
+		//should make more specific. not sure how to interpret fireEvent
 		return ("\n\t<param>\n\t\t<name>"
 			"date picker"
 			"</name>\n\t\t"
@@ -372,42 +333,21 @@ string getInfo_fireEvent(string inputText) {
 	}
 	else if(found(inputText, "spinner")) {
 		//fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
+		//should make more specific. not sure how to interpret.
 		inputText = inputText.erase(0, inputText.find("(") + 1);
 		inputText = inputText.erase(inputText.find(")"), string::npos);
-		//cout << "\n" << inputText << endl;
-
 		vector<string> param_list;
 		istringstream ss(inputText);
 		string token;
 		while(getline(ss, token, ',')){
 			param_list.push_back(token);
 		}
-		/*
-		//int i;
-		for (int i = 0; i < param_list.size(); i++) {
-			cout << param_list[i] << endl;
-		}
-		*/
-
 		string value = param_list[5];
 		value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2);
-
 		return ("\n\t<param>\n\t\t<name>"
 				"spinner item #" + value
 				+ "</name>\n\t\t"
 				"<value>selectSpinnerItem</value>\n\t</param>");
-	}
-	else if(found(inputText, "\"click\"")) {
-		//fireEvent (2131165251, 21, "", "linearLayout", "click");
-		string widgetId = inputText.substr(inputText.find("("));
-		widgetId = widgetId.substr(1, widgetId.find(","));
-		int id = atoi(widgetId.c_str());
-
-		return ("\n\t<param>\n\t\t<name>"
-			+ findWidgetName(id) + "</name>\n\t\t"
-			"<value>fireEvent</value>\n\t</param>");
-		//cout << "found!" << endl;
-		//}
 	}
 	return "\n" + inputText + "\n";
 }

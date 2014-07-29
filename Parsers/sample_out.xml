@@ -1,151 +1,1115 @@
 <!--This xml file contains android/robotium event call information,
 formatted for the C-PUT prioritization tool.-->
 <testSuite>
-<session id="WP_2_4_p_00000">
+<session id="WP2_Final_1_p_00000">
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
 <url>
 	<baseurl>Dashboard</baseurl>
 	<param>
-		<name>dashboard_pages_btn</name>
-		<value>fireEvent</value>
-	</param>
-</url>
-<url>
-	<baseurl>Posts</baseurl>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
 	</param>
 	<param>
-		<name>dashboard_pages_btn</name>
-		<value>fireEvent</value>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name>listItem, value = 5</name>
-		<value>longClickListItem</value>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name>listItem #3 in context menu.</name>
-		<value>selectListItem</value>
+		<name>Theme_Transparent</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-</url>
-<url>
-	<baseurl>ChooserActivity</baseurl>
-	<param>
-		<name>listItem #1 in context menu.</name>
-		<value>longClickListItem</value>
+		<name>Yes</name>
+		<value>clickOnButton</value>
 	</param>
 </url>
 </session>
-<session id="WP_2_4_p_00001">
-<url>
-	<baseurl>Dashboard</baseurl>
+<session id="WP2_Final_1_p_00001">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00002">
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name>Preferences</name>
-		<value>clickOnMenuItem</value>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Theme_Transparent</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00003">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00004">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Read</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+		fireEvent (2131165329, 7, "", "webPage", "longClick");
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+		fireEvent (2131165329, 7, "", "webPage", "longClick");
+
+		fireEvent (2131165329, 7, "", "webPage", "longClick");
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Theme_Transparent</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>dashboard_quickvideo_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00005">
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Theme_Transparent</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00006">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00007">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Read</baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+		fireEvent (2131165329, 7, "", "webPage", "longClick");
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+		fireEvent (2131165329, 7, "", "webPage", "longClick");
+
+		fireEvent (2131165329, 7, "", "webPage", "longClick");
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Theme_Transparent</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>dashboard_quickvideo_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00008">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>TextAppearance_Theme_PlainText</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>About</baseurl>
+	<param>
+		<name>Terms of Service</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Privacy Policy</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00009">
+
+	<param>
+		<name>dashboard_quickvideo_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00010">
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>dashboard_stats_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>ViewStats</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00011">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00012">
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00013">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00014">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00015">
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00016">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00017">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00018">
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00019">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00020">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00021">
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00022">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00023">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00024">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00025">
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00026">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00027">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00028">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Theme_PlainText</name>
+		<value>click</value>
 	</param>
 </url>
 <url>
 	<baseurl>Preferences</baseurl>
 	<param>
-		<name>Cancel</name>
-		<value>clickOnButton</value>
+		<name>optional_settings</name>
+		<value>click</value>
 	</param>
 </url>
 <url>
 	<baseurl>Dashboard</baseurl>
 	<param>
 		<name>dashboard_pages_btn</name>
-		<value>fireEvent</value>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>listItem, value = 5</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem #1 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");
+
+</url>
+<url>
+	<baseurl>EditContent</baseurl>
+	<param>
+		<name>More</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>More</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name> link </name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Link</baseurl>
+	<param>
+		<name>55</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>56</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditContent</baseurl>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>More</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>home_small</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>action_refresh</name>
+		<value>click</value>
+	</param>
+		fireEvent (16908298, 5, "", "singleChoiceList", "selectListItem", "1");
+
+	<param>
+		<name>Reply</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>ReplyToComment</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>46</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Send Reply</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+		fireEvent (16908298, 5, "", "singleChoiceList", "selectListItem", "2");
+
+	<param>
+		<name>action_refresh</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Reply</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>ReplyToComment</baseurl>
+	<param>
+		<name>46</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Send Reply</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>ReplyToComment</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Spam</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
 	</param>
 </url>
 <url>
 	<baseurl>Posts</baseurl>
 	<param>
 		<name>listItem, value = 2</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>home_small</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00029">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>Theme_PlainText</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Preferences</baseurl>
+	<param>
+		<name>optional_settings</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>dashboard_pages_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>listItem, value = 5</name>
 		<value>longClickListItem</value>
 	</param>
 	<param>
+		<name>listItem #1 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");
+
+</url>
+<url>
+	<baseurl>EditContent</baseurl>
+	<param>
+		<name>More</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>More</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name> link </name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Link</baseurl>
+	<param>
+		<name>55</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>56</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditContent</baseurl>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>More</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>home_small</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>action_refresh</name>
+		<value>click</value>
+	</param>
+		fireEvent (16908298, 5, "", "singleChoiceList", "selectListItem", "1");
+
+	<param>
+		<name>Reply</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>ReplyToComment</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>46</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Send Reply</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+		fireEvent (16908298, 5, "", "singleChoiceList", "selectListItem", "2");
+
+	<param>
+		<name>action_refresh</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Reply</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>ReplyToComment</baseurl>
+	<param>
+		<name>46</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Send Reply</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>ReplyToComment</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Spam</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Posts</baseurl>
+	<param>
+		<name>listItem, value = 2</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>home_small</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00030">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00031">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00032">
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00033">
+
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Comments</baseurl>
+		fireEvent (16908298, 5, "", "singleChoiceList", "longClickListItem", "1");
+
+	<param>
 		<name>listItem #2 in context menu.</name>
 		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>home_small</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>home_small</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_quickvideo_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_1_p_00034">
+
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Theme_PlainText</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Preferences</baseurl>
+	<param>
+		<name>WordPressTitleAppearance</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>upload_now</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>WordPressTitleAppearance</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Theme_Translucent</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>upload_now</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>upload_now</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>upload_now</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>publish_date</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Theme_PlainText</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Preferences</baseurl>
+	<param>
+		<name>upload_now</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>WordPressTitleAppearance</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_2_p_00000">
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Theme_Transparent</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>No</name>
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name>listItem, value = 4</name>
-		<value>longClickListItem</value>
-	</param>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-</url>
-<url>
-	<baseurl>Dashboard</baseurl>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>dashboard_quickphoto_btn</name>
-		<value>fireEvent</value>
-	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00002">
-<url>
-	<baseurl>Dashboard</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.LANDSCAPE</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name>Solo.PORTRAIT</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>dashboard</name>
-		<value>fireEvent</value>
-	</param>
-</url>
-<url>
-	<baseurl>Posts</baseurl>
-	<param>
-		<name>listItem, value = 6</name>
-		<value>selectListItem</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>New Page</name>
-		<value>clickOnMenuItem</value>
+		<name>dashboard_newpage_btn</name>
+		<value>click</value>
 	</param>
 </url>
 <url>
@@ -159,104 +1123,16 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>spinner item #2</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #4</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #4</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #2</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #5</name>
-		<value>selectSpinnerItem</value>
+		<name>Publish</name>
+		<value>clickOnButton</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>Edit</name>
-		<value>clickOnButton</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>Back</name>
+		<name>Solo.MENU</name>
 		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.LANDSCAPE</name>
-		<value>setActivityOrientation</value>
 	</param>
 	<param>
 		<name>Solo.PORTRAIT</name>
@@ -274,124 +1150,19 @@ formatted for the C-PUT prioritization tool.-->
 		<name>45</name>
 		<value>setInput</value>
 	</param>
-	<param>
-		<name>Edit</name>
-		<value>clickOnButton</value>
-	</param>
-		fireEvent (16908795, 23, "", "focusableEditText", "focus");
+		fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");
 
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00003">
-<url>
-	<baseurl>Dashboard</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.LANDSCAPE</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name>Solo.PORTRAIT</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>dashboard</name>
-		<value>fireEvent</value>
-	</param>
 </url>
 <url>
-	<baseurl>Posts</baseurl>
+	<baseurl>EditContent</baseurl>
 	<param>
-		<name>listItem, value = 6</name>
-		<value>selectListItem</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
+		<name>Back</name>
 		<value>sendKey</value>
-	</param>
-	<param>
-		<name>New Page</name>
-		<value>clickOnMenuItem</value>
 	</param>
 </url>
 <url>
 	<baseurl>EditPost</baseurl>
 	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #2</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #4</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #4</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #2</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
-		<name>90</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>45</name>
-		<value>setInput</value>
-	</param>
-	<param>
-		<name>spinner item #5</name>
-		<value>selectSpinnerItem</value>
-	</param>
-	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
 	</param>
@@ -404,35 +1175,11 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>Edit</name>
+		<name>Publish</name>
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Back</name>
+		<name>Solo.MENU</name>
 		<value>sendKey</value>
 	</param>
 	<param>
@@ -440,11 +1187,11 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name>Solo.PORTRAIT</name>
-		<value>setActivityOrientation</value>
+		<name>Back</name>
+		<value>sendKey</value>
 	</param>
 	<param>
-		<name>Back</name>
+		<name>Solo.MENU</name>
 		<value>sendKey</value>
 	</param>
 	<param>
@@ -456,154 +1203,208 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>Edit</name>
+		<name>Publish</name>
 		<value>clickOnButton</value>
-	</param>
-		fireEvent (16908795, 23, "", "focusableEditText", "focus");
-
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00004">
-<url>
-	<baseurl>Dashboard</baseurl>
-	<param>
-		<name>dashboard_quickphoto_btn</name>
-		<value>fireEvent</value>
-	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00005">
-<url>
-	<baseurl>Dashboard</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>About</name>
-		<value>clickOnMenuItem</value>
-	</param>
-</url>
-<url>
-	<baseurl>About</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Privacy Policy</name>
-		<value>clickOnButton</value>
-	</param>
-	<param>
-		<name>www.automattic.com</name>
-		<value>clickOnButton</value>
-	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00006">
-<url>
-	<baseurl>Dashboard</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>About</name>
-		<value>clickOnMenuItem</value>
-	</param>
-</url>
-<url>
-	<baseurl>About</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Privacy Policy</name>
-		<value>clickOnButton</value>
-	</param>
-	<param>
-		<name>www.automattic.com</name>
-		<value>clickOnButton</value>
-	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00007">
-<url>
-	<baseurl>Dashboard</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00008">
-<url>
-	<baseurl>Dashboard</baseurl>
-	<param>
-		<name>Solo.LANDSCAPE</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name>dashboard_comments_btn</name>
-		<value>fireEvent</value>
-	</param>
-</url>
-<url>
-	<baseurl>Comments</baseurl>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>dashboard_subs_btn</name>
-		<value>fireEvent</value>
-	</param>
-</url>
-<url>
-	<baseurl>Read</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Home</name>
-		<value>clickOnMenuItem</value>
-	</param>
-</url>
-<url>
-	<baseurl>Comments</baseurl>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>Solo.PORTRAIT</name>
-		<value>setActivityOrientation</value>
 	</param>
 	<param>
 		<name>OK</name>
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name>date picker</name>
-		<value>click button</value>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+		fireEvent (16908795, 19, "", "focusableEditText", "focus");
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_2_p_00001">
+
+	<param>
+		<name>dashboard_settings_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>Settings</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #11</name>
+		<value>selectSpinnerItem</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>selectSpinnerItem</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>home_small</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>dashboard_newpage_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>No</name>
+		<value>clickOnButton</value>
 	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
@@ -614,19 +1415,40 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name>Back</name>
+		<name>Solo.MENU</name>
 		<value>sendKey</value>
 	</param>
-</url>
-<url>
-	<baseurl>Dashboard</baseurl>
 	<param>
-		<name>dashboard_settings_btn</name>
-		<value>fireEvent</value>
+		<name>Yes</name>
+		<value>clickOnButton</value>
 	</param>
 </url>
 <url>
 	<baseurl>Settings</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>location</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>selectSpinnerItem</value>
+	</param>
 	<param>
 		<name>27</name>
 		<value>setInput</value>
@@ -655,54 +1477,369 @@ formatted for the C-PUT prioritization tool.-->
 <url>
 	<baseurl>Dashboard</baseurl>
 	<param>
-		<name>dashboard_stats_btn</name>
-		<value>fireEvent</value>
+		<name>dashboard_newpage_btn</name>
+		<value>click</value>
 	</param>
 </url>
 <url>
-	<baseurl>ViewStats</baseurl>
+	<baseurl>EditPost</baseurl>
 	<param>
-		<name>77</name>
+		<name>90</name>
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>78</name>
+		<name>45</name>
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>Need help?</name>
+		<name>Publish</name>
 		<value>clickOnButton</value>
 	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00009">
-<url>
-	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
 	<param>
 		<name>Solo.PORTRAIT</name>
 		<value>setActivityOrientation</value>
 	</param>
-</url>
-</session>
-<session id="WP_2_4_p_00010">
-<url>
-	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>No</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+		fireEvent (16908795, 19, "", "focusableEditText", "focus");
+
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
 		<value>setActivityOrientation</value>
 	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
 </url>
 </session>
-<session id="WP_2_4_p_00011">
-<url>
-	<baseurl>Dashboard</baseurl>
+<session id="WP2_Final_2_p_00002">
+
 	<param>
-		<name>dashboard_overlay</name>
-		<value>fireEvent</value>
+		<name>dashboard_settings_btn</name>
+		<value>click</value>
 	</param>
 </url>
 <url>
-	<baseurl>Posts</baseurl>
+	<baseurl>Settings</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #11</name>
+		<value>selectSpinnerItem</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>selectSpinnerItem</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>home_small</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>dashboard_newpage_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>No</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Settings</baseurl>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>location</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>selectSpinnerItem</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>selectSpinnerItem</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>dashboard_newpage_btn</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>No</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+		fireEvent (16908795, 19, "", "focusableEditText", "focus");
+
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+</session>
+<session id="WP2_Final_2_p_00003">
+
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+<url>
+	<baseurl>Dashboard</baseurl>
+	<param>
+		<name>Theme_Translucent</name>
+		<value>click</value>
+	</param>
+</url>
+<url>
+	<baseurl>NewAccount</baseurl>
 	<param>
 		<name>Back</name>
 		<value>sendKey</value>
@@ -712,11 +1849,27 @@ formatted for the C-PUT prioritization tool.-->
 	<baseurl>Dashboard</baseurl>
 	<param>
 		<name>dashboard_newpost_btn</name>
-		<value>fireEvent</value>
+		<value>click</value>
 	</param>
 </url>
 <url>
 	<baseurl>EditPost</baseurl>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>View Map</name>
+		<value>clickOnButton</value>
+	</param>
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -734,135 +1887,137 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>Select Categories</name>
-		<value>clickOnButton</value>
-	</param>
-</url>
-<url>
-	<baseurl>SelectCategories</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
+		<name>spinner item #9</name>
+		<value>selectSpinnerItem</value>
 	</param>
 	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-</url>
-<url>
-	<baseurl>AddCategory</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>61</name>
+		<name>90</name>
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>84</name>
+		<name>85</name>
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>86</name>
+		<name>45</name>
 		<value>setInput</value>
 	</param>
 	<param>
-		<name>Cancel</name>
-		<value>clickOnButton</value>
-	</param>
-</url>
-<url>
-	<baseurl>SelectCategories</baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
+		<name>spinner item #5</name>
+		<value>selectSpinnerItem</value>
 	</param>
 	<param>
-		<name>Back</name>
-		<value>sendKey</value>
+		<name>90</name>
+		<value>setInput</value>
 	</param>
 	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
+		<name>85</name>
+		<value>setInput</value>
 	</param>
 	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
+		<name>45</name>
+		<value>setInput</value>
 	</param>
 	<param>
-		<name>date picker</name>
-		<value>click button</value>
+		<name>spinner item #10</name>
+		<value>selectSpinnerItem</value>
 	</param>
-</url>
-<url>
-	<baseurl>AddCategory</baseurl>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-</url>
-<url>
-	<baseurl>SelectCategories</baseurl>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-</url>
-<url>
-	<baseurl>AddCategory</baseurl>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-</url>
-<url>
-	<baseurl>SelectCategories</baseurl>
-	<param>
-		<name>Solo.PORTRAIT</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>date picker</name>
-		<value>click button</value>
-	</param>
-</url>
-<url>
-	<baseurl>AddCategory</baseurl>
-	<param>
-		<name>Back</name>
-		<value>sendKey</value>
-	</param>
-</url>
-<url>
-	<baseurl>SelectCategories</baseurl>
 	<param>
 		<name>Solo.LANDSCAPE</name>
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name>Done</name>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>selectSpinnerItem</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
 		<value>clickOnButton</value>
 	</param>
-</url>
-<url>
-	<baseurl>EditPost</baseurl>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>PM</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>AM</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>name not found</name>
+		<value>click</value>
+	</param>
 </url>
 </session>
 </testSuite>

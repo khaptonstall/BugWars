@@ -23,58 +23,60 @@
 #include <iostream>
 #include <string>
 
-#include "JUnitParser.h" //declaration for jparse(bool multiple)#include "XMLParser.h" //declaration for xmlparse
-#include "HexMatch.h"
+#include "main.h"
+#include "HexMatch.h"
+#include "JUnitParser.h" //declaration for jparse(bool multiple)
+#include "XMLParser.h" //declaration for xmlparse
+#include "ClassNameFix.h"
+
 using namespace std;
 
 bool readKey(char selection);
-int main();
 
 int main() {
-
 	string jListName;
 	char selection;
 	bool parseJUnit, parseMultipleJUnit, parseXML;
 	cout << "-----------------" << endl;
 
-	cout << "Run the JUnit parser (y/n): " << endl;
+	//set to your R.java path
+	//setRPath("C:/Users/Meredith/workspace/WordPress-v2.0_ContainsAllBugs/WordPress-Android-2.0/gen/org/wordpress/android/R.java");
+
+	cout << "Do you want to run the JUnit parser? y/n: " << endl;
 	cin >> selection;
 	if (readKey(selection)) {
 		parseJUnit = true;
-		cout << "Parse multiple test suites (y/n): " << endl;
+		cout << "Do you want to parse multiple test suites? y/n: " << endl;
 		cin >> selection;
 		if (readKey(selection)) {
-			cout << "Name of the file containing the path & list of test suites: " << endl;
+			parseMultipleJUnit = true;
+			cout << "What is the name of the file containing the path & list of test suites? " << endl;
 			cin >> jListName;
 			setJListFile(jListName);
-			parseMultipleJUnit = true;
 		} else {
-			cout << "Path of the test suite: " << endl;
+			parseMultipleJUnit = false;
+			cout << "What is the path of the test suite? " << endl;
 			string jpath;
 			cin >> jpath;
 			setPath(jpath);
-			parseMultipleJUnit = false;
 		}
 	} else {
 		parseJUnit = false;
 	}
 
-	cout << "Run the XML parser (y/n): " << endl;
+	cout << "Do you want to run the XML parser? y/n: " << endl;
 	cin >> selection;
 	if (readKey(selection)) {
-		//if also running JUnitParser,
+		//if also running JUnitParser, fileList_p.txt created in JUnitParser.cpp & contains list of parsed junit files
 		//Runs XMLParser on the same files JUnitParser just finished parsing
-		if (parseJUnit) {
-			string xListName = setJListFile(jListName);
-			setXFileName(xListName);
-		} else {
+		if (!(parseJUnit)) {
 			cout << "Enter the name of the file containing the path & list of test suites to add to the xml file:"  << endl;
 			string xListName;
 			cin >> xListName;
 			setXFileName(xListName);
 		}
 		if (!isRPathSet()) {
-			cout << "Enter the full path of the R.java file for the android application being tested:" << endl;
+			cout << "Enter the full path of the R.java file for the application being tested: " << "\n(Usually something like C:/WHERE/YOU/SAVED/THE/APP/Wordpress-v2/gen/org/wordpress/android/R.java" << endl;
 			string rpath;
 			cin >> rpath;
 			setRPath(rpath);

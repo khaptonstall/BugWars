@@ -11,7 +11,7 @@
 using namespace std;
 
 /**
- * Checks to see if a line contains only spaces
+ * Checks to see if a line contains only spaces, and nothing else
  * @param string str
  * @return bool (true if no non-space char is found)
  */
@@ -21,5 +21,5 @@ bool has_only_spaces(string line) {
 	} else {
 		return false;
 	}
-
 }
+

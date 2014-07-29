@@ -12,7 +12,8 @@
 using namespace std;
 
 int jparse(bool multiple);
-string setJListFile(string fileName);
+void setJListFile(string fileName);
 void setPath(string filePath);
+string getFullPath();
 
 #endif
