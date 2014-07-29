@@ -106,7 +106,10 @@ int xmlparse() {
 								traceFound = false;
 							} else if(found(currLine, "solo.assertCurrentActivity")) {
 								outfile << activityMgr(currLine);
-							}else if (found(currLine, "solo.sendKey")) {
+							} else if(found(currLine, "Testing base activity")) {
+								currentActivity = "Dashboard";
+								outfile << "<url>\n\t<baseurl>Dashboard</baseurl>" << '\n';
+							} else if (found(currLine, "solo.sendKey")) {
 								outfile << getInfo_sendKey(currLine);
 							} else if (found(currLine, "solo.clickOnButton")) {
 								outfile << getInfo_clickOnButton(currLine);
@@ -120,6 +123,12 @@ int xmlparse() {
 								outfile << getInfo_clickOnMenuItem(currLine);
 							} else if (found(currLine, "fireEvent")) {
 								outfile << getInfo_fireEvent(currLine);
+							} else if (found(currLine, "fail")) {
+								outfile << "\n\t<param>\n\t\t<name>FAIL</name>\n\t\t"
+										<< "<value>FAIL</value>\n\t</param>";
+							} else if (found(currLine, "crash")) {
+								outfile << "\n\t<param>\n\t\t<name>CRASH</name>\n\t\t"
+											<< "<value>CRASH</value>\n\t</param>";
 							}
 						}
 					}
@@ -149,13 +158,13 @@ int xmlparse() {
  */
 string activityMgr(string inputText) {
 	//sets first currentActivity for each test trace:
-	if (found(inputText, "Testing base activity") && found(inputText, "solo.assertCurrentActivity")) {
+	/*if (found(inputText, "Testing base activity") && found(inputText, "solo.assertCurrentActivity")) {
 		//solo.assertCurrentActivity("Testing base activity", "Dashboard");
 		//GuiRipper's junit tests assert the base activity at the beginning of each test trace
 		currentActivity = inputText.substr(inputText.find(",") + 3, string::npos);
 		currentActivity = currentActivity.substr(0, currentActivity.find(")") - 1);
 		return ("<url>\n\t<baseurl>" + currentActivity + "</baseurl>"); // << '\n';
-	}
+	}*/
 	vector<string> string_list;
 	istringstream ss(inputText);
 	string token;
