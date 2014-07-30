@@ -1,8 +1,7 @@
 <!--This xml file contains android/robotium event call information,
 formatted for the C-PUT prioritization tool.-->
 <testSuite>
-<session id="WP2_Final_1_p_00000">
-
+<session id="Trace 1-00">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -22,7 +21,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> "Remove Blog"</name>
+		<name>Remove Blog</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -39,8 +38,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00001">
-
+<session id="Trace 1-01">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -53,8 +51,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00002">
-
+<session id="Trace 1-02">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -74,7 +71,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> "Remove Blog"</name>
+		<name>Remove Blog</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -91,8 +88,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00003">
-
+<session id="Trace 1-03">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -105,8 +101,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00004">
-
+<session id="Trace 1-04">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -146,7 +141,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Refresh"</name>
+		<name>Refresh</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -179,8 +174,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00005">
-
+<session id="Trace 1-05">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -200,7 +194,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> "Remove Blog"</name>
+		<name>Remove Blog</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -217,8 +211,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00006">
-
+<session id="Trace 1-06">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -231,8 +224,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00007">
-
+<session id="Trace 1-07">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -272,7 +264,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Refresh"</name>
+		<name>Refresh</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -305,8 +297,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00008">
-
+<session id="Trace 1-08">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -318,7 +309,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> "About"</name>
+		<name>About</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -335,8 +326,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00009">
-
+<session id="Trace 1-09">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -345,8 +335,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00010">
-
+<session id="Trace 1-10">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -367,8 +356,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00011">
-
+<session id="Trace 1-11">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -381,8 +369,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00012">
-
+<session id="Trace 1-12">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -391,8 +378,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00013">
-
+<session id="Trace 1-13">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -405,8 +391,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00014">
-
+<session id="Trace 1-14">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -419,8 +404,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00015">
-
+<session id="Trace 1-15">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -429,8 +413,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00016">
-
+<session id="Trace 1-16">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -443,8 +426,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00017">
-
+<session id="Trace 1-17">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -457,8 +439,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00018">
-
+<session id="Trace 1-18">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -467,8 +448,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00019">
-
+<session id="Trace 1-19">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -481,8 +461,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00020">
-
+<session id="Trace 1-20">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -495,8 +474,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00021">
-
+<session id="Trace 1-21">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -505,8 +483,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00022">
-
+<session id="Trace 1-22">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -519,8 +496,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00023">
-
+<session id="Trace 1-23">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -533,8 +509,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00024">
-
+<session id="Trace 1-24">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -547,8 +522,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00025">
-
+<session id="Trace 1-25">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -557,8 +531,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00026">
-
+<session id="Trace 1-26">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -571,8 +544,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00027">
-
+<session id="Trace 1-27">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -585,8 +557,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00028">
-
+<session id="Trace 1-28">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -594,11 +565,11 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Add Account"</name>
+		<name>Add Account</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
-		<name> "Cancel"</name>
+		<name>Cancel</name>
 		<value>click button</value>
 	</param>
 	<param>
@@ -622,7 +593,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name> "Content"</name>
+		<name>Content</name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -678,16 +649,16 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 39</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_comments_btn</name>
 		<value>click</value>
 	</param>
 	<param>
-		<name> 32</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 		fireEvent (16908298, 5, "", "singleChoiceList", "selectListItem", "1");
 
@@ -714,8 +685,8 @@ formatted for the C-PUT prioritization tool.-->
 		fireEvent (16908298, 5, "", "singleChoiceList", "selectListItem", "2");
 
 	<param>
-		<name> 63</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Reply</name>
@@ -762,8 +733,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>selectListItem</value>
 	</param>
 	<param>
-		<name> 52</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_quickphoto_btn</name>
@@ -771,8 +742,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00029">
-
+<session id="Trace 1-29">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -780,11 +750,11 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Add Account"</name>
+		<name>Add Account</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
-		<name> "Cancel"</name>
+		<name>Cancel</name>
 		<value>click button</value>
 	</param>
 	<param>
@@ -808,7 +778,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name> "Content"</name>
+		<name>Content</name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -864,16 +834,16 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 39</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_comments_btn</name>
 		<value>click</value>
 	</param>
 	<param>
-		<name> 32</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 		fireEvent (16908298, 5, "", "singleChoiceList", "selectListItem", "1");
 
@@ -900,8 +870,8 @@ formatted for the C-PUT prioritization tool.-->
 		fireEvent (16908298, 5, "", "singleChoiceList", "selectListItem", "2");
 
 	<param>
-		<name> 63</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Reply</name>
@@ -948,8 +918,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>selectListItem</value>
 	</param>
 	<param>
-		<name> 52</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_quickphoto_btn</name>
@@ -957,8 +927,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00030">
-
+<session id="Trace 1-30">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -971,8 +940,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00031">
-
+<session id="Trace 1-31">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -985,8 +953,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00032">
-
+<session id="Trace 1-32">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -995,8 +962,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00033">
-
+<session id="Trace 1-33">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -1018,12 +984,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 11</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 11</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_quickvideo_btn</name>
@@ -1031,8 +997,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_1_p_00034">
-
+<session id="Trace 1-34">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -1044,43 +1009,29 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Add Account"</name>
+		<name>Add Account</name>
 		<value>click menuItem</value>
 	</param>
-	<param>
-		<name>WordPressTitleAppearance</name>
-		<value>click</value>
-	</param>
+		fireEvent (15, "Vibrate", "check", "click");
+
 	<param>
 		<name>Solo.LANDSCAPE</name>
 		<value>setActivityOrientation</value>
 	</param>
+		fireEvent (19, "Add a tagline to new posts", "check", "click");
+
+		fireEvent (14, "Play notification sound", "check", "click");
+
+		fireEvent (2, 9, "My Blog", "check", "click");
+
+		fireEvent (19, "Add a tagline to new posts", "check", "click");
+
+		fireEvent (19, "Add a tagline to new posts", "check", "click");
+
+		fireEvent (19, "Add a tagline to new posts", "check", "click");
+
 	<param>
-		<name>upload_now</name>
-		<value>click</value>
-	</param>
-	<param>
-		<name>WordPressTitleAppearance</name>
-		<value>click</value>
-	</param>
-	<param>
-		<name>Theme_Translucent</name>
-		<value>click</value>
-	</param>
-	<param>
-		<name>upload_now</name>
-		<value>click</value>
-	</param>
-	<param>
-		<name>upload_now</name>
-		<value>click</value>
-	</param>
-	<param>
-		<name>upload_now</name>
-		<value>click</value>
-	</param>
-	<param>
-		<name> "Save"</name>
+		<name>Save</name>
 		<value>click button</value>
 	</param>
 	<param>
@@ -1088,21 +1039,16 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Add Account"</name>
+		<name>Add Account</name>
 		<value>click menuItem</value>
 	</param>
-	<param>
-		<name>upload_now</name>
-		<value>click</value>
-	</param>
-	<param>
-		<name>WordPressTitleAppearance</name>
-		<value>click</value>
-	</param>
+		fireEvent (19, "Add a tagline to new posts", "check", "click");
+
+		fireEvent (14, "Play notification sound", "check", "click");
+
 </url>
 </session>
-<session id="WP2_Final_2_p_00000">
-
+<session id="Trace 2-00">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -1122,7 +1068,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Remove Blog"</name>
+		<name>Remove Blog</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -1170,7 +1116,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name> "Content"</name>
+		<name>Content</name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -1294,11 +1240,11 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -1315,8 +1261,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_2_p_00001">
-
+<session id="Trace 2-01">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -1360,8 +1305,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name> 33</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -1447,10 +1392,8 @@ formatted for the C-PUT prioritization tool.-->
 		<name>29</name>
 		<value>setInput</value>
 	</param>
-	<param>
-		<name>location</name>
-		<value>click</value>
-	</param>
+		fireEvent (2131165351, 23, "Geotag Posts", "check", "click");
+
 	<param>
 		<name>27</name>
 		<value>setInput</value>
@@ -1532,20 +1475,20 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
-		<name> 19</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
@@ -1556,12 +1499,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Cancel</name>
@@ -1573,8 +1516,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_2_p_00002">
-
+<session id="Trace 2-02">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -1618,8 +1560,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name> 33</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -1705,10 +1647,8 @@ formatted for the C-PUT prioritization tool.-->
 		<name>29</name>
 		<value>setInput</value>
 	</param>
-	<param>
-		<name>location</name>
-		<value>click</value>
-	</param>
+		fireEvent (2131165351, 23, "Geotag Posts", "check", "click");
+
 	<param>
 		<name>27</name>
 		<value>setInput</value>
@@ -1790,20 +1730,20 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
-		<name> 19</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
@@ -1814,12 +1754,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Cancel</name>
@@ -1831,8 +1771,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_2_p_00003">
-
+<session id="Trace 2-03">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -1840,7 +1779,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Preferences"</name>
+		<name>Preferences</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -1956,32 +1895,32 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.PORTRAIT</name>
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
@@ -1992,33 +1931,32 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>PM</name>
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>AM</name>
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 </url>
 </session>
-<session id="WP2_Final_3_p_00000">
-
+<session id="Trace 3-00">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -2110,8 +2048,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name> 33</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -2138,12 +2076,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 11</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 11</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_comments_btn</name>
@@ -2158,16 +2096,16 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Back</name>
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
@@ -2178,8 +2116,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>OK</name>
@@ -2202,7 +2140,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "New Page"</name>
+		<name>New Page</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -2222,39 +2160,39 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
-		<name> 23</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
-		<name> 19</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -2262,12 +2200,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Cancel</name>
@@ -2290,7 +2228,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setInput</value>
 	</param>
 	<param>
-		<name> "Content"</name>
+		<name>Content</name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -2310,8 +2248,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Cancel</name>
@@ -2354,31 +2292,31 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 22</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
-		<name> 15</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -2386,16 +2324,16 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>FAIL</name>
@@ -2403,8 +2341,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_3_p_00001">
-
+<session id="Trace 3-01">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -2417,13 +2354,12 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_3_p_00002">
-
+<session id="Trace 3-02">
 <url>
 	<baseurl></baseurl>
 	<param>
-		<name> 13</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_subs_btn</name>
@@ -2438,7 +2374,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Home"</name>
+		<name>Home</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -2477,22 +2413,16 @@ formatted for the C-PUT prioritization tool.-->
 		<name>webView</name>
 		<value>longClick</value>
 	</param>
-	<param>
-		<name>WordPressTitleAppearance</name>
-		<value>click</value>
-	</param>
-	<param>
-		<name>WordPressTitleAppearance</name>
-		<value>click</value>
-	</param>
+		fireEvent (8, "Email or Username\n\t\t", "text", "click");
+
+		fireEvent (8, "Email or Username\n\t\t", "text", "click");
+
 	<param>
 		<name>webView</name>
 		<value>longClick</value>
 	</param>
-	<param>
-		<name>WordPressTitleAppearance</name>
-		<value>click</value>
-	</param>
+		fireEvent (8, "Email or Username\n\t\t", "text", "click");
+
 	<param>
 		<name>Solo.MENU</name>
 		<value>sendKey</value>
@@ -2534,13 +2464,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00000">
-
+<session id="Trace 4-00">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -2552,7 +2481,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> "Preferences"</name>
+		<name>Preferences</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -2640,7 +2569,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Preferences"</name>
+		<name>Preferences</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -2701,8 +2630,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00001">
-
+<session id="Trace 4-01">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -2711,8 +2639,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00002">
-
+<session id="Trace 4-02">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -2721,8 +2648,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00003">
-
+<session id="Trace 4-03">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -2735,8 +2661,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00004">
-
+<session id="Trace 4-04">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -2764,8 +2689,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.PORTRAIT</name>
@@ -2776,8 +2701,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>OK</name>
@@ -2808,7 +2733,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Refresh"</name>
+		<name>Refresh</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -2824,8 +2749,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>click</value>
 	</param>
 	<param>
-		<name> 27</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_comments_btn</name>
@@ -2848,12 +2773,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Back</name>
@@ -2865,8 +2790,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00005">
-
+<session id="Trace 4-05">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -2894,8 +2818,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.PORTRAIT</name>
@@ -2906,8 +2830,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>OK</name>
@@ -2938,7 +2862,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> "Refresh"</name>
+		<name>Refresh</name>
 		<value>click menuItem</value>
 	</param>
 	<param>
@@ -2954,8 +2878,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>click</value>
 	</param>
 	<param>
-		<name> 27</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_comments_btn</name>
@@ -2978,12 +2902,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Back</name>
@@ -2995,8 +2919,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00006">
-
+<session id="Trace 4-06">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3009,8 +2932,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00007">
-
+<session id="Trace 4-07">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3019,8 +2941,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00008">
-
+<session id="Trace 4-08">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3052,7 +2973,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -3100,7 +3021,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -3113,8 +3034,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_4_p_00009">
-
+<session id="Trace 4-09">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3142,8 +3062,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_posts_btn</name>
@@ -3166,8 +3086,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard</name>
@@ -3182,8 +3102,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
@@ -3210,13 +3130,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 </url>
 </session>
-<session id="WP2_Final_5_p_00000">
-
+<session id="Trace 5-00">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3225,8 +3144,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_5_p_00001">
-
+<session id="Trace 5-01">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3239,8 +3157,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_5_p_00002">
-
+<session id="Trace 5-02">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3300,12 +3217,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>selectListItem</value>
 	</param>
 	<param>
-		<name> 54</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.PORTRAIT</name>
@@ -3320,12 +3237,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 29</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 12</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>CRASH</name>
@@ -3333,8 +3250,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_5_p_00003">
-
+<session id="Trace 5-03">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3350,8 +3266,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>selectListItem</value>
 	</param>
 	<param>
-		<name> 37</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>CRASH</name>
@@ -3359,13 +3275,12 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_5_p_00004">
-
+<session id="Trace 5-04">
 <url>
 	<baseurl></baseurl>
 	<param>
-		<name> 13</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_comments_btn</name>
@@ -3384,8 +3299,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_newpost_btn</name>
@@ -3404,28 +3319,28 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Back</name>
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>dashboard_comments_btn</name>
 		<value>click</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
@@ -3448,8 +3363,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 40</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
@@ -3472,8 +3387,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> 14</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
@@ -3496,8 +3411,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 15</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>90</name>
@@ -3516,8 +3431,8 @@ formatted for the C-PUT prioritization tool.-->
 		<value>sendKey</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
@@ -3528,7 +3443,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -3544,12 +3459,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
@@ -3572,7 +3487,7 @@ formatted for the C-PUT prioritization tool.-->
 		<value>clickOnButton</value>
 	</param>
 	<param>
-		<name> ""</name>
+		<name></name>
 		<value>focusableEditText</value>
 	</param>
 	<param>
@@ -3580,123 +3495,119 @@ formatted for the C-PUT prioritization tool.-->
 		<value>setActivityOrientation</value>
 	</param>
 	<param>
-		<name> 16</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> 24</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> 22</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> 16</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> 18</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> 16</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> 20</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> ""</name>
-		<value>focusableEditText</value>
-	</param>
-	<param>
-		<name>Solo.LANDSCAPE</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name> 24</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> 14</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name> 24</name>
-		<value>click button</value>
-	</param>
-	<param>
-		<name>FAIL</name>
-		<value>FAIL</value>
-	</param>
-</url>
-</session>
-<session id="WP2_Final_5_p_00005">
-
-<url>
-	<baseurl></baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.PORTRAIT</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name> "About"</name>
-		<value>click menuItem</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>Solo.LANDSCAPE</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name>Solo.PORTRAIT</name>
-		<value>setActivityOrientation</value>
-	</param>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name>FAIL</name>
-		<value>FAIL</value>
-	</param>
-</url>
-</session>
-<session id="WP2_Final_5_p_00006">
-
-<url>
-	<baseurl></baseurl>
-	<param>
-		<name>Solo.MENU</name>
-		<value>sendKey</value>
-	</param>
-	<param>
-		<name> "Add Account"</name>
-		<value>click menuItem</value>
-	</param>
-	<param>
-		<name>NoActionBar</name>
+		<name>date picker</name>
 		<value>click</value>
 	</param>
 	<param>
-		<name> "Cancel"</name>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 5-05">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>About</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 5-06">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add Account</name>
+		<value>click menuItem</value>
+	</param>
+		fireEvent (16, "Vibrate", "check", "click");
+
+	<param>
+		<name>Cancel</name>
 		<value>click button</value>
 	</param>
 	<param>
@@ -3705,8 +3616,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_5_p_00007">
-
+<session id="Trace 5-07">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3719,8 +3629,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_5_p_00008">
-
+<session id="Trace 5-08">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3733,8 +3642,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 </url>
 </session>
-<session id="WP2_Final_5_p_00009">
-
+<session id="Trace 5-09">
 <url>
 	<baseurl></baseurl>
 	<param>
@@ -3742,12 +3650,12 @@ formatted for the C-PUT prioritization tool.-->
 		<value>click</value>
 	</param>
 	<param>
-		<name> 20</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 	<param>
-		<name> 18</name>
-		<value>click button</value>
+		<name>date picker</name>
+		<value>click</value>
 	</param>
 </url>
 </session>

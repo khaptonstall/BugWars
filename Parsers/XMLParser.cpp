@@ -23,6 +23,7 @@
  *      		(include extension)
  */
 
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -34,14 +35,15 @@ using namespace std;
 #include "hasonlyspaces.h"
 #include "HexMatch.h"
 
-string activityMgr(string inputText);
 string getInfo_fireEvent(string inputText);
 string getInfo_sendKey(string inputText);
 string getInfo_clickOnButton(string inputText);
 string getInfo_setInput(string inputText);
 string getInfo_setActivityOrientation(string inputText);
 string getInfo_goBack(string inputText);
-string getInfo_clickOnMenuItem(string inputText);
+
+string trimQuotes(string input);
+vector<string> createParamList(string inputText);
 
 string currentActivity;
 string path;
@@ -55,8 +57,8 @@ void setXFileName(string fileName) {
 	listName = fileName;
 }
 
-/* Main parsing method. For each java file listed in the specified text file, xmlparse() reads each line.
- * For each gui event method, it adds information to an xml file, formatted for use with the C-PUT tool.
+/* Main xml parsing method. For each java file listed in the specified text file, xmlparse() reads each line in that java file.
+ * For each gui event method (robotium or fireEvent), it adds information to an xml file, formatted for use with the C-PUT tool.
  */
 int xmlparse() {
 	bool traceFound = false;
@@ -95,8 +97,14 @@ int xmlparse() {
 							string traceNum = currLine;
 							traceNum = traceNum.erase(0, traceNum.find("0"));
 							traceNum = traceNum.erase(traceNum.find(" "));
-							outfile << "<session id=\"" << currentFileName
-									<< "_" << traceNum << "\">" << '\n'
+							int digits = 2; 				//number of digits to keep in name of trace
+							traceNum = traceNum.substr(traceNum.length() - digits);
+							string name = currentFileName;
+							name = name.erase(name.find("_p"));
+							name = name.erase(0, name.find_last_of("_") + 1);
+
+							outfile << "<session id=\"Trace " << name
+									<< "-" << traceNum << "\">"
 									<< "\n<url>"
 									<< "\n\t<baseurl></baseurl>";
 						}
@@ -122,8 +130,6 @@ int xmlparse() {
 								outfile << getInfo_setActivityOrientation(currLine);
 							} else if (found(currLine, "solo.goBack")) {
 								outfile << getInfo_goBack(currLine);
-							} else if (found(currLine, "solo.clickOnMenuItem")) {
-								outfile << getInfo_clickOnMenuItem(currLine);
 							} else if (found(currLine, "fireEvent")) {
 								outfile << getInfo_fireEvent(currLine);
 							} else if (found(currLine, "fail")) {
@@ -136,10 +142,10 @@ int xmlparse() {
 						}
 					}
 				} else {
-					cout << "Unable to open current junit file: " << filePath << endl;
+					cout << "Unable to open current JUnit file: " << filePath << endl;
 				}
 				infile.close();
-				cout << "Finished parsing current junit file to XML: " << line << endl;
+				cout << "Finished parsing current JUnit file to XML: " << line << endl;
 			}
 		}
 	} else {
@@ -152,39 +158,6 @@ int xmlparse() {
 }
 
 
-/**
- * Reads activity name from robotium method (solo.assertCurrentActivity),
- * compares name to value of currentActivity.
- * If new activity, ends current xml url section and begins new <url> xml section
- * @param string inputText
- * @return new line of xml code, as string
- */
-string activityMgr(string inputText) {
-	//sets first currentActivity for each test trace:
-	/*if (found(inputText, "Testing base activity") && found(inputText, "solo.assertCurrentActivity")) {
-		//solo.assertCurrentActivity("Testing base activity", "Dashboard");
-		//GuiRipper's junit tests assert the base activity at the beginning of each test trace
-		currentActivity = inputText.substr(inputText.find(",") + 3, string::npos);
-		currentActivity = currentActivity.substr(0, currentActivity.find(")") - 1);
-		return ("<url>\n\t<baseurl>" + currentActivity + "</baseurl>"); // << '\n';
-	}*/
-	vector<string> string_list;
-	istringstream ss(inputText);
-	string token;
-	while(getline(ss, token, ',')){
-		string_list.push_back(token);
-	}
-	string Activity = string_list[1];
-	Activity = Activity.erase(0,2);
-	Activity = Activity.erase(Activity.find("\""));
-
-	//if different activity is found..
-	if (Activity.compare(currentActivity) != 0) {
-		currentActivity = Activity;
-		return "\n</url>\n<url>\n\t<baseurl>" + Activity + "</baseurl>";
-	}
-	return "";
-}
 
 /* Gets information from a robotium event method call: sendKey
  * Formats information in xml.
@@ -263,19 +236,6 @@ string getInfo_goBack(string inputText) {
 			"<value>sendKey</value>\n\t</param>");
 }
 
-/* Gets information from robotium method clickOnMenuItem(itemName)
- * & formats information in xml.
- * @param string inputText
- * @return xml code representing an android event
- */
-string getInfo_clickOnMenuItem(string inputText) {
-	//solo.clickOnMenuItem( "New Page");
-	string item = inputText.substr(inputText.find("\"") + 1, string::npos);
-	item = item.substr(0, item.find("\""));
-	return "\n\t<param>\n\t\t<name>"
-			+ item
-			+ "</name>\n\t\t<value>clickOnMenuItem</value>\n\t</param>";
-}
 
 /* Gets information from an fireEvent method call
  * Formats information for xml file.
@@ -285,25 +245,17 @@ string getInfo_clickOnMenuItem(string inputText) {
 string getInfo_fireEvent(string inputText) {
 
 	if(found(inputText, "listView")) {
-		inputText = inputText.erase(0, inputText.find("(") + 1);
-		inputText = inputText.erase(inputText.find(")"), string::npos);
-		//cout << "\n" << inputText << endl;
 
 		string clickType;
-		if (found(inputText, "longClickListItem")) {
+		if (found(inputText, "longClickListItem"))
 			clickType = "longClickListItem";
-		} else if (found(inputText, "selectListItem")) {
+		else if (found(inputText, "selectListItem"))
 			clickType = "selectListItem";
-		}
 
-		vector<string> param_list;
-		istringstream ss(inputText);
-		string token;
-		while(getline(ss, token, ',')){
-			param_list.push_back(token);
-		}
-		//If the second fireEvent parameter is an empty string (""), method is clicking on a context menu
+		vector<string> param_list = createParamList(inputText);
+
 		if (found(param_list[1], "\"\"")) {
+			//If the second fireEvent parameter IS an empty string (""), method is clicking on a context menu
 			string value = param_list[4];
 			value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2);
 			return ("\n\t<param>\n\t\t<name>"
@@ -311,15 +263,11 @@ string getInfo_fireEvent(string inputText) {
 				"</name>\n\t\t"
 				"<value>" + clickType + "</value>\n\t</param>");
 		}
-		//if the second fireEvent parameter is not an empty string, method is NOT clicking on a context menu item
 		else {
+			//if the second fireEvent parameter IS NOT an empty string, method is NOT clicking on a context menu item
 			string value = param_list[5];
 			value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2); //erases quotation marks around the string value
-
-			//int n = atoi(value.c_str());
-			//cout << "value: " << value << endl;
-			//cout << "N: " << n << endl;
-			//int n = Math.min(l.getCount(), Math.max(1,num))-1;
+			//make more accurate/specific?
 
 			return ("\n\t<param>\n\t\t<name>"
 				"listItem, value = " + value
@@ -327,81 +275,55 @@ string getInfo_fireEvent(string inputText) {
 				"<value>" + clickType + "</value>\n\t</param>");
 		}
 	}
-	else if(found(inputText, "\"click\"")) {
-		if (found(inputText, "menuItem")) {
-			//fireEvent (1, "Add Account", "menuItem", "click");
-			vector<string> param_list;
-			istringstream ss(inputText);
-			string token;
-			while(getline(ss, token, ',')){
-				param_list.push_back(token);
-			}
-			return ("\n\t<param>\n\t\t<name>"
-				+ param_list[1] + "</name>\n\t\t"
-				"<value>click menuItem</value>\n\t</param>"); //should be just click?
-		}
-		else if (found(inputText, "button")) {
+	else if(found(inputText, "\"click\"") && found(inputText, "menuItem")) {
+		//fireEvent (1, "Add Account", "menuItem", "click");
+		vector<string> param_list = createParamList(inputText);
+		return ("\n\t<param>\n\t\t<name>"
+			+ trimQuotes(param_list[1]) + "</name>\n\t\t"
+			"<value>click menuItem</value>\n\t</param>"); //should be just click?
+	}
+	else if(found(inputText, "\"click\"") && found(inputText, "button")) {
+		vector<string> param_list = createParamList(inputText);
+		if (param_list.size() == 4) {
 			//fireEvent (22, "Cancel", "button", "click");
-			vector<string> param_list;
-			istringstream ss(inputText);
-			string token;
-			while(getline(ss, token, ',')){
-				param_list.push_back(token);
-			}
 			return ("\n\t<param>\n\t\t<name>"
-				+ param_list[1] + "</name>\n\t\t"
+				+ trimQuotes(param_list[1]) + "</name>\n\t\t"
 				"<value>click button</value>\n\t</param>"); //should be just click?
-		}
-			//fireEvent (2131165251, 21, "", "linearLayout", "click");
-			//could make method to return widget name, finding id from an input line
-			string widgetId = inputText.substr(inputText.find("("));
-			widgetId = widgetId.substr(1, widgetId.find(","));
-			int id = atoi(widgetId.c_str());
+		} else if (param_list.size() == 5) {
+			//fireEvent (16908796, 24, "", "button", "click"); date picker
+			//should make more specific. not sure how to interpret fireEvent for date pickers
 			return ("\n\t<param>\n\t\t<name>"
-				+ findWidgetName(id) + "</name>\n\t\t"
+				"date picker"
+				"</name>\n\t\t"
 				"<value>click</value>\n\t</param>");
+		}
+	}
+	else if(found(inputText, "\"click\"") && found(inputText, "linearLayout")) {
+		//fireEvent (2131165251, 21, "", "linearLayout", "click");
+		return ("\n\t<param>\n\t\t<name>"
+			+ findWidgetName(inputText) + "</name>\n\t\t"
+			"<value>click</value>\n\t</param>");
 	}
 	else if (found(inputText, "\"longClick\"")) {
 		//fireEvent (2131165329, 7, "", "webPage", "longClick");
 		//2131165329 --> 7f070091 = int webView=0x7f070091
-		string widgetId = inputText.substr(inputText.find("("));
-		widgetId = widgetId.substr(1, widgetId.find(","));
-		int id = atoi(widgetId.c_str());
 		return ("\n\t<param>\n\t\t<name>"
-			+ findWidgetName(id) + "</name>\n\t\t"
+			+ findWidgetName(inputText) + "</name>\n\t\t"
 			"<value>longClick</value>\n\t</param>");
-	}
-	else if(found(inputText, "\"button\"")) {
-		//fireEvent (16908796, 24, "", "button", "click"); date picker
-		//should make more specific. not sure how to interpret fireEvent
-		return ("\n\t<param>\n\t\t<name>"
-			"date picker"
-			"</name>\n\t\t"
-			"<value>click button</value>\n\t</param>");
 	}
 	else if (found(inputText, "focus")) {
 		//fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");
-		vector<string> param_list;
-		istringstream ss(inputText);
-		string token;
-		while(getline(ss, token, ',')){
-			param_list.push_back(token);
-		}
+		vector<string> param_list = createParamList(inputText);
 		return ("\n\t<param>\n\t\t<name>"
-			+ param_list[2] + "</name>\n\t\t"
+			+ trimQuotes(param_list[2]) + "</name>\n\t\t"
 			"<value>focusableEditText</value>\n\t</param>");
 	}
 	else if(found(inputText, "spinner")) {
 		//fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
 		//should make more specific. not sure how to interpret.
-		inputText = inputText.erase(0, inputText.find("(") + 1);
-		inputText = inputText.erase(inputText.find(")"), string::npos);
-		vector<string> param_list;
-		istringstream ss(inputText);
-		string token;
-		while(getline(ss, token, ',')){
-			param_list.push_back(token);
-		}
+		//inputText = inputText.erase(0, inputText.find("(") + 1);
+		//inputText = inputText.erase(inputText.find(")"), string::npos);
+		vector<string> param_list = createParamList(inputText);
 		string value = param_list[5];
 		value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2);
 		return ("\n\t<param>\n\t\t<name>"
@@ -413,7 +335,64 @@ string getInfo_fireEvent(string inputText) {
 }
 
 
+/*
+ * @param string input (ex: "About")
+ * @return string without surrounding quotations (ex: About)
+ */
+string trimQuotes(string input) {
+	string str = input;
+	str = str.substr(str.find("\"") + 1, str.find_last_of("\"") - 2);
+	return str;
+}
+
+
+/*
+ * Accepts a fireEvent method call.
+ * Returns a string vector, each item in the list is one parameter of the method
+ * @param inputText
+ * @return vector<string> paramater list
+ */
+vector<string> createParamList(string inputText) {
+	inputText = inputText.erase(0, inputText.find("(") + 1);
+	inputText = inputText.substr(0, inputText.find(")"));
+	vector<string> param_list;
+	istringstream ss(inputText);
+	string token;
+	while(getline(ss, token, ',')){
+		param_list.push_back(token);
+	}
+	return param_list;
+}
 
 
 
+//Don't actually need to handle activities with c-put tool.
+///**
+// * Reads activity name from robotium method (solo.assertCurrentActivity),
+// * compares name to value of currentActivity.
+// * If new activity, ends current xml url section and begins new <url> xml section
+// * @param string inputText
+// * @return new line of xml code, as string
+// */
+//string activityMgr(string inputText) {
+//	//sets first currentActivity for each test trace:
+//	/*if (found(inputText, "Testing base activity") && found(inputText, "solo.assertCurrentActivity")) {
+//		//solo.assertCurrentActivity("Testing base activity", "Dashboard");
+//		//GuiRipper's junit tests assert the base activity at the beginning of each test trace
+//		currentActivity = inputText.substr(inputText.find(",") + 3, string::npos);
+//		currentActivity = currentActivity.substr(0, currentActivity.find(")") - 1);
+//		return ("<url>\n\t<baseurl>" + currentActivity + "</baseurl>"); // << '\n';
+//	}*/
+//	vector<string> string_list = createParamList(inputText);
+//	string Activity = string_list[1];
+//	Activity = Activity.erase(0,2);
+//	Activity = Activity.erase(Activity.find("\""));
+//
+//	//if different activity is found..
+//	if (Activity.compare(currentActivity) != 0) {
+//		currentActivity = Activity;
+//		return "\n</url>\n<url>\n\t<baseurl>" + Activity + "</baseurl>";
+//	}
+//	return "";
+//}
 

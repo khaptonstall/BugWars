@@ -1,3 +1,6 @@
 C:/Users/Meredith/workspace/WPTest_final/src/org/wordpress/android/test/
 WP2_Final_1_p.java
 WP2_Final_2_p.java
+WP2_Final_3_p.java
+WP2_Final_4_p.java
+WP2_Final_5_p.java

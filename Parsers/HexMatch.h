@@ -15,7 +15,8 @@ using namespace std;
 bool isRPathSet();
 void setRPath(string fullPath);
 string intToHex(int i);
-string findWidgetName(int i);
+string findWidgetNameFromId(int id);
+string findWidgetName(string inputText);
 
 
 #endif /* HEXMATCH_H_ */

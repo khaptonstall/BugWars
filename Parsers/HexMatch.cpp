@@ -13,6 +13,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <stdlib.h> //atoi function //changes string to int
 using namespace std;
 #include "HexMatch.h"
 #include "found.h"
@@ -52,13 +53,25 @@ string intToHex(int i) {
 	return "";
 }
 
+/* Gets the widgetId from a fireEvent method. (It is the first parameter)
+ * Calls findWidgetName(int id)
+ * param string line containing fireEvent method call
+ * return string findWidgetName(int id)
+ */
+string findWidgetName(string inputText) {
+	string widgetId = inputText.substr(inputText.find("("));
+	widgetId = widgetId.substr(1, widgetId.find(","));
+	int id = atoi(widgetId.c_str());
+	return findWidgetNameFromId(id);
+}
+
 /* Searches an android application's R.java file for the widget matching the given ID. (The int id is first converted to a hex value).
  * If the value is found, this method returns a string containing the name of the variable that stores that hex value.
  * This string name is the name of the widget.
  * param int widget id.
  * return string widget name
  */
-string findWidgetName(int id) {
+string findWidgetNameFromId(int id) {
 	try {
 		if (!isRPathSet()) {
 			//if RPath is not set, asks for user input in console.

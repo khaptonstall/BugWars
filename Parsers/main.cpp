@@ -22,7 +22,7 @@
 
 #include <iostream>
 #include <string>
-
+#include "Compare.h"
 #include "main.h"
 #include "HexMatch.h"
 #include "JUnitParser.h" //declaration for jparse(bool multiple)
@@ -40,8 +40,10 @@ int main() {
 	cout << "-----------------" << endl;
 
 	//set to your R.java path
-	//setRPath("C:/Users/Meredith/workspace/WordPress-v2.0_ContainsAllBugs/WordPress-Android-2.0/gen/org/wordpress/android/R.java");
+	setRPath("C:/Users/Meredith/workspace/WordPress-v2.0_ContainsAllBugs/WordPress-Android-2.0/gen/org/wordpress/android/R.java");
 
+	//cout << "2131165329 " << intToHex(2131165329) << endl;
+	//return 0;
 	cout << "Do you want to run the JUnit parser? y/n: " << endl;
 	cin >> selection;
 	if (readKey(selection)) {
@@ -102,6 +104,7 @@ int main() {
 	}
 
 	cout << "DONE." << endl;
+
 
 	return 0;
 }

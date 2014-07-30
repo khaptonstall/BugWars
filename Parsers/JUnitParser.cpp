@@ -71,7 +71,7 @@ int jparse(bool multiple) {
 				getline(listFile, line);
 			}
 			string path = line;	//set path of JUnit test suites
-			outListFile << line << endl;
+			outListFile << line << endl; //creates txt file with list of JUnit cases, for use with xml parser
 			//parse each file listed in fileList.txt:
 			while(getline(listFile, line)){
 				if (!has_only_spaces(line)) {
@@ -185,7 +185,7 @@ string fireEventFix(string inputText) {
 			}
 		} else if (found(string_list[3], "\"text\"")) {
 			//fireEvent (2131165193, 10, "www.automattic.com", "text", "click");
-			return "\t\tsolo.clickOnText(" + string_list[2] + ")";
+			return "\t\tsolo.clickOnText(" + string_list[2] + ");";
 		} else if(found(string_list[2], "menuItem")) {
 			//fireEvent (1, "New Page", "menuItem", "click");
 			return inputText;

@@ -1,0 +1,23 @@
+Reduction: 2-Way Intra
+Prioritization: (None)
+Trace 3-00
+Trace 1-28
+Trace 2-01
+Trace 2-03
+Trace 4-00
+Trace 5-02
+Trace 5-04
+Trace 2-00
+Trace 4-04
+Trace 3-02
+Trace 1-29
+Trace 1-08
+Trace 1-34
+Trace 4-09
+Trace 1-33
+Trace 1-00
+Trace 1-04
+Trace 5-06
+Trace 5-03
+Trace 5-05
+Trace 1-10
