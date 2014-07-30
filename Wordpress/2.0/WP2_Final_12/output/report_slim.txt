@@ -1,0 +1,12 @@
+1 cycles have been executed.
+23 restarts have beeen executed
+4 problems in test execution have been found, causing 4 failures and 0 errors.
+0 application crashes have been found.
+
+
+Failures have been found in the following traces:
+
+1_12 - junit.framework.AssertionFailedError: Can not complete action!
+1_15 - junit.framework.AssertionFailedError: Can not complete action!
+1_18 - junit.framework.AssertionFailedError: Can not complete action!
+1_19 - junit.framework.AssertionFailedError: Can not complete action!

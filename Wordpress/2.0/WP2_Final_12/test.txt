@@ -1,0 +1,246 @@
+Playing Session 1_0 
+RandomSeed 8645634253211014901
+File not found!
+0 events performed of 0
+End of Session 1_0 
+Playing Session 1_1 
+RandomSeed 799574678864628122
+File not found!
+0 events performed of 0
+End of Session 1_1 
+Playing Session 1_2 
+RandomSeed 3203938811407021941
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+22 events performed of 100
+End of Session 1_2 
+Playing Session 1_3 
+RandomSeed 5994984192747160858
+File not found!
+22 events performed of 100
+End of Session 1_3 
+Playing Session 1_4 
+RandomSeed -1340457844305530965
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+53 events performed of 100
+End of Session 1_4 
+Playing Session 1_5 
+RandomSeed -2369889526599900660
+File not found!
+53 events performed of 100
+End of Session 1_5 
+Playing Session 1_6 
+RandomSeed 6294083783816006913
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+54 events performed of 100
+End of Session 1_6 
+Playing Session 1_7 
+RandomSeed -1315736404431709902
+File not found!
+54 events performed of 100
+End of Session 1_7 
+Playing Session 1_8 
+RandomSeed 3939294169248973415
+File not found!
+54 events performed of 100
+End of Session 1_8 
+Playing Session 1_9 
+RandomSeed 1551389051907045427
+File not found!
+54 events performed of 100
+End of Session 1_9 
+Playing Session 1_10 
+RandomSeed 3013771525951217692
+File not found!
+54 events performed of 100
+End of Session 1_10 
+Playing Session 1_11 
+RandomSeed -2586430739441177395
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+55 events performed of 100
+End of Session 1_11 
+Playing Session 1_12 
+RandomSeed -3146622794710232673
+
+com.nofatclips.crawler.guitree.NomadEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Can not complete action!
+	at com.jayway.android.robotium.solo.RobotiumUtils.sendKeyCode(RobotiumUtils.java:55)
+	at com.jayway.android.robotium.solo.Solo.sendKey(Solo.java:1978)
+	at com.nofatclips.crawler.automation.RobotUtilities.requestView(RobotUtilities.java:258)
+	at com.nofatclips.crawler.automation.Automation.requestView(Automation.java:398)
+	at com.nofatclips.crawler.automation.Automation.injectInteraction(Automation.java:206)
+	at com.nofatclips.crawler.automation.Automation.fireEventOnView(Automation.java:197)
+	at com.nofatclips.crawler.automation.Automation.fireEvent(Automation.java:139)
+	at com.nofatclips.crawler.automation.Automation.process(Automation.java:110)
+	at com.nofatclips.crawler.guitree.RandomEngine.process(RandomEngine.java:88)
+	at com.nofatclips.crawler.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)
+
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+72 events performed of 100
+End of Session 1_12 
+Playing Session 1_13 
+RandomSeed -2473996016495640982
+File not found!
+72 events performed of 100
+End of Session 1_13 
+Playing Session 1_14 
+RandomSeed -577010263190014722
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+73 events performed of 100
+End of Session 1_14 
+Playing Session 1_15 
+RandomSeed -1965162596351381054
+
+com.nofatclips.crawler.guitree.NomadEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Can not complete action!
+	at com.jayway.android.robotium.solo.RobotiumUtils.sendKeyCode(RobotiumUtils.java:55)
+	at com.jayway.android.robotium.solo.Solo.sendKey(Solo.java:1978)
+	at com.nofatclips.crawler.automation.RobotUtilities.openMenu(RobotUtilities.java:178)
+	at com.nofatclips.crawler.automation.Automation.injectInteraction(Automation.java:222)
+	at com.nofatclips.crawler.automation.Automation.fireEventOnView(Automation.java:197)
+	at com.nofatclips.crawler.automation.Automation.fireEvent(Automation.java:193)
+	at com.nofatclips.crawler.automation.Automation.fireEvent(Automation.java:142)
+	at com.nofatclips.crawler.automation.Automation.process(Automation.java:110)
+	at com.nofatclips.crawler.automation.Automation.process(Automation.java:102)
+	at com.nofatclips.crawler.Engine.process(Engine.java:94)
+	at com.nofatclips.crawler.guitree.RandomEngine.process(RandomEngine.java:85)
+	at com.nofatclips.crawler.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)
+
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+73 events performed of 100
+End of Session 1_15 
+Playing Session 1_16 
+RandomSeed -7571974798905479950
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+74 events performed of 100
+End of Session 1_16 
+Playing Session 1_17 
+RandomSeed -5007385534001689833
+File not found!
+74 events performed of 100
+End of Session 1_17 
+Playing Session 1_18 
+RandomSeed -2414572407596616751
+
+com.nofatclips.crawler.guitree.NomadEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Can not complete action!
+	at com.jayway.android.robotium.solo.RobotiumUtils.sendKeyCode(RobotiumUtils.java:55)
+	at com.jayway.android.robotium.solo.Solo.sendKey(Solo.java:1978)
+	at com.nofatclips.crawler.automation.RobotUtilities.openMenu(RobotUtilities.java:178)
+	at com.nofatclips.crawler.automation.Automation.injectInteraction(Automation.java:222)
+	at com.nofatclips.crawler.automation.Automation.fireEventOnView(Automation.java:197)
+	at com.nofatclips.crawler.automation.Automation.fireEvent(Automation.java:193)
+	at com.nofatclips.crawler.automation.Automation.fireEvent(Automation.java:142)
+	at com.nofatclips.crawler.automation.Automation.process(Automation.java:110)
+	at com.nofatclips.crawler.automation.Automation.process(Automation.java:102)
+	at com.nofatclips.crawler.Engine.process(Engine.java:94)
+	at com.nofatclips.crawler.guitree.RandomEngine.process(RandomEngine.java:85)
+	at com.nofatclips.crawler.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)
+
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+74 events performed of 100
+End of Session 1_18 
+Playing Session 1_19 
+RandomSeed 8239057388846684817
+
+com.nofatclips.crawler.guitree.NomadEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Can not complete action!
+	at com.jayway.android.robotium.solo.RobotiumUtils.sendKeyCode(RobotiumUtils.java:55)
+	at com.jayway.android.robotium.solo.Solo.sendKey(Solo.java:1978)
+	at com.nofatclips.crawler.automation.RobotUtilities.openMenu(RobotUtilities.java:178)
+	at com.nofatclips.crawler.automation.Automation.injectInteraction(Automation.java:222)
+	at com.nofatclips.crawler.automation.Automation.fireEventOnView(Automation.java:197)
+	at com.nofatclips.crawler.automation.Automation.fireEvent(Automation.java:193)
+	at com.nofatclips.crawler.automation.Automation.fireEvent(Automation.java:142)
+	at com.nofatclips.crawler.automation.Automation.process(Automation.java:110)
+	at com.nofatclips.crawler.automation.Automation.process(Automation.java:102)
+	at com.nofatclips.crawler.Engine.process(Engine.java:94)
+	at com.nofatclips.crawler.guitree.RandomEngine.process(RandomEngine.java:85)
+	at com.nofatclips.crawler.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)
+
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+74 events performed of 100
+End of Session 1_19 
+Playing Session 1_20 
+RandomSeed -5600627270784296856
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+87 events performed of 100
+End of Session 1_20 
+Playing Session 1_21 
+RandomSeed -1071102964021901102
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+88 events performed of 100
+End of Session 1_21 
+Playing Session 1_22 
+RandomSeed -43323769239182831
+
+com.nofatclips.crawler.guitree.NomadEngine:.
+Error: Failed to generate emma coverage. Is emma jar on classpath?
+File not found!
+100 events performed of 100
+End of Session 1_22 
+RipperTest_1 is DONE 
+Random Ripper is DONE 
