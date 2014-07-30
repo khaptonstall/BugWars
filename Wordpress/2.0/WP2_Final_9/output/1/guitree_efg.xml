@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE EFG PUBLIC "EFG" "eventtree.dtd">
+<EFG id="root" session_app="ApplicationInfo{40512328 org.wordpress.android}" session_date_time="Wed Jul 30 02:33:18 GMT+00:00 2014">
+    <EVENT desc="Quick Photo" id="e5" type="click" value="" widget_id="2131165252" widget_name="" widget_type="android.widget.LinearLayout"/>
+    <EVENT desc="" id="e16" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+        <EVENT desc="Quick Photo" id="e21" type="click" value="" widget_id="2131165252" widget_name="" widget_type="android.widget.LinearLayout"/>
+    </EVENT>
+    <EVENT desc="" id="e34" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+        <EVENT desc="" id="e36" type="click" value="" widget_id="2131165201" widget_name="" widget_type="android.widget.Button">
+            <EVENT desc="" id="e65" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                <EVENT desc="About" id="e70" type="click" value="" widget_id="16908310" widget_name="About" widget_type="com.android.internal.view.menu.IconMenuItemView">
+                    <EVENT desc="" id="e77" type="back" value="" widget_id="-1" widget_name="" widget_type="null">
+                        <EVENT desc="Posts" id="e87" type="click" value="" widget_id="2131165255" widget_name="" widget_type="android.widget.LinearLayout">
+                            <EVENT desc="Post One" id="e103" type="longClickListItem" value="4" widget_id="16908298" widget_name="" widget_type="android.widget.ListView">
+                                <EVENT desc="" id="e117" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                    <EVENT desc="Edit Post" id="e118" type="selectListItem" value="1" widget_id="16908823" widget_name="" widget_type="com.android.internal.app.AlertController$RecycleListView">
+                                        <EVENT desc="Testing one post&#10;&#10;" id="e127" type="focus" value="" widget_id="2131165265" widget_name="Content" widget_type="org.wordpress.android.util.WPEditText">
+                                            <EVENT desc="I " id="e146" type="click" value="" widget_id="2131165291" widget_name="I " widget_type="android.widget.ToggleButton">
+                                                <EVENT desc="" id="e167" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                    <EVENT desc="&quot;" id="e174" type="click" value="" widget_id="2131165295" widget_name="&quot;" widget_type="android.widget.ToggleButton">
+                                                        <EVENT desc="B" id="e181" type="click" value="" widget_id="2131165290" widget_name="B" widget_type="android.widget.ToggleButton">
+                                                            <EVENT desc="I " id="e194" type="click" value="" widget_id="2131165291" widget_name="I " widget_type="android.widget.ToggleButton">
+                                                                <EVENT desc="" id="e215" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                    <EVENT desc="" id="e226" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                        <EVENT desc="" id="e239" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                            <EVENT desc="B" id="e241" type="click" value="" widget_id="2131165290" widget_name="B" widget_type="android.widget.ToggleButton"/>
+                                                                        </EVENT>
+                                                                    </EVENT>
+                                                                </EVENT>
+                                                            </EVENT>
+                                                        </EVENT>
+                                                    </EVENT>
+                                                </EVENT>
+                                            </EVENT>
+                                        </EVENT>
+                                    </EVENT>
+                                </EVENT>
+                            </EVENT>
+                        </EVENT>
+                    </EVENT>
+                </EVENT>
+            </EVENT>
+        </EVENT>
+    </EVENT>
+    <EVENT desc="" id="e253" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+        <EVENT desc="Stats" id="e266" type="click" value="" widget_id="2131165264" widget_name="" widget_type="android.widget.LinearLayout">
+            <EVENT desc="" id="e271" type="click" value="" widget_id="2131165201" widget_name="" widget_type="android.widget.Button">
+                <EVENT desc="" id="e277" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                    <EVENT desc="OK" id="e279" type="click" value="" widget_id="16908313" widget_name="OK" widget_type="android.widget.Button">
+                        <EVENT desc="" id="e286" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                            <EVENT desc="" id="e288" type="click" value="" widget_id="2131165200" widget_name="" widget_type="android.widget.ImageButton">
+                                <EVENT desc="Posts" id="e300" type="click" value="" widget_id="2131165255" widget_name="" widget_type="android.widget.LinearLayout">
+                                    <EVENT desc="Posts" id="e309" type="selectListItem" value="1" widget_id="16908298" widget_name="" widget_type="android.widget.ListView">
+                                        <EVENT desc="" id="e330" type="click" value="" widget_id="2131165200" widget_name="" widget_type="android.widget.ImageButton">
+                                            <EVENT desc="Pages" id="e351" type="click" value="" widget_id="2131165257" widget_name="" widget_type="android.widget.LinearLayout">
+                                                <EVENT desc="Pages" id="e359" type="selectListItem" value="1" widget_id="16908298" widget_name="" widget_type="android.widget.ListView">
+                                                    <EVENT desc="90" id="e396" type="longClickListItem" value="3" widget_id="16908298" widget_name="" widget_type="android.widget.ListView">
+                                                        <EVENT desc="Edit Page" id="e409" type="selectListItem" value="1" widget_id="16908823" widget_name="" widget_type="com.android.internal.app.AlertController$RecycleListView">
+                                                            <EVENT desc="8&#10;&#10;" id="e418" type="focus" value="" widget_id="2131165265" widget_name="Content" widget_type="org.wordpress.android.util.WPEditText">
+                                                                <EVENT desc="" id="e433" type="back" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                    <EVENT desc="Save" id="e438" type="click" value="" widget_id="2131165287" widget_name="Save" widget_type="android.widget.Button">
+                                                                        <EVENT desc="" id="e465" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                            <EVENT desc="New Page" id="e467" type="click" value="" widget_id="16908310" widget_name="New Page" widget_type="com.android.internal.view.menu.IconMenuItemView">
+                                                                                <EVENT desc="" id="e475" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                    <EVENT desc="" id="e482" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                        <EVENT desc="" id="e487" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                            <EVENT desc="" id="e489" type="focus" value="" widget_id="2131165265" widget_name="Content" widget_type="org.wordpress.android.util.WPEditText">
+                                                                                                <EVENT desc=" ABC " id="e499" type="click" value="" widget_id="2131165293" widget_name=" ABC " widget_type="android.widget.ToggleButton">
+                                                                                                    <EVENT desc="B" id="e508" type="click" value="" widget_id="2131165290" widget_name="B" widget_type="android.widget.ToggleButton">
+                                                                                                        <EVENT desc=" link " id="e524" type="click" value="" widget_id="2131165294" widget_name=" link " widget_type="android.widget.Button">
+                                                                                                            <EVENT desc="OK" id="e531" type="click" value="" widget_id="2131165235" widget_name="OK" widget_type="android.widget.Button">
+                                                                                                                <EVENT desc="" id="e540" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                                                    <EVENT desc="" id="e542" type="click" value="" widget_id="2131165220" widget_name="Cancel" widget_type="android.widget.Button"/>
+                                                                                                                </EVENT>
+                                                                                                            </EVENT>
+                                                                                                        </EVENT>
+                                                                                                    </EVENT>
+                                                                                                </EVENT>
+                                                                                            </EVENT>
+                                                                                        </EVENT>
+                                                                                    </EVENT>
+                                                                                </EVENT>
+                                                                            </EVENT>
+                                                                        </EVENT>
+                                                                    </EVENT>
+                                                                </EVENT>
+                                                            </EVENT>
+                                                        </EVENT>
+                                                    </EVENT>
+                                                </EVENT>
+                                            </EVENT>
+                                        </EVENT>
+                                    </EVENT>
+                                </EVENT>
+                            </EVENT>
+                        </EVENT>
+                    </EVENT>
+                </EVENT>
+            </EVENT>
+        </EVENT>
+    </EVENT>
+    <EVENT desc="" id="e546" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null"/>
+    <EVENT desc="" id="e548" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+        <EVENT desc="" id="e556" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+            <EVENT desc="Remove Blog" id="e559" type="click" value="" widget_id="16908310" widget_name="Remove Blog" widget_type="com.android.internal.view.menu.IconMenuItemView">
+                <EVENT desc="No" id="e565" type="click" value="" widget_id="16908314" widget_name="No" widget_type="android.widget.Button">
+                    <EVENT desc="Pages" id="e577" type="click" value="" widget_id="2131165257" widget_name="" widget_type="android.widget.LinearLayout">
+                        <EVENT desc="" id="e607" type="back" value="" widget_id="-1" widget_name="" widget_type="null">
+                            <EVENT desc="Read" id="e621" type="click" value="" widget_id="2131165263" widget_name="" widget_type="android.widget.LinearLayout">
+                                <EVENT desc="" id="e626" type="longClick" value="" widget_id="2131165329" widget_name="" widget_type="android.webkit.WebView">
+                                    <EVENT desc="" id="e630" type="longClick" value="" widget_id="2131165329" widget_name="" widget_type="android.webkit.WebView">
+                                        <EVENT desc="" id="e635" type="back" value="" widget_id="-1" widget_name="" widget_type="null">
+                                            <EVENT desc="" id="e653" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                <EVENT desc="Posts" id="e661" type="click" value="" widget_id="2131165255" widget_name="" widget_type="android.widget.LinearLayout">
+                                                    <EVENT desc="Posts" id="e674" type="longClickListItem" value="1" widget_id="16908298" widget_name="" widget_type="android.widget.ListView">
+                                                        <EVENT desc="Post Two" id="e685" type="selectListItem" value="3" widget_id="16908298" widget_name="" widget_type="android.widget.ListView">
+                                                            <EVENT desc="" id="e701" type="click" value="" widget_id="2131165200" widget_name="" widget_type="android.widget.ImageButton">
+                                                                <EVENT desc="Comments" id="e720" type="click" value="" widget_id="2131165258" widget_name="" widget_type="android.widget.LinearLayout">
+                                                                    <EVENT desc="" id="e727" type="click" value="" widget_id="2131165200" widget_name="" widget_type="android.widget.ImageButton">
+                                                                        <EVENT desc="New Page" id="e736" type="click" value="" widget_id="2131165253" widget_name="" widget_type="android.widget.LinearLayout">
+                                                                            <EVENT desc="" id="e751" type="back" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                <EVENT desc="" id="e757" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                    <EVENT desc="Yes" id="e759" type="click" value="" widget_id="16908313" widget_name="Yes" widget_type="android.widget.Button">
+                                                                                        <EVENT desc="" id="e768" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                            <EVENT desc="" id="e770" type="click" value="" widget_id="2131165201" widget_name="" widget_type="android.widget.Button">
+                                                                                                <EVENT desc="" id="e775" type="click" value="" widget_id="2131165201" widget_name="" widget_type="android.widget.Button">
+                                                                                                    <EVENT desc="" id="e781" type="back" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                                        <EVENT desc="" id="e792" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                                            <EVENT desc="" id="e796" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                                                <EVENT desc="" id="e802" type="longClick" value="" widget_id="2131165388" widget_name="" widget_type="android.webkit.WebView">
+                                                                                                                    <EVENT desc="" id="e811" type="click" value="" widget_id="2131165387" widget_name="" widget_type="android.widget.ImageButton">
+                                                                                                                        <EVENT desc="Aside" id="e821" type="selectSpinnerItem" value="1" widget_id="2131165285" widget_name="" widget_type="android.widget.Spinner">
+                                                                                                                            <EVENT desc="" id="e850" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                                                                <EVENT desc="Edit" id="e854" type="click" value="" widget_id="2131165283" widget_name="Edit" widget_type="android.widget.Button">
+                                                                                                                                    <EVENT desc="Set" id="e878" type="click" value="" widget_id="16908313" widget_name="Set" widget_type="android.widget.Button">
+                                                                                                                                        <EVENT desc="AM" id="e889" type="click" value="" widget_id="16908826" widget_name="AM" widget_type="android.widget.Button">
+                                                                                                                                            <EVENT desc="2" id="e896" type="focus" value="" widget_id="16908795" widget_name="" widget_type="android.widget.EditText">
+                                                                                                                                                <EVENT desc="" id="e907" type="click" value="" widget_id="16908794" widget_name="" widget_type="android.widget.NumberPickerButton">
+                                                                                                                                                    <EVENT desc="3" id="e920" type="focus" value="" widget_id="16908795" widget_name="" widget_type="android.widget.EditText">
+                                                                                                                                                        <EVENT desc="3" id="e932" type="focus" value="" widget_id="16908795" widget_name="" widget_type="android.widget.EditText">
+                                                                                                                                                            <EVENT desc="" id="e943" type="click" value="" widget_id="16908794" widget_name="" widget_type="android.widget.NumberPickerButton">
+                                                                                                                                                                <EVENT desc="" id="e966" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                                                                                                                                                                    <EVENT desc="Cancel" id="e975" type="click" value="" widget_id="16908314" widget_name="Cancel" widget_type="android.widget.Button">
+                                                                                                                                                                        <EVENT desc="Save" id="e992" type="click" value="" widget_id="2131165287" widget_name="Save" widget_type="android.widget.Button">
+                                                                                                                                                                            <EVENT desc="" id="e996" type="click" value="" widget_id="2131165384" widget_name="" widget_type="android.widget.ImageButton"/>
+                                                                                                                                                                        </EVENT>
+                                                                                                                                                                    </EVENT>
+                                                                                                                                                                </EVENT>
+                                                                                                                                                            </EVENT>
+                                                                                                                                                        </EVENT>
+                                                                                                                                                    </EVENT>
+                                                                                                                                                </EVENT>
+                                                                                                                                            </EVENT>
+                                                                                                                                        </EVENT>
+                                                                                                                                    </EVENT>
+                                                                                                                                </EVENT>
+                                                                                                                            </EVENT>
+                                                                                                                        </EVENT>
+                                                                                                                    </EVENT>
+                                                                                                                </EVENT>
+                                                                                                            </EVENT>
+                                                                                                        </EVENT>
+                                                                                                    </EVENT>
+                                                                                                </EVENT>
+                                                                                            </EVENT>
+                                                                                        </EVENT>
+                                                                                    </EVENT>
+                                                                                </EVENT>
+                                                                            </EVENT>
+                                                                        </EVENT>
+                                                                    </EVENT>
+                                                                </EVENT>
+                                                            </EVENT>
+                                                        </EVENT>
+                                                    </EVENT>
+                                                </EVENT>
+                                            </EVENT>
+                                        </EVENT>
+                                    </EVENT>
+                                </EVENT>
+                            </EVENT>
+                        </EVENT>
+                    </EVENT>
+                </EVENT>
+            </EVENT>
+        </EVENT>
+    </EVENT>
+    <EVENT desc="" id="e1006" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null"/>
+    <EVENT desc="" id="e1009" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null"/>
+    <EVENT desc="" id="e1010" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null"/>
+    <EVENT desc="" id="e1012" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null"/>
+    <EVENT desc="" id="e1014" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null"/>
+    <EVENT desc="" id="e1017" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null"/>
+    <EVENT desc="" id="e1019" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+        <EVENT desc="" id="e1035" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+            <EVENT desc="Read" id="e1047" type="click" value="" widget_id="2131165263" widget_name="" widget_type="android.widget.LinearLayout">
+                <EVENT desc="" id="e1054" type="openMenu" value="" widget_id="-1" widget_name="" widget_type="null">
+                    <EVENT desc="View in Browser" id="e1057" type="click" value="" widget_id="16908310" widget_name="View in Browser" widget_type="com.android.internal.view.menu.IconMenuItemView">
+                        <EVENT desc="" id="e1065" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null">
+                            <EVENT desc="" id="e1069" type="changeOrientation" value="" widget_id="-1" widget_name="" widget_type="null"/>
+                        </EVENT>
+                    </EVENT>
+                </EVENT>
+            </EVENT>
+        </EVENT>
+    </EVENT>
+</EFG>
+
