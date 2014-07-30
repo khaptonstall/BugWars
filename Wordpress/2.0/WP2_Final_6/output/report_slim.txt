@@ -1,0 +1,17 @@
+1 cycles have been executed.
+11 restarts have beeen executed
+3 problems in test execution have been found, causing 3 failures and 0 errors.
+1 application crashes have been found.
+
+
+Failures have been found in the following traces:
+
+1_2 - junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+1_4 - junit.framework.AssertionFailedError: Can not complete action!
+1_9 - junit.framework.AssertionFailedError: Can not complete action!
+
+Crashes have been found in the following traces:
+
+1_7 - com.nofatclips.crawler.guitree.NomadEngine:INSTRUMENTATION_RESULT: shortMsg=java.lang.NullPointerException
+After about 0.0 seconds
+
