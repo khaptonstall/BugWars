@@ -96,7 +96,9 @@ int xmlparse() {
 							traceNum = traceNum.erase(0, traceNum.find("0"));
 							traceNum = traceNum.erase(traceNum.find(" "));
 							outfile << "<session id=\"" << currentFileName
-									<< "_" << traceNum << "\">" << '\n';
+									<< "_" << traceNum << "\">" << '\n'
+									<< "\n<url>"
+									<< "\n\t<baseurl></baseurl>";
 						}
 						//if inside a testTrace method:
 						else if (traceFound) {
@@ -104,12 +106,13 @@ int xmlparse() {
 								//if end of testTrace method found
 								outfile << "\n</url>\n" << "</session>\n";
 								traceFound = false;
-							} else if(found(currLine, "solo.assertCurrentActivity")) {
-								outfile << activityMgr(currLine);
+							} /*else if(found(currLine, "solo.assertCurrentActivity")) {
+								//outfile << activityMgr(currLine);
 							} else if(found(currLine, "Testing base activity")) {
 								currentActivity = "Dashboard";
 								outfile << "<url>\n\t<baseurl>Dashboard</baseurl>" << '\n';
-							} else if (found(currLine, "solo.sendKey")) {
+							} */
+							else if (found(currLine, "solo.sendKey")) {
 								outfile << getInfo_sendKey(currLine);
 							} else if (found(currLine, "solo.clickOnButton")) {
 								outfile << getInfo_clickOnButton(currLine);
@@ -280,6 +283,7 @@ string getInfo_clickOnMenuItem(string inputText) {
  * @return xml code representing an android event
  */
 string getInfo_fireEvent(string inputText) {
+
 	if(found(inputText, "listView")) {
 		inputText = inputText.erase(0, inputText.find("(") + 1);
 		inputText = inputText.erase(inputText.find(")"), string::npos);
@@ -324,14 +328,49 @@ string getInfo_fireEvent(string inputText) {
 		}
 	}
 	else if(found(inputText, "\"click\"")) {
+		if (found(inputText, "menuItem")) {
+			//fireEvent (1, "Add Account", "menuItem", "click");
+			vector<string> param_list;
+			istringstream ss(inputText);
+			string token;
+			while(getline(ss, token, ',')){
+				param_list.push_back(token);
+			}
+			return ("\n\t<param>\n\t\t<name>"
+				+ param_list[1] + "</name>\n\t\t"
+				"<value>click menuItem</value>\n\t</param>"); //should be just click?
+		}
+		else if (found(inputText, "button")) {
+			//fireEvent (22, "Cancel", "button", "click");
+			vector<string> param_list;
+			istringstream ss(inputText);
+			string token;
+			while(getline(ss, token, ',')){
+				param_list.push_back(token);
+			}
+			return ("\n\t<param>\n\t\t<name>"
+				+ param_list[1] + "</name>\n\t\t"
+				"<value>click button</value>\n\t</param>"); //should be just click?
+		}
 			//fireEvent (2131165251, 21, "", "linearLayout", "click");
+			//could make method to return widget name, finding id from an input line
 			string widgetId = inputText.substr(inputText.find("("));
 			widgetId = widgetId.substr(1, widgetId.find(","));
 			int id = atoi(widgetId.c_str());
 			return ("\n\t<param>\n\t\t<name>"
 				+ findWidgetName(id) + "</name>\n\t\t"
 				"<value>click</value>\n\t</param>");
-		}
+	}
+	else if (found(inputText, "\"longClick\"")) {
+		//fireEvent (2131165329, 7, "", "webPage", "longClick");
+		//2131165329 --> 7f070091 = int webView=0x7f070091
+		string widgetId = inputText.substr(inputText.find("("));
+		widgetId = widgetId.substr(1, widgetId.find(","));
+		int id = atoi(widgetId.c_str());
+		return ("\n\t<param>\n\t\t<name>"
+			+ findWidgetName(id) + "</name>\n\t\t"
+			"<value>longClick</value>\n\t</param>");
+	}
 	else if(found(inputText, "\"button\"")) {
 		//fireEvent (16908796, 24, "", "button", "click"); date picker
 		//should make more specific. not sure how to interpret fireEvent
@@ -339,6 +378,18 @@ string getInfo_fireEvent(string inputText) {
 			"date picker"
 			"</name>\n\t\t"
 			"<value>click button</value>\n\t</param>");
+	}
+	else if (found(inputText, "focus")) {
+		//fireEvent (2131165265, 9, "Content", "focusableEditText", "focus");
+		vector<string> param_list;
+		istringstream ss(inputText);
+		string token;
+		while(getline(ss, token, ',')){
+			param_list.push_back(token);
+		}
+		return ("\n\t<param>\n\t\t<name>"
+			+ param_list[2] + "</name>\n\t\t"
+			"<value>focusableEditText</value>\n\t</param>");
 	}
 	else if(found(inputText, "spinner")) {
 		//fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
