@@ -1,0 +1,15 @@
+1 cycles have been executed.
+12 restarts have beeen executed
+1 problems in test execution have been found, causing 1 failures and 0 errors.
+1 application crashes have been found.
+
+
+Failures have been found in the following traces:
+
+1_3 - junit.framework.AssertionFailedError: Click can not be completed!
+
+Crashes have been found in the following traces:
+
+1_5 - com.nofatclips.crawler.guitree.NomadEngine:INSTRUMENTATION_RESULT: shortMsg=java.lang.NullPointerException
+After about 0.0 seconds
+

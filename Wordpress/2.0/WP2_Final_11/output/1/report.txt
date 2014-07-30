@@ -1,0 +1,53 @@
+Traces processed: 102
+	success: 98
+	fail: 1
+		traces: 92
+	crash: 1
+		traces: 1061
+	exit: 2
+		traces: 49, 1063
+Non repeatable issues:0
+Actual traces: 5 (for 102 transitions)
+
+Depth reached: 71
+Transitions: 2759
+	different activity states found: 100
+	different activities found: 7
+
+Interactions: 5935
+	different interactions: 187
+	events: 2759
+	different events: 102
+		focus: 1
+		longClickListItem: 3
+		back: 9
+		changeOrientation: 14
+		selectSpinnerItem: 24
+		openMenu: 18
+		click: 29
+		selectListItem: 4
+	inputs: 3176
+	different inputs: 85
+		writeText: 85
+
+
+Views and widgets: 72910
+	supported widgets: 52980
+		menuItem: 100
+		timePicker: 63
+		check: 222
+		linearLayout: 11786
+		menu: 26
+		image: 3019
+		multiChoiceList: 111
+		editText: 4567
+		button: 7190
+		dialog: 583
+		datePicker: 110
+		listView: 385
+		spinner: 1507
+		emptySpinner: 1530
+		text: 19698
+		focusableEditText: 1986
+		webPage: 97
+	different widgets: 197 <-> 2463
