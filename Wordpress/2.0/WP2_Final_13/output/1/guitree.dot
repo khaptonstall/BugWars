@@ -1,0 +1,563 @@
+digraph GuiTree {
+
+	graph [nodesep=1, fontsize=36];
+	node [fontsize=36];
+	edge [fontsize=36, headport=ne];
+
+## Edges
+
+	a1 -> a2 [label="e0: openMenu"];
+	a2 -> a3 [label="e2: click\n'Add Account'"];
+	a3 -> a4 [label="e15: click\n'Cancel'"];
+	a4 -> a5 [label="e27: click\n'Posts'"];
+	a5 -> a6 [label="e41: longClickListItem\n'90'"];
+	a6 -> a7 [label="e49: selectListItem\n'Edit Post'"];
+	a7 -> a8 [label="e67: selectSpinnerItem\n'Quote'"];
+	a8 -> a9 [label="e78: selectSpinnerItem\n'Aside'"];
+	a9 -> a10 [label="e103: selectSpinnerItem\n'Status'"];
+	a10 -> a11 [label="e114: selectSpinnerItem\n'Chat'"];
+	a11 -> a12 [label="e130: selectSpinnerItem\n'Audio'"];
+	a12 -> a13 [label="e144: click\n'Select Categories'"];
+	a13 -> a14 [label="e161: openMenu"];
+	a14 -> a15 [label="e166: changeOrientation"];
+	a15 -> a16 [label="e167: click\n'Refresh Categories'"];
+	a16 -> a17 [label="e173: changeOrientation"];
+	a17 -> a18 [label="e175: selectListItem\n'Uncategorized'"];
+	a18 -> a19 [label="e189: back"];
+	a19 -> a20 [label="e208: changeOrientation"];
+	a20 -> a21 [label="e218: selectSpinnerItem\n'Standard'"];
+	a21 -> a22 [label="e231: selectSpinnerItem\n'Chat'"];
+	a22 -> a23 [label="e258: openMenu"];
+	a23 -> a24 [label="e275: openMenu"];
+	a24 -> a25 [label="e286: selectSpinnerItem\n'Standard'"];
+	a25 -> a26 [label="e300: selectSpinnerItem\n'Gallery'"];
+	a26 -> a27 [label="e325: back"];
+	a27 -> a28 [label="e328: click\n'Yes'"];
+	a28 -> a29 [label="e340: longClickListItem\n'Post One'"];
+	a29 -> a30 [label="e351: longClickListItem\n'Share Post'"];
+	a30 -> a31 [label="e356: openMenu"];
+	a31 -> a32 [label="e360: changeOrientation"];
+	a32 -> a33 [label="e363: changeOrientation"];
+	a33 -> a34 [label="e367: longClickListItem\n'WordPress'"];
+	a34 -> a35 [label="e372: selectListItem\n'My Blog'"];
+	a35 -> a36 [label="e384: selectSpinnerItem\n'Gallery'"];
+	a36 -> a37 [label="e401: selectSpinnerItem\n'Gallery'"];
+	a37 -> a38 [label="e417: selectSpinnerItem\n'Chat'"];
+	a38 -> a39 [label="e440: selectSpinnerItem\n'Status'"];
+	a39 -> a40 [label="e448: click\n'Edit'"];
+	a40 -> a41 [label="e470: focus\n'2014'"];
+	a41 -> a42 [label="e487: click\n'Cancel'"];
+	a42 -> a43 [label="e492: click\n'Select Categories'"];
+	a43 -> a44 [label="e510: changeOrientation"];
+	a44 -> a45 [label="e514: longClickListItem\n'Uncategorized'"];
+	a45 -> a46 [label="e524: click\n'android.widget.ImageButton #2131165344'"];
+	a46 -> a47 [label="e536: changeOrientation"];
+	a47 -> a48 [label="e541: click\n'Cancel'"];
+	a48 -> a49 [label="e551: back"];
+	a49 -> a50 [label="e568: back"];
+	a50 -> a51 [label="e575: changeOrientation"];
+	a51 -> a52 [label="e580: changeOrientation"];
+	a52 -> a53 [label="e585: changeOrientation"];
+	a53 -> a54 [label="e586: click\n'Yes'"];
+	a54 -> a55 [label="e598: longClickListItem\n'Posts'"];
+	a55 -> a56 [label="e610: selectListItem\n'Posts'"];
+	a56 -> a57 [label="e644: click\n'android.widget.Button #2131165201'"];
+	a57 -> a58 [label="e662: click\n'android.widget.ImageButton #2131165200'"];
+	a58 -> a59 [label="e678: longClickListItem\n'90'"];
+	a59 -> a60 [label="e706: longClickListItem\n'90'"];
+	a60 -> a61 [label="e716: longClickListItem\n'Delete Page'"];
+	a61 -> a62 [label="e721: click\n'Yes'"];
+	a62 -> a63 [label="e727: openMenu"];
+	a63 -> a64 [label="e730: openMenu"];
+	a64 -> a65 [label="e734: openMenu"];
+	a65 -> a66 [label="e739: selectListItem\n'Page One'"];
+	a66 -> a67 [label="e755: longClick\n'android.webkit.WebView #2131165388'"];
+	a67 -> a68 [label="e767: click\n'android.widget.Button #2131165201'"];
+	a68 -> a69 [label="e780: changeOrientation"];
+	a69 -> c0 [label="e781: click\n'android.widget.ImageButton #2131165384'"];
+	a1 -> a70 [label="e792: changeOrientation"];
+	a70 -> a71 [label="e804: click\n'Read'"];
+	a71 -> a72 [label="e810: back"];
+	a72 -> a73 [label="e825: click\n'Stats'"];
+	a73 -> a74 [label="e833: changeOrientation"];
+	a74 -> a75 [label="e834: click\n'android.widget.ImageButton #2131165200'"];
+	a75 -> a76 [label="e851: click\n'Stats'"];
+	a76 -> a77 [label="e861: selectSpinnerItem\n'7 Days'"];
+	a77 -> a78 [label="e876: selectSpinnerItem\n'Clicks'"];
+	a78 -> a79 [label="e903: back"];
+	a79 -> a80 [label="e906: click\n'android.widget.ImageButton #2131165200'"];
+	a80 -> a81 [label="e925: openMenu"];
+	a81 -> a82 [label="e927: click\n'Add Account'"];
+	a82 -> a83 [label="e942: back"];
+	a83 -> a84 [label="e946: click\n'android.widget.Button #2131165201'"];
+	a84 -> a85 [label="e967: click\n'Quick Video'"];
+	a69 -> c1 [label="e781: click\n'android.widget.ImageButton #2131165384'"];
+	a1 -> a70 [label="e792: changeOrientation"];
+	a70 -> a71 [label="e804: click\n'Read'"];
+	a71 -> a72 [label="e810: back"];
+	a72 -> a73 [label="e825: click\n'Stats'"];
+	a73 -> a74 [label="e833: changeOrientation"];
+	a74 -> a75 [label="e834: click\n'android.widget.ImageButton #2131165200'"];
+	a75 -> a76 [label="e851: click\n'Stats'"];
+	a76 -> a77 [label="e861: selectSpinnerItem\n'7 Days'"];
+	a77 -> a78 [label="e876: selectSpinnerItem\n'Clicks'"];
+	a78 -> a79 [label="e903: back"];
+	a79 -> a80 [label="e906: click\n'android.widget.ImageButton #2131165200'"];
+	a80 -> a81 [label="e925: openMenu"];
+	a81 -> a82 [label="e927: click\n'Add Account'"];
+	a82 -> a83 [label="e942: back"];
+	a83 -> a84 [label="e946: click\n'android.widget.Button #2131165201'"];
+	a84 -> a85 [label="e967: click\n'Quick Video'"];
+	a1 -> f0 [label="e977: openMenu"];
+	a1 -> a86 [label="e980: changeOrientation"];
+	a1 -> a87 [label="e982: changeOrientation"];
+	a1 -> a88 [label="e984: changeOrientation"];
+	a1 -> a88 [label="e984: changeOrientation"];
+	a1 -> a89 [label="e986: changeOrientation"];
+	a1 -> f1 [label="e987: openMenu"];
+	a1 -> f2 [label="e989: openMenu"];
+	a1 -> f3 [label="e989: openMenu"];
+	a1 -> f4 [label="e991: openMenu"];
+	a1 -> f5 [label="e993: openMenu"];
+	a1 -> a90 [label="e1007: click\n'Stats'"];
+	a90 -> a91 [label="e1010: click\n'android.widget.ImageButton #2131165200'"];
+	a91 -> a92 [label="e1020: click\n'Quick Photo'"];
+	a1 -> a90 [label="e1007: click\n'Stats'"];
+	a90 -> a91 [label="e1010: click\n'android.widget.ImageButton #2131165200'"];
+	a91 -> a92 [label="e1020: click\n'Quick Photo'"];
+	a1 -> f6 [label="e1031: openMenu"];
+	a1 -> f7 [label="e1033: openMenu"];
+	a1 -> f8 [label="e1035: openMenu"];
+	a1 -> f9 [label="e1037: openMenu"];
+	a1 -> f10 [label="e1037: openMenu"];
+	a1 -> a93 [label="e1040: changeOrientation"];
+	a1 -> a94 [label="e1042: changeOrientation"];
+	a1 -> f11 [label="e1043: openMenu"];
+	a1 -> f12 [label="e1045: openMenu"];
+	a1 -> f13 [label="e1045: openMenu"];
+	a1 -> a95 [label="e1048: changeOrientation"];
+	a1 -> f14 [label="e1049: openMenu"];
+	a1 -> f15 [label="e1051: openMenu"];
+	a1 -> a96 [label="e1054: changeOrientation"];
+	a1 -> a96 [label="e1054: changeOrientation"];
+	a1 -> f16 [label="e1055: openMenu"];
+	a1 -> f17 [label="e1057: openMenu"];
+	a1 -> f18 [label="e1059: openMenu"];
+	a1 -> a97 [label="e1062: changeOrientation"];
+	a1 -> a97 [label="e1062: changeOrientation"];
+	a1 -> a98 [label="e1064: changeOrientation"];
+	a1 -> f19 [label="e1065: openMenu"];
+	a1 -> f20 [label="e1067: openMenu"];
+	a1 -> f21 [label="e1067: openMenu"];
+	a1 -> f22 [label="e1069: openMenu"];
+	a1 -> f23 [label="e1071: openMenu"];
+	a1 -> f24 [label="e1073: openMenu"];
+	a1 -> a99 [label="e1076: changeOrientation"];
+	a1 -> a100 [label="e1078: changeOrientation"];
+	a1 -> a101 [label="e1080: changeOrientation"];
+
+## Nodes
+
+	a1 [label="exit"];
+
+	subgraph cluster_a2{label="a2"; a2};
+	a2 [label="", shapefile="a2.jpg"];
+
+	subgraph cluster_a3{label="a3"; a3};
+	a3 [label="", shapefile="a3.jpg"];
+
+	subgraph cluster_a4{label="a4"; a4};
+	a4 [label="", shapefile="a4.jpg"];
+
+	subgraph cluster_a5{label="a5"; a5};
+	a5 [label="", shapefile="a5.jpg"];
+
+	subgraph cluster_a6{label="a6"; a6};
+	a6 [label="", shapefile="a6.jpg"];
+
+	subgraph cluster_a7{label="a7"; a7};
+	a7 [label="", shapefile="a7.jpg"];
+
+	subgraph cluster_a8{label="a8"; a8};
+	a8 [label="", shapefile="a8.jpg"];
+
+	subgraph cluster_a9{label="a9"; a9};
+	a9 [label="", shapefile="a9.jpg"];
+
+	subgraph cluster_a10{label="a10"; a10};
+	a10 [label="", shapefile="a10.jpg"];
+
+	subgraph cluster_a11{label="a11"; a11};
+	a11 [label="", shapefile="a11.jpg"];
+
+	subgraph cluster_a12{label="a12"; a12};
+	a12 [label="", shapefile="a12.jpg"];
+
+	subgraph cluster_a13{label="a13"; a13};
+	a13 [label="", shapefile="a13.jpg"];
+
+	subgraph cluster_a14{label="a14"; a14};
+	a14 [label="", shapefile="a14.jpg"];
+
+	subgraph cluster_a15{label="a15"; a15};
+	a15 [label="", shapefile="a15.jpg"];
+
+	subgraph cluster_a16{label="a16"; a16};
+	a16 [label="", shapefile="a16.jpg"];
+
+	subgraph cluster_a17{label="a17"; a17};
+	a17 [label="", shapefile="a17.jpg"];
+
+	subgraph cluster_a18{label="a18"; a18};
+	a18 [label="", shapefile="a18.jpg"];
+
+	subgraph cluster_a19{label="a19"; a19};
+	a19 [label="", shapefile="a19.jpg"];
+
+	subgraph cluster_a20{label="a20"; a20};
+	a20 [label="", shapefile="a20.jpg"];
+
+	subgraph cluster_a21{label="a21"; a21};
+	a21 [label="", shapefile="a21.jpg"];
+
+	subgraph cluster_a22{label="a22"; a22};
+	a22 [label="", shapefile="a22.jpg"];
+
+	subgraph cluster_a23{label="a23"; a23};
+	a23 [label="", shapefile="a23.jpg"];
+
+	subgraph cluster_a24{label="a24"; a24};
+	a24 [label="", shapefile="a24.jpg"];
+
+	subgraph cluster_a25{label="a25"; a25};
+	a25 [label="", shapefile="a25.jpg"];
+
+	subgraph cluster_a26{label="a26"; a26};
+	a26 [label="", shapefile="a26.jpg"];
+
+	subgraph cluster_a27{label="a27"; a27};
+	a27 [label="", shapefile="a27.jpg"];
+
+	subgraph cluster_a28{label="a28"; a28};
+	a28 [label="", shapefile="a28.jpg"];
+
+	subgraph cluster_a29{label="a29"; a29};
+	a29 [label="", shapefile="a29.jpg"];
+
+	subgraph cluster_a30{label="a30"; a30};
+	a30 [label="", shapefile="a30.jpg"];
+
+	subgraph cluster_a31{label="a31"; a31};
+	a31 [label="", shapefile="a31.jpg"];
+
+	subgraph cluster_a32{label="a32"; a32};
+	a32 [label="", shapefile="a32.jpg"];
+
+	subgraph cluster_a33{label="a33"; a33};
+	a33 [label="", shapefile="a33.jpg"];
+
+	subgraph cluster_a34{label="a34"; a34};
+	a34 [label="", shapefile="a34.jpg"];
+
+	subgraph cluster_a35{label="a35"; a35};
+	a35 [label="", shapefile="a35.jpg"];
+
+	subgraph cluster_a36{label="a36"; a36};
+	a36 [label="", shapefile="a36.jpg"];
+
+	subgraph cluster_a37{label="a37"; a37};
+	a37 [label="", shapefile="a37.jpg"];
+
+	subgraph cluster_a38{label="a38"; a38};
+	a38 [label="", shapefile="a38.jpg"];
+
+	subgraph cluster_a39{label="a39"; a39};
+	a39 [label="", shapefile="a39.jpg"];
+
+	subgraph cluster_a40{label="a40"; a40};
+	a40 [label="", shapefile="a40.jpg"];
+
+	subgraph cluster_a41{label="a41"; a41};
+	a41 [label="", shapefile="a41.jpg"];
+
+	subgraph cluster_a42{label="a42"; a42};
+	a42 [label="", shapefile="a42.jpg"];
+
+	subgraph cluster_a43{label="a43"; a43};
+	a43 [label="", shapefile="a43.jpg"];
+
+	subgraph cluster_a44{label="a44"; a44};
+	a44 [label="", shapefile="a44.jpg"];
+
+	subgraph cluster_a45{label="a45"; a45};
+	a45 [label="", shapefile="a45.jpg"];
+
+	subgraph cluster_a46{label="a46"; a46};
+	a46 [label="", shapefile="a46.jpg"];
+
+	subgraph cluster_a47{label="a47"; a47};
+	a47 [label="", shapefile="a47.jpg"];
+
+	subgraph cluster_a48{label="a48"; a48};
+	a48 [label="", shapefile="a48.jpg"];
+
+	subgraph cluster_a49{label="a49"; a49};
+	a49 [label="", shapefile="a49.jpg"];
+
+	subgraph cluster_a50{label="a50"; a50};
+	a50 [label="", shapefile="a50.jpg"];
+
+	subgraph cluster_a51{label="a51"; a51};
+	a51 [label="", shapefile="a51.jpg"];
+
+	subgraph cluster_a52{label="a52"; a52};
+	a52 [label="", shapefile="a52.jpg"];
+
+	subgraph cluster_a53{label="a53"; a53};
+	a53 [label="", shapefile="a53.jpg"];
+
+	subgraph cluster_a54{label="a54"; a54};
+	a54 [label="", shapefile="a54.jpg"];
+
+	subgraph cluster_a55{label="a55"; a55};
+	a55 [label="", shapefile="a55.jpg"];
+
+	subgraph cluster_a56{label="a56"; a56};
+	a56 [label="", shapefile="a56.jpg"];
+
+	subgraph cluster_a57{label="a57"; a57};
+	a57 [label="", shapefile="a57.jpg"];
+
+	subgraph cluster_a58{label="a58"; a58};
+	a58 [label="", shapefile="a58.jpg"];
+
+	subgraph cluster_a59{label="a59"; a59};
+	a59 [label="", shapefile="a59.jpg"];
+
+	subgraph cluster_a60{label="a60"; a60};
+	a60 [label="", shapefile="a60.jpg"];
+
+	subgraph cluster_a61{label="a61"; a61};
+	a61 [label="", shapefile="a61.jpg"];
+
+	subgraph cluster_a62{label="a62"; a62};
+	a62 [label="", shapefile="a62.jpg"];
+
+	subgraph cluster_a63{label="a63"; a63};
+	a63 [label="", shapefile="a63.jpg"];
+
+	subgraph cluster_a64{label="a64"; a64};
+	a64 [label="", shapefile="a64.jpg"];
+
+	subgraph cluster_a65{label="a65"; a65};
+	a65 [label="", shapefile="a65.jpg"];
+
+	subgraph cluster_a66{label="a66"; a66};
+	a66 [label="", shapefile="a66.jpg"];
+
+	subgraph cluster_a67{label="a67"; a67};
+	a67 [label="", shapefile="a67.jpg"];
+
+	subgraph cluster_a68{label="a68"; a68};
+	a68 [label="", shapefile="a68.jpg"];
+
+	subgraph cluster_a69{label="a69"; a69};
+	a69 [label="", shapefile="a69.jpg"];
+
+	c0 [label="crash"];
+
+	subgraph cluster_a70{label="a70"; a70};
+	a70 [label="", shapefile="a70.jpg"];
+
+	subgraph cluster_a71{label="a71"; a71};
+	a71 [label="", shapefile="a71.jpg"];
+
+	subgraph cluster_a72{label="a72"; a72};
+	a72 [label="", shapefile="a72.jpg"];
+
+	subgraph cluster_a73{label="a73"; a73};
+	a73 [label="", shapefile="a73.jpg"];
+
+	subgraph cluster_a74{label="a74"; a74};
+	a74 [label="", shapefile="a74.jpg"];
+
+	subgraph cluster_a75{label="a75"; a75};
+	a75 [label="", shapefile="a75.jpg"];
+
+	subgraph cluster_a76{label="a76"; a76};
+	a76 [label="", shapefile="a76.jpg"];
+
+	subgraph cluster_a77{label="a77"; a77};
+	a77 [label="", shapefile="a77.jpg"];
+
+	subgraph cluster_a78{label="a78"; a78};
+	a78 [label="", shapefile="a78.jpg"];
+
+	subgraph cluster_a79{label="a79"; a79};
+	a79 [label="", shapefile="a79.jpg"];
+
+	subgraph cluster_a80{label="a80"; a80};
+	a80 [label="", shapefile="a80.jpg"];
+
+	subgraph cluster_a81{label="a81"; a81};
+	a81 [label="", shapefile="a81.jpg"];
+
+	subgraph cluster_a82{label="a82"; a82};
+	a82 [label="", shapefile="a82.jpg"];
+
+	subgraph cluster_a83{label="a83"; a83};
+	a83 [label="", shapefile="a83.jpg"];
+
+	subgraph cluster_a84{label="a84"; a84};
+	a84 [label="", shapefile="a84.jpg"];
+
+	a85 [label="exit"];
+
+	c1 [label="crash"];
+
+	subgraph cluster_a70{label="a70"; a70};
+	a70 [label="", shapefile="a70.jpg"];
+
+	subgraph cluster_a71{label="a71"; a71};
+	a71 [label="", shapefile="a71.jpg"];
+
+	subgraph cluster_a72{label="a72"; a72};
+	a72 [label="", shapefile="a72.jpg"];
+
+	subgraph cluster_a73{label="a73"; a73};
+	a73 [label="", shapefile="a73.jpg"];
+
+	subgraph cluster_a74{label="a74"; a74};
+	a74 [label="", shapefile="a74.jpg"];
+
+	subgraph cluster_a75{label="a75"; a75};
+	a75 [label="", shapefile="a75.jpg"];
+
+	subgraph cluster_a76{label="a76"; a76};
+	a76 [label="", shapefile="a76.jpg"];
+
+	subgraph cluster_a77{label="a77"; a77};
+	a77 [label="", shapefile="a77.jpg"];
+
+	subgraph cluster_a78{label="a78"; a78};
+	a78 [label="", shapefile="a78.jpg"];
+
+	subgraph cluster_a79{label="a79"; a79};
+	a79 [label="", shapefile="a79.jpg"];
+
+	subgraph cluster_a80{label="a80"; a80};
+	a80 [label="", shapefile="a80.jpg"];
+
+	subgraph cluster_a81{label="a81"; a81};
+	a81 [label="", shapefile="a81.jpg"];
+
+	subgraph cluster_a82{label="a82"; a82};
+	a82 [label="", shapefile="a82.jpg"];
+
+	subgraph cluster_a83{label="a83"; a83};
+	a83 [label="", shapefile="a83.jpg"];
+
+	subgraph cluster_a84{label="a84"; a84};
+	a84 [label="", shapefile="a84.jpg"];
+
+	a85 [label="exit"];
+
+	f0 [label="fail"];
+
+	a86 [label="exit"];
+
+	a87 [label="exit"];
+
+	a88 [label="exit"];
+
+	a88 [label="exit"];
+
+	a89 [label="exit"];
+
+	f1 [label="fail"];
+
+	f2 [label="fail"];
+
+	f3 [label="fail"];
+
+	f4 [label="fail"];
+
+	f5 [label="fail"];
+
+	subgraph cluster_a90{label="a90"; a90};
+	a90 [label="", shapefile="a90.jpg"];
+
+	subgraph cluster_a91{label="a91"; a91};
+	a91 [label="", shapefile="a91.jpg"];
+
+	a92 [label="exit"];
+
+	subgraph cluster_a90{label="a90"; a90};
+	a90 [label="", shapefile="a90.jpg"];
+
+	subgraph cluster_a91{label="a91"; a91};
+	a91 [label="", shapefile="a91.jpg"];
+
+	a92 [label="exit"];
+
+	f6 [label="fail"];
+
+	f7 [label="fail"];
+
+	f8 [label="fail"];
+
+	f9 [label="fail"];
+
+	f10 [label="fail"];
+
+	a93 [label="exit"];
+
+	a94 [label="exit"];
+
+	f11 [label="fail"];
+
+	f12 [label="fail"];
+
+	f13 [label="fail"];
+
+	a95 [label="exit"];
+
+	f14 [label="fail"];
+
+	f15 [label="fail"];
+
+	a96 [label="exit"];
+
+	a96 [label="exit"];
+
+	f16 [label="fail"];
+
+	f17 [label="fail"];
+
+	f18 [label="fail"];
+
+	a97 [label="exit"];
+
+	a97 [label="exit"];
+
+	a98 [label="exit"];
+
+	f19 [label="fail"];
+
+	f20 [label="fail"];
+
+	f21 [label="fail"];
+
+	f22 [label="fail"];
+
+	f23 [label="fail"];
+
+	f24 [label="fail"];
+
+	a99 [label="exit"];
+
+	a100 [label="exit"];
+
+	a101 [label="exit"];
+
+}

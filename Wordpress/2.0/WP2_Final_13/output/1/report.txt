@@ -1,0 +1,53 @@
+Traces processed: 149
+	success: 102
+	fail: 25
+		traces: 969, 979, 981, 981, 983, 985, 1023, 1025, 1027, 1029, 1029, 1035, 1037, 1037, 1041, 1043, 1047, 1049, 1051, 1057, 1059, 1059, 1061, 1063, 1065
+	crash: 2
+		traces: 788, 788
+	exit: 20
+		traces: 967, 967, 971, 973, 975, 975, 977, 1021, 1021, 1031, 1033, 1039, 1045, 1045, 1053, 1053, 1055, 1067, 1069, 1071
+Non repeatable issues:0
+Actual traces: 37 (for 122 transitions)
+
+Depth reached: 69
+Transitions: 2809
+	different activity states found: 87
+	different activities found: 10
+
+Interactions: 5167
+	different interactions: 173
+	events: 2809
+	different events: 122
+		changeOrientation: 26
+		back: 7
+		selectListItem: 5
+		selectSpinnerItem: 15
+		openMenu: 30
+		longClickListItem: 9
+		longClick: 1
+		click: 28
+		focus: 1
+	inputs: 2358
+	different inputs: 51
+		writeText: 51
+
+
+Views and widgets: 70313
+	supported widgets: 51227
+		menuItem: 443
+		linearLayout: 13145
+		check: 838
+		menu: 203
+		image: 5042
+		multiChoiceList: 188
+		editText: 3227
+		button: 5593
+		dialog: 622
+		datePicker: 63
+		listView: 409
+		emptySpinner: 999
+		spinner: 1235
+		text: 17984
+		webPage: 48
+		focusableEditText: 1188
+	different widgets: 322 <-> 2339

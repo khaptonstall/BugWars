@@ -1,0 +1,35 @@
+1 cycles have been executed.
+42 restarts have beeen executed
+21 problems in test execution have been found, causing 21 failures and 0 errors.
+1 application crashes have been found.
+
+
+Failures have been found in the following traces:
+
+1_5 - junit.framework.AssertionFailedError: Can not complete action!
+1_11 - junit.framework.AssertionFailedError: Can not complete action!
+1_12 - junit.framework.AssertionFailedError: Can not complete action!
+1_13 - junit.framework.AssertionFailedError: Can not complete action!
+1_14 - junit.framework.AssertionFailedError: Can not complete action!
+1_16 - junit.framework.AssertionFailedError: Can not complete action!
+1_17 - junit.framework.AssertionFailedError: Can not complete action!
+1_18 - junit.framework.AssertionFailedError: Can not complete action!
+1_19 - junit.framework.AssertionFailedError: Can not complete action!
+1_22 - junit.framework.AssertionFailedError: Can not complete action!
+1_23 - junit.framework.AssertionFailedError: Can not complete action!
+1_25 - junit.framework.AssertionFailedError: Can not complete action!
+1_26 - junit.framework.AssertionFailedError: Can not complete action!
+1_28 - junit.framework.AssertionFailedError: Can not complete action!
+1_29 - junit.framework.AssertionFailedError: Can not complete action!
+1_30 - junit.framework.AssertionFailedError: Can not complete action!
+1_33 - junit.framework.AssertionFailedError: Can not complete action!
+1_34 - junit.framework.AssertionFailedError: Can not complete action!
+1_35 - junit.framework.AssertionFailedError: Can not complete action!
+1_36 - junit.framework.AssertionFailedError: Can not complete action!
+1_37 - junit.framework.AssertionFailedError: Can not complete action!
+
+Crashes have been found in the following traces:
+
+1_2 - com.nofatclips.crawler.guitree.NomadEngine:INSTRUMENTATION_RESULT: shortMsg=java.lang.NullPointerException
+After about 0.0 seconds
+
