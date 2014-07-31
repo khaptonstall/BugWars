@@ -1,0 +1,25 @@
+1 cycles have been executed.
+20 restarts have beeen executed
+8 problems in test execution have been found, causing 7 failures and 1 errors.
+1 application crashes have been found.
+
+
+Failures have been found in the following traces:
+
+1_4 - junit.framework.AssertionFailedError: Can not complete action!
+1_5 - junit.framework.AssertionFailedError: Can not complete action!
+1_6 - junit.framework.AssertionFailedError: Can not complete action!
+1_9 - junit.framework.AssertionFailedError: Can not complete action!
+1_10 - junit.framework.AssertionFailedError: Can not complete action!
+1_11 - junit.framework.AssertionFailedError: Can not complete action!
+1_13 - junit.framework.AssertionFailedError: Can not complete action!
+
+Errors have been found in the following traces:
+
+1_2 - java.lang.IndexOutOfBoundsException: Invalid index 0, size is 0
+
+Crashes have been found in the following traces:
+
+1_7 - com.nofatclips.crawler.guitree.NomadEngine:INSTRUMENTATION_RESULT: shortMsg=java.lang.NullPointerException
+After about 0.0 seconds
+
