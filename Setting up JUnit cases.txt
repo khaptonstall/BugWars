@@ -1,0 +1,9 @@
+Download Robotium 3.5.1 and 3.1 JAR files.
+In your Android test build path, add both JAR files. On the Order and Export tab, check robotium 3.5.1.
+After saving your JUnit in Eclipse, an error may occur with an old method, named "getRotation." Change this to "getOrientation."
+
+Test cases should now be able to run. In some cases, there were problems with the method "afterRestart" in the "setUp" portion of the JUnit. If the test traces are not running
+one after the other, comment out the line in the "Setup" part of the JUnit named "afterRestart()"
+
+In some cases the test traces may still stop at some point and you may have to run each individually.
+
