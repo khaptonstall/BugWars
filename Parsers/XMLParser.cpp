@@ -320,16 +320,15 @@ string getInfo_fireEvent(string inputText) {
 	}
 	else if(found(inputText, "spinner")) {
 		//fireEvent (2131165280, 13, "", "spinner", "selectSpinnerItem", "2");
-		//should make more specific. not sure how to interpret.
-		//inputText = inputText.erase(0, inputText.find("(") + 1);
-		//inputText = inputText.erase(inputText.find(")"), string::npos);
 		vector<string> param_list = createParamList(inputText);
 		string value = param_list[5];
 		value = value.substr(value.find("\"") + 1, value.find_last_of("\"") - 2);
+		string spinnerName = findWidgetName(inputText);
 		return ("\n\t<param>\n\t\t<name>"
 				"spinner item #" + value
 				+ "</name>\n\t\t"
-				"<value>selectSpinnerItem</value>\n\t</param>");
+				"<value>spinner " + spinnerName
+				+ "</value>\n\t</param>");
 	}
 	return "\n" + inputText + "\n";
 }

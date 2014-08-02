@@ -22,7 +22,8 @@ string RPath;
 
 /* RPath is the location of R.java of the android application being tested.
  * R.java is found inside the /gen folder of the application code.
- * param string fullPath of R.java
+ * Ex: C:/User/workspace/WordPress-v2/gen/org/wordpress/android/R.java
+ * param string the full path of R.java
  */
 void setRPath(string rpath) {
 	RPath = rpath;
@@ -38,8 +39,8 @@ bool isRPathSet() {
 }
 
 /* Converts an integer value to the corresponding hex value.
- * param int id
- * return string hex value
+ * @param int id; the widgetId
+ * @return string hex value
  */
 string intToHex(int i) {
 	try {
@@ -53,10 +54,10 @@ string intToHex(int i) {
 	return "";
 }
 
-/* Gets the widgetId from a fireEvent method. (It is the first parameter)
+/* Gets the widgetId from a fireEvent method. (widgetId is the first parameter)
  * Calls findWidgetName(int id)
- * param string line containing fireEvent method call
- * return string findWidgetName(int id)
+ * @param string line containing fireEvent method call
+ * @return string findWidgetName(int id)
  */
 string findWidgetName(string inputText) {
 	string widgetId = inputText.substr(inputText.find("("));

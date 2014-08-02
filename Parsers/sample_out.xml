@@ -1278,7 +1278,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #11</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -1290,7 +1290,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #7</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
@@ -1404,7 +1404,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #5</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -1416,7 +1416,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #3</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -1533,7 +1533,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #11</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -1545,7 +1545,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #7</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>Solo.MENU</name>
@@ -1659,7 +1659,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #5</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -1671,7 +1671,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #3</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -1824,7 +1824,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #9</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner postFormat</value>
 	</param>
 	<param>
 		<name>90</name>
@@ -1840,7 +1840,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #5</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner postFormat</value>
 	</param>
 	<param>
 		<name>90</name>
@@ -1856,7 +1856,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #10</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner postFormat</value>
 	</param>
 	<param>
 		<name>Solo.LANDSCAPE</name>
@@ -1876,7 +1876,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #7</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner postFormat</value>
 	</param>
 	<param>
 		<name>90</name>
@@ -2009,7 +2009,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #9</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -2021,7 +2021,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #8</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -2033,7 +2033,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #4</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>Solo.PORTRAIT</name>
@@ -2506,7 +2506,7 @@ formatted for the C-PUT prioritization tool.-->
 	</param>
 	<param>
 		<name>spinner item #4</name>
-		<value>selectSpinnerItem</value>
+		<value>spinner maxImageWidth</value>
 	</param>
 	<param>
 		<name>27</name>
@@ -3656,6 +3656,4308 @@ formatted for the C-PUT prioritization tool.-->
 	<param>
 		<name>date picker</name>
 		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 6-00">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add Account</name>
+		<value>click menuItem</value>
+	</param>
+		fireEvent (1, 9, "Katie's Sweet Testing Blog", "check", "click");
+
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>click button</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 1</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>listItem, value = 3</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_settings_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #9</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #2</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #2</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 6-01">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_settings_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>dashboard_newpost_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>B</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>B</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>\</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>More</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>I </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem #3 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>I </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 6-02">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>dashboard_overlay</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+		fireEvent (2131165351, 23, "Geotag Posts", "check", "click");
+
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>dashboard_pages_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 3</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem #1 in context menu.</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_settings_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 10</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>listItem, value = 6</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem #1 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>listItem, value = 8</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>viewPostWebView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>CRASH</name>
+		<value>CRASH</value>
+	</param>
+</url>
+</session>
+<session id="Trace 6-03">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 6-04">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 5</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>View Map</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>No</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+</session>
+<session id="Trace 7-00">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 4</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>listItem, value = 3</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Select Categories</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #8</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #8</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 7-01">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>About</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 7-02">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 2</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>CRASH</name>
+		<value>CRASH</value>
+	</param>
+</url>
+</session>
+<session id="Trace 7-03">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_stats_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 5</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>listItem, value = 1</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem, value = 1</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 2</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem, value = 3</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>listItem #2 in context menu.</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>listItem, value = 4</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem #1 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #8</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #8</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem #3 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 7-04">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_settings_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add Account</name>
+		<value>click menuItem</value>
+	</param>
+		fireEvent (16, "Vibrate", "check", "click");
+
+		fireEvent (2, 10, "My Blog", "check", "click");
+
+	<param>
+		<name>Cancel</name>
+		<value>click button</value>
+	</param>
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_overlay</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #2</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #8</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_quickvideo_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 7-05">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 8-00">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add Account</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>click button</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_newpage_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>AM</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>PM</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>B</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>I </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>\</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name> ABC </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name> U </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name> link </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>55</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>56</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>CRASH</name>
+		<value>CRASH</value>
+	</param>
+</url>
+</session>
+<session id="Trace 8-01">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Home</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 8-02">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 8-03">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 8-04">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 8-05">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Preferences</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Start a new blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add self-hosted WordPress blog</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Get a free blog at WordPress.com</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>25</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+</url>
+</session>
+<session id="Trace 8-06">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 2</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>viewPostWebView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 3</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>listItem #2 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>listItem #2 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #6</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-00">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-01">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-02">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>About</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 4</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>listItem #1 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>I </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>\</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>B</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>I </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>B</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-03">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_stats_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 1</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_pages_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 1</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>listItem, value = 3</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem #1 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>New Page</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Content</name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name> ABC </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>B</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name> link </name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>55</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>56</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>55</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>56</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>CRASH</name>
+		<value>CRASH</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-04">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-05">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Remove Blog</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>No</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>dashboard_pages_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 1</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem, value = 3</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_comments_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard_newpage_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>viewPostWebView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>AM</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Save</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>CRASH</name>
+		<value>CRASH</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-06">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-07">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-08">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-09">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-10">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-11">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 9-12">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>View in Browser</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 11-00">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 11-01">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>About</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Privacy Policy</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Privacy Policy</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 11-02">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>dashboard_posts_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 3</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>listItem #3 in context menu.</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>listItem #2 in context menu.</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>listItem #2 in context menu.</name>
+		<value>longClickListItem</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #2</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Select Categories</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>listItem, value = 5</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #10</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #7</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #8</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Select Categories</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+		fireEvent (16908298, 3, "", "multiChoiceList", "selectListItem", "1");
+
+	<param>
+		<name>Done</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Set</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>PM</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #8</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>CRASH</name>
+		<value>CRASH</value>
+	</param>
+</url>
+</session>
+<session id="Trace 11-03">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 11-04">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_pages_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 5</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-00">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Add Account</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>click button</value>
+	</param>
+	<param>
+		<name>dashboard_newpost_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #5</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #9</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Select Categories</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>OK</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #2</name>
+		<value>spinner postFormat</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>85</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Publish</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Yes</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>dashboard_quickvideo_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-01">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Add Account</name>
+		<value>click menuItem</value>
+	</param>
+		fireEvent (2, 10, "My Blog", "check", "click");
+
+	<param>
+		<name>Cancel</name>
+		<value>click button</value>
+	</param>
+	<param>
+		<name>dashboard</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #11</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Remove Blog</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>No</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>dashboard_settings_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #9</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+		fireEvent (2131165351, 23, "Geotag Posts", "check", "click");
+
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #2</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+		fireEvent (2131165349, 20, "Upload and link to full image", "check", "click");
+
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+		fireEvent (2131165349, 20, "Upload and link to full image", "check", "click");
+
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #4</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #3</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #1</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #6</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>spinner item #2</name>
+		<value>spinner maxImageWidth</value>
+	</param>
+	<param>
+		<name>27</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>29</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Cancel</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-02">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-03">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>dashboard_quickvideo_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-04">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Home</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>About</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Privacy Policy</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-05">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>dashboard_subs_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>webView</name>
+		<value>longClick</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Home</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>About</name>
+		<value>click menuItem</value>
+	</param>
+	<param>
+		<name>Privacy Policy</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-06">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-07">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-08">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-09">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-10">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-11">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>FAIL</name>
+		<value>FAIL</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-12">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 8</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-13">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>dashboard</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>listItem, value = 8</name>
+		<value>selectListItem</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>Solo.MENU</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>dashboard_quickphoto_btn</name>
+		<value>click</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-14">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>Solo.PORTRAIT</name>
+		<value>setActivityOrientation</value>
+	</param>
+</url>
+</session>
+<session id="Trace 12-15">
+<url>
+	<baseurl></baseurl>
+	<param>
+		<name>dashboard_newpage_btn</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>90</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>45</name>
+		<value>setInput</value>
+	</param>
+	<param>
+		<name>Edit</name>
+		<value>clickOnButton</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>Back</name>
+		<value>sendKey</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>Solo.LANDSCAPE</name>
+		<value>setActivityOrientation</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name>date picker</name>
+		<value>click</value>
+	</param>
+	<param>
+		<name></name>
+		<value>focusableEditText</value>
 	</param>
 </url>
 </session>

@@ -16,7 +16,7 @@
  *      	(include extension)
  *
  *    If JUnitParser.cpp parses multiple files at once,
- *    it automatically creates a new file with the list of modified java file names.
+ *      it automatically creates a new text file with the list of modified java file names.
  *    If running JUnitParser & XMLParser at the same time, it will automatically parse these same files into XML.
  */
 
@@ -27,11 +27,12 @@
 #include "HexMatch.h"
 #include "JUnitParser.h" //declaration for jparse(bool multiple)
 #include "XMLParser.h" //declaration for xmlparse
-#include "ClassNameFix.h"
 
 using namespace std;
 
-bool readKey(char selection);
+char readKey();
+bool isYes(char selection);
+
 
 int main() {
 	string jListName;
@@ -39,25 +40,23 @@ int main() {
 	bool parseJUnit, parseMultipleJUnit, parseXML;
 	cout << "-----------------" << endl;
 
-	//set to your R.java path
-	setRPath("C:/Users/Meredith/workspace/WordPress-v2.0_ContainsAllBugs/WordPress-Android-2.0/gen/org/wordpress/android/R.java");
+	//set the path for the R.java of the application under test //so you don't have to enter it every time:
+	//setRPath("C:/Users/Meredith/workspace/WordPress-v2.0_ContainsAllBugs/WordPress-Android-2.0/gen/org/wordpress/android/R.java");
 
-	//cout << "2131165329 " << intToHex(2131165329) << endl;
-	//return 0;
 	cout << "Do you want to run the JUnit parser? y/n: " << endl;
-	cin >> selection;
-	if (readKey(selection)) {
+	selection = readKey();
+	if (isYes(selection)) {
 		parseJUnit = true;
 		cout << "Do you want to parse multiple test suites? y/n: " << endl;
-		cin >> selection;
-		if (readKey(selection)) {
+		selection = readKey();
+		if (isYes(selection)) {
 			parseMultipleJUnit = true;
-			cout << "What is the name of the file containing the path & list of test suites? " << endl;
+			cout << "What is the path/name of the file containing the path & list of test suites? " << endl;
 			cin >> jListName;
 			setJListFile(jListName);
 		} else {
 			parseMultipleJUnit = false;
-			cout << "What is the path of the test suite? " << endl;
+			cout << "What is the path of the JUnit test suite? " << endl;
 			string jpath;
 			cin >> jpath;
 			setPath(jpath);
@@ -67,8 +66,8 @@ int main() {
 	}
 
 	cout << "Do you want to run the XML parser? y/n: " << endl;
-	cin >> selection;
-	if (readKey(selection)) {
+	selection = readKey();
+	if (isYes(selection)) {
 		//if also running JUnitParser, fileList_p.txt created in JUnitParser.cpp & contains list of parsed junit files
 		//Runs XMLParser on the same files JUnitParser just finished parsing
 		if (!(parseJUnit)) {
@@ -103,7 +102,7 @@ int main() {
 		xmlparse();
 	}
 
-	cout << "DONE." << endl;
+	cout << "\n" << "DONE." << endl;
 
 
 	return 0;
@@ -115,7 +114,7 @@ int main() {
  * @param char
  * @return bool
  */
-bool readKey(char selection) {
+bool isYes(char selection) {
 	if (selection == 'y') {
 		return true;
 	} else if (selection == 'n') {
@@ -124,3 +123,19 @@ bool readKey(char selection) {
 	return false;
 }
 
+/*
+ * Reads char entered in console.
+ * Asks for new char, until finds either y or n.
+ * If char == 'y', returns true
+ * If char != 'y', return false
+ * @return char entered by user
+ */
+char readKey() {
+	char in;
+	cin >> in;
+	while ((in != 'y') && (in != 'n')) {
+		cout << "Please enter 'y' or 'n'" << endl;
+		cin >> in;
+	}
+	return in;
+}

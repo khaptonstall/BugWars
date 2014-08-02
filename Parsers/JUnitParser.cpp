@@ -30,7 +30,6 @@ using namespace std;
 #include "found.h"
 #include "XMLParser.h"
 #include "hasonlyspaces.h"
-#include "ClassNameFix.h"
 
 void parser(string fileName);
 string fireEventFix(string inputText);
@@ -53,15 +52,26 @@ string getFullPath() {
 	return fullPath;
 }
 
+/* Sets listFileName and outputListName variables
+ * @param string name of txt file containing list of JUnit files to parse
+ * @return string name of txt file containing list of parsed JUnit file names
+ */
+void setJListFile(string fileName) {
+	listFileName = fileName; //ex: fileList.txt
+	outputListName = fileName.substr(0, fileName.find(".")) + "_p.txt"; //ex: fileList_p.txt
+	setXFileName(outputListName);
+}
+
+
 int jparse(bool multiple) {
 	if (!multiple) {
 		parser(fullPath);
 	}
 
 	if (multiple) {
-		ifstream listFile;
+		ifstream listFile; //txt file containing path and list of junit files to parse
 		listFile.open(listFileName.c_str());
-		ofstream outListFile;
+		ofstream outListFile; //txt file containing path and list of renamed (parsed) junit files. for use with xml parser
 		outListFile.open(outputListName.c_str());
 
 		if(listFile.is_open()){
@@ -70,9 +80,11 @@ int jparse(bool multiple) {
 			while (has_only_spaces(line)) {
 				getline(listFile, line);
 			}
-			string path = line;	//set path of JUnit test suites
-			outListFile << line << endl; //creates txt file with list of JUnit cases, for use with xml parser
-			//parse each file listed in fileList.txt:
+			//path of the JUnit test suites is the first line in the text file:
+			string path = line;
+			//creates txt file with list of renamed JUnit files, for use with xml parser:
+			outListFile << line << endl;
+			//parses each file listed in fileList.txt:
 			while(getline(listFile, line)){
 				if (!has_only_spaces(line)) {
 					string filePath = path + line;
@@ -83,8 +95,7 @@ int jparse(bool multiple) {
 				}
 			}
 		} else {
-			cout << "Unable to open txt file containing list of JUnit files to parse." << endl;
-			cout << "Failed file's name: " << listFileName << endl;
+			cout << "Unable to open txt file named (" << listFileName << ") containing list of JUnit files to parse." << endl;
 		}
 	}
 	cout << "Finished JUnit parsing." << endl;
@@ -94,20 +105,20 @@ int jparse(bool multiple) {
 /**
  * Opens a java/junit file and replaces certain lines.
  * Creates an output file in the same path as the original file.
- * @param string fileName
- * @return int 0
+ * @param string path + name of file
  */
-void parser(string fileName) {
-	fullPath = fileName; //ex: WP2_Test_1.java
-	string outPath = fullPath.substr(0, fullPath.find(".")) + "_p.java"; //ex: WP2_Test_1_p.java
+void parser(string filePath) {
+	fullPath = filePath; //ex: C:/User/Workspace/WordpresTests/WP2_Test_1.java
+	string outPath = fullPath.substr(0, fullPath.find(".")) + "_p.java"; //ex: C:/User/Workspace/WordpresTests/WP2_Test_1_p.java
 
 	ifstream infile;
 	infile.open(fullPath.c_str());
 	ofstream outfile;
 	outfile.open(outPath.c_str());
 	string currLine, nextLine;
-	outfile << "//JUnitParser replaces non-working fireEvent calls in test suite with"
+	outfile << "//JUnitParser.cpp replaces non-working fireEvent calls in test suite with"
 			<< '\n' << "//working Robotium methods." << '\n';
+
 	orientationCount = 1;
 	if (infile.is_open()) {
 		while (getline(infile, currLine)) {
@@ -119,24 +130,18 @@ void parser(string fileName) {
 						outfile << currLine << '\n';
 				} else {
 					getline(infile, nextLine);
-					if(!found(nextLine, "retrieve")){
+					if(!found(nextLine, "retrieve"))
 						outfile << fireEventFix(currLine + nextLine) << '\n';
-					} else {
+					else
 						outfile << fireEventFix(currLine) << '\n' << nextLine << '\n';
-					}
 				}
-			}
-			/* Replaces the class names automatically when parsing. NAME_FORMAT is set in main
-			 * Or can be set in ClassNameFix.cpp, or by calling setNameFormat(string format) */
-			else if(found(currLine, "AndroidGuiTest") || found(currLine, getNameFormat())) {
-				outfile << classNameFix(currLine) << '\n';
 			}
 			else {
 				outfile << currLine << '\n';
 			}
 		}
 	} else {
-		cout << "Unable to open " << fileName << endl;
+		cout << "Unable to open " << filePath << endl;
 	}
 	infile.close();
 	outfile.close();
@@ -196,15 +201,4 @@ string fireEventFix(string inputText) {
 		}
 	}
 	return inputText;
-}
-
-
-/* Sets listFileName and outputListName variables
- * @param string name of txt file containing list of JUnit files to parse
- * @return string name of txt file containing list of parsed JUnit file names
- */
-void setJListFile(string fileName) {
-	listFileName = fileName;
-	string outputListName = fileName.substr(0, fileName.find(".")) + "_p.txt";
-	setXFileName(outputListName);
 }
